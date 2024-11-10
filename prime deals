@@ -1,0 +1,3417 @@
+//project html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIME DEALS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="div1">
+            <img src="logo1.jpg" alt="Prime Deals Logo" height="160px">
+            <h1><i>Prime Deals</i></h1>
+            <a id="a51" href="http://127.0.0.1:5500/aboutus.html"><button>About Us</button></a>
+            <a id="a61" href="http://127.0.0.1:5500/Contact%20us.html"><button>Contact Us </button></a>
+            <a id="a71" href="http://127.0.0.1:5500/sign-up.html"><button>Sign-In</button></a>
+            <a id="a81" href="http://127.0.0.1:5500/request.html"><button>Buy-Request</button></a>
+        </div>
+    </header>
+    
+    <nav id="div2">
+        <ul>
+            <li><h1><a href="http://127.0.0.1:5500/Mens.html">Mens</a></h1></li>
+            <li><h1><a href="http://127.0.0.1:5500/Women.html">Womens</a></h1></li>
+            <li><h1><a href="http://127.0.0.1:5500/Kids.html">Kids</a></h1></li>
+
+        </ul>
+    </nav>
+    
+    <div id="image">
+        <img src="home image6.jpg" alt="Home Image" style="max-width: 100%; height: auto;">
+    </div>
+</body>
+</html>
+//projct css
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+#div1 {
+    height: 110px;
+    padding: 2px;
+    box-shadow: 0 15px 15px rgba(128, 128, 128, 0.5);
+    text-align: center;
+}
+
+#div1 img {
+    float: left;
+    margin: 5px;
+    height: 100px;
+}
+nav {
+    background-color: antiquewhite;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 2px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+#image img {
+    width: 100%;
+    max-width: 1375px;
+    height: auto;
+    padding: 10px;
+}
+section {
+    text-align: center;
+    background-color: chartreuse;
+    border-radius: 5px;
+    margin: 100px auto;
+    padding: 10px;
+    width: 80%; 
+}
+input[type="text"] {
+    height: 30px;
+    width: 300px;
+    margin: 10px auto;
+    display: block; 
+}
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    #div1 img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    section {
+        width: 95%; 
+    }
+}
+//about html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - FunStyles</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e3f2fd;
+        }
+
+        header {
+            background-color: #2196f3;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            background-color: #0d47a1;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2196f3;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Prime Deals - About Us</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="http://127.0.0.1:5500/project.html">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/aboutus.html">About Us</a></li>
+        <li><a href="http://127.0.0.1:5500/Contact%20us.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <h2>Who We Are</h2>
+    <p>At FunStyles, we believe that every child deserves to express themselves through vibrant and stylish clothing. Founded in 2024, our mission is to provide high-quality, affordable apparel for kids of all ages. Our diverse collection includes trendy top wear, comfortable bottom wear, and stylish footwear designed for play and exploration.</p>
+
+    <h2>Our Mission</h2>
+    <p>We aim to empower children to express their individuality and creativity through fashion. Our clothes are not just garments; they are a canvas for self-expression, designed with the utmost care to ensure comfort and durability.</p>
+
+    <h2>Our Values</h2>
+    <p>1. **Quality**: We prioritize high-quality materials to ensure that our clothing lasts through countless adventures.</p>
+    <p>2. **Affordability**: Fashion should be accessible to everyone. We strive to keep our prices affordable without compromising on quality.</p>
+    <p>3. **Sustainability**: We are committed to environmentally-friendly practices, from sourcing materials to packaging.</p>
+    <p>4. **Community**: We believe in giving back to the community and supporting initiatives that benefit children and families.</p>
+</div>
+
+<footer>
+    <p>&copy; 2024 FunStyles. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+//contact html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color:black;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color:white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 450px;
+            animation: fadeIn 1s ease-in-out;
+            width: 1100px;
+            height: 750px;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        h1, h2 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        input, textarea {
+            padding: 12px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        input:focus, textarea:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+        }
+
+        button {
+            padding: 12px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+        }
+
+        button[type="reset"] {
+            background-color: #dc3545;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        button[type="reset"]:hover {
+            background-color: #c82333;
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #submittedData {
+            margin-top: 20px;
+            display: none;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        #submittedData p {
+            background-color: #e9ecef;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .home-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .home-link:hover {
+            color: #0056b3;
+        }
+
+        .footer-info {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+        
+        <div id="submittedData">
+            <h2>Submitted Data</h2>
+            <p id="outputName"></p>
+            <p id="outputEmail"></p>
+            <p id="outputMessage"></p>
+        </div>
+        <a href="http://127.0.0.1:5500/project.html" class="home-link">Back to Home</a>
+        <div class="footer-info">
+            <p>For any queries, feel free to reach out to us. Our team will get back to you as soon as possible.</p>
+            <p>&copy; 2024 Prime Deals Website. All rights reserved.</p>
+        </div>
+    </div>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            document.getElementById('outputName').textContent = 'Name: ${name}';
+            document.getElementById('outputEmail').textContent = 'Email: ${email}';
+            document.getElementById('outputMessage').textContent = 'Message: ${message}';
+            
+            document.getElementById('submittedData').style.display = 'block';
+        });
+
+        document.getElementById('contactForm').addEventListener('reset', function() {
+            document.getElementById('submittedData').style.display = 'none';
+        });
+    </script>
+</body>
+</html>
+//sign in
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color:black;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color:white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 400px;
+            animation: fadeIn 1s ease-in-out;
+            width: 1100px;
+            height: 750px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        input {
+            padding: 12px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        input:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+        }
+
+        button {
+            padding: 12px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .home-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .home-link:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sign In</h1>
+        <form id="signInForm">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Sign In</button>
+        </form>
+        <a href="" class="home-link">Don't have an account? Sign Up</a>
+    </div>
+    <script>
+        document.getElementById('signInForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            window.location.href = 'home.html';
+        });
+    </script>
+</body>
+</html>
+//request html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buy and Request Sports Equipment</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: black;
+        margin: 0;
+        padding: 0;
+    }
+    #container {
+        width: 80%;
+        margin: auto;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 50px;
+        width: 1100px;
+        height: 750px;
+        border-radius: 10px;
+    }
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    label {
+        margin-top: 10px;
+    }
+    input, select {
+        width: 80%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    button {
+        width: 50%;
+        padding: 10px;
+        margin-top: 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #45a049;
+    }
+    #results {
+        margin-top: 30px;
+    }
+    .result-item {
+        background-color: #fafafa;
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    .result-item h3 {
+        margin: 0;
+        color: #333;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+</style>
+</head>
+<body>
+<div id="container">
+    <h1>Buy and Request Sports Equipment</h1>
+    <form id="buyRequestForm">
+        <label for="itemName">Item Name:</label>
+        <input type="text" id="itemName" name="itemName" required>
+        
+        <label for="itemSize">Size:</label>
+        <select id="itemSize" name="itemSize" required>
+            <option value="Small">Small</option>
+            <option value="Medium">Medium</option>
+            <option value="Large">Large</option>
+            <option value="Extra Large">Extra Large</option>
+        </select>
+        
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" required min="1">
+        
+        <label for="requestType">Request Type:</label>
+        <select id="requestType" name="requestType" required>
+            <option value="Buy">Buy</option>
+            <option value="Request">Request</option>
+        </select>
+        
+        <button type="submit">Submit</button>
+        <button><a href="Project.html">Back to Home</button></a>
+    </form>
+
+    <div id="results"></div>
+</div>
+
+<script>
+    document.getElementById('buyRequestForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        
+        const itemName = document.getElementById('itemName').value;
+        const itemSize = document.getElementById('itemSize').value;
+        const quantity = document.getElementById('quantity').value;
+        const requestType = document.getElementById('requestType').value;
+        
+        const resultDiv = document.createElement('div');
+        resultDiv.className = 'result-item';
+        
+        const resultContent = `
+            <h3>${requestType} - ${itemName}</h3>
+            <p>Size: ${itemSize}</p>
+            <p>Quantity: ${quantity}</p>
+        `;
+        
+        resultDiv.innerHTML = resultContent;
+        document.getElementById('results').appendChild(resultDiv);
+        
+        document.getElementById('buyRequestForm').reset();
+    });
+</script>
+</body>
+</html>
+//sign up
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 400px;
+            animation: fadeIn 1s ease-in-out;
+            width: 1100px;
+            height: 750px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        input {
+            padding: 12px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        input:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+        }
+
+        button {
+            padding: 12px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .home-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .home-link:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form id="signUpForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Sign Up</button>
+        </form>
+        <a href="sign-in.html" class="home-link">Already have an account? Sign In</a>
+    </div>
+    <script>
+        document.getElementById('signUpForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            window.location.href = 'home.html';
+        });
+    </script>
+</body>
+</html>
+//mens html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIME DEALS - Men's Collection</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat;
+            background-color: #f0f0f0; 
+            position: relative;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.6); 
+            z-index: 1;
+        }
+
+        header {
+            background-color: rgba(0, 51, 102, 0.8); 
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative; 
+            z-index: 2; 
+        }
+
+        #header-content img {
+            margin-bottom: 15px;
+        }
+
+        nav {
+            background-color: #000; 
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .back-button {
+            background-color: rgba(0, 51, 102, 0.8); 
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-bottom: 20px; 
+            transition: background-color 0.3s;
+        }
+
+        .back-button:hover {
+            background-color: #005599; 
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            position: relative;
+            z-index: 2; 
+        }
+
+        .category {
+            background-color: rgba(0, 0, 0, 0.4); 
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px;
+            text-align: center;
+            width: 90%;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .category:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            animation: pulse 0.5s;
+        }
+
+        .category h1 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #003366;
+        }
+
+        .category a {
+            text-decoration: none;
+            color: #ff6f61;
+            font-weight: bold;
+        }
+
+        .category a:hover {
+            text-decoration: underline;
+            color: #d36e7c; 
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: rgba(0, 51, 102, 0.8); 
+            color: white;
+            width: 100%;
+            margin-top: 10px;
+            z-index: 2; 
+        }
+        main{
+            margin-top: 10px;
+            background-image: url('mens background.jpg');
+        }
+
+        
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    
+    </style>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</head>
+<body>
+    <div class="overlay"></div> 
+    <header>
+        <div id="header-content">
+            <img src="logo1.jpg" alt="Prime Deals Logo" height="160">
+            <h1><i>Prime Deals</i></h1>
+        </div>
+    </header>
+    
+    <main>
+        <button onclick="goBack()" class="back-button">Go Back</button>
+        
+        <section class="category" id="Top">
+            <h1><a href="http://127.0.0.1:5500/Top.html">Top</a></h1>
+        </section>
+        <section class="category" id="Bottom">
+            <h1><a href="http://127.0.0.1:5500/Bottom.html">Bottom</a></h1>
+        </section>
+        <section class="category" id="Footwear">
+            <h1><a href="http://127.0.0.1:5500/Footwear.html">Footwear</a></h1>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Prime Deals. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+//womens html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIME DEALS</title>
+    <style>
+        body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f3f3;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#header-content img {
+    margin-bottom: 15px;
+}
+
+nav {
+    background-color: #000; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.back-button {
+    background-color: #ff6f61; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px; 
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #d36e7c; 
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.category {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    width: 90%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.category h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #d36e7c; 
+}
+
+.category a {
+    text-decoration: none;
+    color: #ff6f61; 
+    font-weight: bold;
+}
+
+.category a:hover {
+    text-decoration: underline;
+    color: #d36e7c;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #d36e7c;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 10px;
+}
+main{
+    margin-top:10px;
+    background-image: url(womens\ background\ 2.png);
+}
+
+    </style>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div id="header-content">
+            <img src="logo1.jpg" alt="Prime Deals Logo" height="160">
+            <h1><i>Prime Deals</i></h1>
+        </div>
+    </header>
+    
+    <main>
+        <button onclick="goBack()" class="back-button">Go Back</button>
+        
+        <section class="category" id="Top">
+            <h1><a href="http://127.0.0.1:5500/saree.html">Sarees</a></h1>
+        </section>
+        <section class="category" id="Bottom">
+            <h1><a href="http://127.0.0.1:5500/Westetrn%20wear.html">Western Wear</a></h1>
+        </section>
+        <section class="category" id="Footwear">
+            <h1><a href="http://127.0.0.1:5500/Foot%20Wear1.html">Foot Wear</a></h1>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Prime Deals. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+//kids html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIME DEALS - Men's Collection</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat; 
+            background-color: #f0f0f0; 
+            position: relative; 
+        }
+
+        
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.1); 
+            z-index: 1; 
+        }
+
+        header {
+            background-color: rgb(236, 200, 20); 
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative; 
+            z-index: 2; 
+        }
+
+        #header-content img {
+            margin-bottom: 15px;
+        }
+
+        nav {
+            background-color: #000; 
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .back-button {
+            background-color: rgba(0, 51, 102, 0.8); 
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-bottom: 20px; 
+            transition: background-color 0.3s;
+        }
+
+        .back-button:hover {
+            background-color: #005599; 
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            position: relative; 
+            z-index: 2; 
+        }
+
+        .category {
+            background-color: rgba(0, 0, 0, 0.3); 
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px;
+            text-align: center;
+            width: 90%;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .category:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            animation: pulse 0.5s;
+        }
+
+        .category h1 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #003366; 
+        }
+
+        .category a {
+            text-decoration: none;
+            color: #ff6f61;
+            font-weight: bold;
+        }
+
+        .category a:hover {
+            text-decoration: underline;
+            color: #d36e7c; 
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: rgba(0, 51, 102, 0.8);
+            color: white;
+            width: 100%;
+            margin-top: 10px;
+            z-index: 2; 
+        }
+        main{
+            margin-top: 10px;
+            background-image: url(kids-shopping-smiling-little-girl-bags-gifts-happy-child-holds-lot-sale-holidays-concept-105009088.webp);
+        }
+
+    
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    
+    </style>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</head>
+<body>
+    <div class="overlay"></div> 
+    <header>
+        <div id="header-content">
+            <img src="logo1.jpg" alt="Prime Deals Logo" height="160">
+            <h1><i>Prime Deals</i></h1>
+        </div>
+        
+    </header>
+    
+    <main>
+        <button onclick="goBack()" class="back-button">Go Back</button>
+        
+        <section class="category" id="Top">
+            <h1><a href="http://127.0.0.1:5500/Top2.html">Top</a></h1>
+        </section>
+        <section class="category" id="Bottom">
+            <h1><a href="http://127.0.0.1:5500/Bottom2.html">Bottom</a></h1>
+        </section>
+        <section class="category" id="Footwear">
+            <h1><a href="http://127.0.0.1:5500/Footwear.html">Footwear</a></h1>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Prime Deals. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+// men top
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Tops Wear - Prime Deals</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            background-color: #000;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        #Das {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            width: 200px;
+        }
+
+        .product:hover {
+            transform: translateY(-5px);
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product h2 {
+            font-size: 1.2em;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .product p {
+            color: #666;
+            margin: 5px 0;
+        }
+
+        .product button {
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .product button:hover {
+            background-color: #d36e7c;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #003366;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Prime Deals - Men's Tops Wear</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="http://127.0.0.1:5500/project.html">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/aboutus.html">About Us</a></li>
+        <li><a href="http://127.0.0.1:5500/Contact%20us.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+<div id="Das">
+    <h2>Top Wear</h2>
+</div>
+
+<div class="product-list">
+    <div class="product">
+        <a href="https://www.amazon.in/CB-COLEBROOK-Casual-Button-Fashion-Textured/dp/B0D77N88Q3/ref=sr_1_5?crid=1V3SG2BU5QR1D&dib=eyJ2IjoiMSJ9.E8fmL6Ls5rmuaMSCRQo9Nu7bPKDI1HIPU04fSU8451drlyZfbfWp6JXdXyhzagZoVMrYgtUsAPUcnD3Xed9tVSgvpYM8FXxjOeQzVcRzY9Jd1-oTQrnmm9c1WgRlcxG1qQKUIKRaM6UrdDUrfBm4woLcuGMuJfyHm_XkFqbm6V6HkujWT7dg65ZVWS28OD7Vc92Ecd0b3OFL5-zGvjkwzrR4tbe5rl5ThjmzXGGOmSwsAATj_RCI_n1bbd87Rig3ZD3Pok_k1rk1Gy3SrXtmFAa80MfLjR3Qo2bXpAOtpuo.osBouzf4aZz756TZK--rqJ0i0cRAFKoRZI83LL6sPKE&dib_tag=se&keywords=casual+shirts&qid=1730726808&sprefix=casua%2Caps%2C724&sr=8-5"><img src="casual shirit.webp" alt="Casual Shirt"></a>
+        <h2>Casual Shirt</h2>
+        <p>₹474</p>
+        <a href="https://www.amazon.in/CB-COLEBROOK-Casual-Button-Fashion-Textured/dp/B0D77N88Q3/ref=sr_1_5?crid=1V3SG2BU5QR1D&dib=eyJ2IjoiMSJ9.E8fmL6Ls5rmuaMSCRQo9Nu7bPKDI1HIPU04fSU8451drlyZfbfWp6JXdXyhzagZoVMrYgtUsAPUcnD3Xed9tVSgvpYM8FXxjOeQzVcRzY9Jd1-oTQrnmm9c1WgRlcxG1qQKUIKRaM6UrdDUrfBm4woLcuGMuJfyHm_XkFqbm6V6HkujWT7dg65ZVWS28OD7Vc92Ecd0b3OFL5-zGvjkwzrR4tbe5rl5ThjmzXGGOmSwsAATj_RCI_n1bbd87Rig3ZD3Pok_k1rk1Gy3SrXtmFAa80MfLjR3Qo2bXpAOtpuo.osBouzf4aZz756TZK--rqJ0i0cRAFKoRZI83LL6sPKE&dib_tag=se&keywords=casual+shirts&qid=1730726808&sprefix=casua%2Caps%2C724&sr=8-5">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/CB-COLEBROOK-Regular-Spread-Collar-Casual/dp/B0CGLNJRN4/ref=sr_1_6?crid=15UXZRD4A5NK&dib=eyJ2IjoiMSJ9.OVFEhj4rkqHx3fvh5C5MiuIsqVFtc02P-JclbOcGt2YR6eb-o6B6BfELeX9R7ITMQgyTVIlUiXOXQs2OnlC-jykChQ6y1ePaX_XDgAYGDqIx19kVX5VrBkKLzIz4QtPq0ou9w_6cjYbDzMJ94fs3RlCMZsknbMnWFwBWrzd3TTvJ1rg4dJim7G3em0Kud-T5Qp5Hg5tM5MBybp_B93tMgbNk1t77PjX4wX9dPSeQ7IxVwJM4CVoxljYEhT2aoZF-10PdNX3pa0hIilsp5GkUtYB-HcIKrP-6P1a5JtcEdEw.RCHpebH2Sfi167yLbwTEz6nDoM7jSnSOq-RHQftAjj0&dib_tag=se&keywords=formal+shirts+for+man&qid=1730727322&sprefix=Formal+shirt%2Caps%2C331&sr=8-6"><img src="formal shirt.jpg" alt="Formal Shirt"></a>
+        <h2>Formal Shirt</h2>
+        <p>₹495</p>
+        <a href="https://www.amazon.in/CB-COLEBROOK-Regular-Spread-Collar-Casual/dp/B0CGLNJRN4/ref=sr_1_6?crid=15UXZRD4A5NK&dib=eyJ2IjoiMSJ9.OVFEhj4rkqHx3fvh5C5MiuIsqVFtc02P-JclbOcGt2YR6eb-o6B6BfELeX9R7ITMQgyTVIlUiXOXQs2OnlC-jykChQ6y1ePaX_XDgAYGDqIx19kVX5VrBkKLzIz4QtPq0ou9w_6cjYbDzMJ94fs3RlCMZsknbMnWFwBWrzd3TTvJ1rg4dJim7G3em0Kud-T5Qp5Hg5tM5MBybp_B93tMgbNk1t77PjX4wX9dPSeQ7IxVwJM4CVoxljYEhT2aoZF-10PdNX3pa0hIilsp5GkUtYB-HcIKrP-6P1a5JtcEdEw.RCHpebH2Sfi167yLbwTEz6nDoM7jSnSOq-RHQftAjj0&dib_tag=se&keywords=formal+shirts+for+man&qid=1730727322&sprefix=Formal+shirt%2Caps%2C331&sr=8-6">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Lymio-T-Shirt-Shirt-Polo-34-37-Alpha/dp/B0DF7GSR7L/ref=sr_1_17?crid=38C12UOFX0QGM&dib=eyJ2IjoiMSJ9.secH2_PDOPvXU8dnM0MXiJd67e36wTD4j76s05EnysNL7QeNKvkii4GwkpdP3npZhE7CX14sxrtWyMwHPidRVW6NUFHrVc7VUjhNy2ayeLUo_FD3H8FYp2dKo5CAMJrdBk1wD8KGBjPqNmPuNO4_FjtMhIjI-Icn5u8h2gPVASC5UhtdmKGp6bS_7ZpfIfntOanwS3Q_ZtKog5x86E0FSb7rqvJ4eunG0l5vao-sPYdUopMv62_o8Cl72yM_51AvWTs8XyqFHw4emN7UWDiuFvhktILvr3kRmk5ZMXrbMDw.zE2Et-rrFAouUZ0o_JjvBcDxuEELKQtI6EfKDerSppM&dib_tag=se&keywords=t-shirt+for+man&qid=1730727460&sprefix=T-shirt%2Caps%2C4648&sr=8-17"><img src="Tshirits.jpg" alt="T-Shirt"></a>
+        <h2>T-Shirt</h2>
+        <p>₹1,199</p>
+        <a href="https://www.amazon.in/Lymio-T-Shirt-Shirt-Polo-34-37-Alpha/dp/B0DF7GSR7L/ref=sr_1_17?crid=38C12UOFX0QGM&dib=eyJ2IjoiMSJ9.secH2_PDOPvXU8dnM0MXiJd67e36wTD4j76s05EnysNL7QeNKvkii4GwkpdP3npZhE7CX14sxrtWyMwHPidRVW6NUFHrVc7VUjhNy2ayeLUo_FD3H8FYp2dKo5CAMJrdBk1wD8KGBjPqNmPuNO4_FjtMhIjI-Icn5u8h2gPVASC5UhtdmKGp6bS_7ZpfIfntOanwS3Q_ZtKog5x86E0FSb7rqvJ4eunG0l5vao-sPYdUopMv62_o8Cl72yM_51AvWTs8XyqFHw4emN7UWDiuFvhktILvr3kRmk5ZMXrbMDw.zE2Et-rrFAouUZ0o_JjvBcDxuEELKQtI6EfKDerSppM&dib_tag=se&keywords=t-shirt+for+man&qid=1730727460&sprefix=T-shirt%2Caps%2C4648&sr=8-17">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/XYXX-Solid-Regular-XY_CR14_Polo-Tshirt_1_Black/dp/B0CBBDFY31/ref=sr_1_2_sspa?crid=L8M98EPJ9ZHU&dib=eyJ2IjoiMSJ9.a7cVJfxTvIPEy9nCn8q7XbLkjvp9q-X7aYWwYbS2liJ9MOSSmpzpj7xyXdugVSpNq7c2SPjcSpzC27egRzyONiq6z03PJc5r-ObVAlKx2K2rkWbTMvbYODmWieYDBtJY8jqx5uwmsQzSf8sJJgxLzFbnyfzghI6dSTsV2Xo0i6tpNU_sJYKb2tP3AfAwSbdFpMdr8TbqgLrcxc8nn5wN7AbdSNl1iKT5_Lub5vg-qI2lDZz3RbX0dJ6oGpNZQvKEXphfYVFBM-Ur1VsDpj0ZnlVDHDULji3-SzGG1vVA4T0.Jbtlt3A4Un3ZYf4r-tyg-C7eF7BKJadfoCRD3A2gFU0&dib_tag=se&keywords=polo+shirt+for+man&qid=1730727664&sprefix=polo+shirit%2Caps%2C371&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="polo shirit.jpg" alt="Polo Shirt"></a>
+        <h2>Polo Shirt</h2>
+        <p>₹2,499</p>
+        <a href="https://www.amazon.in/XYXX-Solid-Regular-XY_CR14_Polo-Tshirt_1_Black/dp/B0CBBDFY31/ref=sr_1_2_sspa?crid=L8M98EPJ9ZHU&dib=eyJ2IjoiMSJ9.a7cVJfxTvIPEy9nCn8q7XbLkjvp9q-X7aYWwYbS2liJ9MOSSmpzpj7xyXdugVSpNq7c2SPjcSpzC27egRzyONiq6z03PJc5r-ObVAlKx2K2rkWbTMvbYODmWieYDBtJY8jqx5uwmsQzSf8sJJgxLzFbnyfzghI6dSTsV2Xo0i6tpNU_sJYKb2tP3AfAwSbdFpMdr8TbqgLrcxc8nn5wN7AbdSNl1iKT5_Lub5vg-qI2lDZz3RbX0dJ6oGpNZQvKEXphfYVFBM-Ur1VsDpj0ZnlVDHDULji3-SzGG1vVA4T0.Jbtlt3A4Un3ZYf4r-tyg-C7eF7BKJadfoCRD3A2gFU0&dib_tag=se&keywords=polo+shirt+for+man&qid=1730727664&sprefix=polo+shirit%2Caps%2C371&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Lymio-Hoodies-Sweatshirt-Unisex-H-46-47/dp/B0DBDMYWK3/ref=sr_1_5?crid=3NWM7EHGHP7P0&dib=eyJ2IjoiMSJ9.nkhH0UaTbaJ5l0qZSXbwio-Oe9ZRHR7B96t4ImSCSykO-WM8wuTrYn0gQGatFlYZO3hMDjeKEunlj9oTnCcGImLXXv5o6USRN37SfSBJnvKX3lC9n-XUUZ3bvxCTMVI6ppK4u-tepqjwvu3iFMO52b3jtQg6t5L8kMNoIHmLAOWs2o5DZ2omXzi2-02sMNPlFJj6lf5Fz595lztqM5LLwdUffpoAPIxeDYN0cLevw7p3Dap-CVKC5ay_kCoFlzzcflvQ5XvtACI_fTNulO1ti_JnV0YguZtfqzcT3uSM-MI.8KTEoVIwh9tjtHHUhs3OCZSOHtB9E3w8qJwqn6zuPXs&dib_tag=se&keywords=hoodies+for+men+stylish&qid=1730727775&sprefix=Hoo%2Caps%2C305&sr=8-5"><img src="Hoodie.jpg" alt="Hoodie"></a>
+        <h2>Hoodie</h2>
+        <p>₹2,999</p>
+        <a href="https://www.amazon.in/Lymio-Hoodies-Sweatshirt-Unisex-H-46-47/dp/B0DBDMYWK3/ref=sr_1_5?crid=3NWM7EHGHP7P0&dib=eyJ2IjoiMSJ9.nkhH0UaTbaJ5l0qZSXbwio-Oe9ZRHR7B96t4ImSCSykO-WM8wuTrYn0gQGatFlYZO3hMDjeKEunlj9oTnCcGImLXXv5o6USRN37SfSBJnvKX3lC9n-XUUZ3bvxCTMVI6ppK4u-tepqjwvu3iFMO52b3jtQg6t5L8kMNoIHmLAOWs2o5DZ2omXzi2-02sMNPlFJj6lf5Fz595lztqM5LLwdUffpoAPIxeDYN0cLevw7p3Dap-CVKC5ay_kCoFlzzcflvQ5XvtACI_fTNulO1ti_JnV0YguZtfqzcT3uSM-MI.8KTEoVIwh9tjtHHUhs3OCZSOHtB9E3w8qJwqn6zuPXs&dib_tag=se&keywords=hoodies+for+men+stylish&qid=1730727775&sprefix=Hoo%2Caps%2C305&sr=8-5">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/GODFREY-Woolen-Turtleneck-Sleeve-Sweater/dp/B08RX9CH8P/ref=sxin_15_pa_sp_search_thematic_sspa?content-id=amzn1.sym.cd33fa60-47cd-49f3-80b8-24b1f0cbef97%3Aamzn1.sym.cd33fa60-47cd-49f3-80b8-24b1f0cbef97&crid=1Q0TS30MPMJ30&cv_ct_cx=sweaters+for+men+winter&dib=eyJ2IjoiMSJ9.p-VQwbNs3nf_IbyUca7D_T7oRp5fso957GFGe03RK6FSh5IT9w1TZvBP4h1ohXUSDFSurTeSzF7HcjbsMCyWZw.1xk4QwYz0m2FPFOAzFOpfuZS-lGeZEU7eixVqMh93xA&dib_tag=se&keywords=sweaters+for+men+winter&pd_rd_i=B08RX9CH8P&pd_rd_r=73d251f3-26df-4d98-9ad1-68c515587810&pd_rd_w=gRpOF&pd_rd_wg=Yvnco&pf_rd_p=cd33fa60-47cd-49f3-80b8-24b1f0cbef97&pf_rd_r=2HJBACEVWT78VJTQQRGE&qid=1730728034&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=sweater%2Caps%2C668&sr=1-1-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&psc=1"><img src="sweater.jpg" alt="Sweater"></a>
+        <h2>Sweater</h2>
+        <p>₹1,399</p>
+        <a href="https://www.amazon.in/GODFREY-Woolen-Turtleneck-Sleeve-Sweater/dp/B08RX9CH8P/ref=sxin_15_pa_sp_search_thematic_sspa?content-id=amzn1.sym.cd33fa60-47cd-49f3-80b8-24b1f0cbef97%3Aamzn1.sym.cd33fa60-47cd-49f3-80b8-24b1f0cbef97&crid=1Q0TS30MPMJ30&cv_ct_cx=sweaters+for+men+winter&dib=eyJ2IjoiMSJ9.p-VQwbNs3nf_IbyUca7D_T7oRp5fso957GFGe03RK6FSh5IT9w1TZvBP4h1ohXUSDFSurTeSzF7HcjbsMCyWZw.1xk4QwYz0m2FPFOAzFOpfuZS-lGeZEU7eixVqMh93xA&dib_tag=se&keywords=sweaters+for+men+winter&pd_rd_i=B08RX9CH8P&pd_rd_r=73d251f3-26df-4d98-9ad1-68c515587810&pd_rd_w=gRpOF&pd_rd_wg=Yvnco&pf_rd_p=cd33fa60-47cd-49f3-80b8-24b1f0cbef97&pf_rd_r=2HJBACEVWT78VJTQQRGE&qid=1730728034&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=sweater%2Caps%2C668&sr=1-1-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&psc=1">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Imsa-Moda-Sleeveless-Polycotton-T-Shirt/dp/B0DFHHB6XR/ref=sr_1_5?crid=1I77NJG83DSD4&dib=eyJ2IjoiMSJ9.3LrvJhm_hKitivMZp9vY8157PGSUcZH-uVFkz_3vRUMyumvIxbN3iA_SXYa4bi0xMmx-iVR870hHuanrBTKFOExNMPF-ZKc_JymwUl11iNyNQIf-0rDeVFqO7D1A1dI6ad8vZnvMdUZO9i1X7XO_VeMTZKt_QIHDwW4xBKy8aK6AA54QaGkVU27l8nhthDg8MXEeOrI9chqWc4YEIFSPXEAwvORi4r71eDg4E0AU0a8rHttrWn67-zGc9PnJq4r41WnUb1RsFEHBoxz1gVLR8Qs3GXlq6tQ3ctQ2-QIsRRE.8KhwgduGFPAbv5bh-0Ne9Yiz7FZnI1NsJPsQDp5n7UQ&dib_tag=se&keywords=tank+top+men&qid=1730728194&s=apparel&sprefix=Tank+top%2Capparel%2C324&sr=1-5"><img src="tank top.webp" alt="Tank Top"></a>
+        <h2>Tank Top</h2>
+        <p>₹1,099</p>
+        <a href="https://www.amazon.in/Imsa-Moda-Sleeveless-Polycotton-T-Shirt/dp/B0DFHHB6XR/ref=sr_1_5?crid=1I77NJG83DSD4&dib=eyJ2IjoiMSJ9.3LrvJhm_hKitivMZp9vY8157PGSUcZH-uVFkz_3vRUMyumvIxbN3iA_SXYa4bi0xMmx-iVR870hHuanrBTKFOExNMPF-ZKc_JymwUl11iNyNQIf-0rDeVFqO7D1A1dI6ad8vZnvMdUZO9i1X7XO_VeMTZKt_QIHDwW4xBKy8aK6AA54QaGkVU27l8nhthDg8MXEeOrI9chqWc4YEIFSPXEAwvORi4r71eDg4E0AU0a8rHttrWn67-zGc9PnJq4r41WnUb1RsFEHBoxz1gVLR8Qs3GXlq6tQ3ctQ2-QIsRRE.8KhwgduGFPAbv5bh-0Ne9Yiz7FZnI1NsJPsQDp5n7UQ&dib_tag=se&keywords=tank+top+men&qid=1730728194&s=apparel&sprefix=Tank+top%2Capparel%2C324&sr=1-5">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/ANGAR-Breathable-Sleeves-Minimalist-Regular/dp/B0CQGQG28T/ref=sr_1_1_sspa?crid=2T1OSXA3BVFKJ&dib=eyJ2IjoiMSJ9.OjCD3YxZAB5E8eMqMuDZAOVVgemBgWpZVT5t630AvLj8e6OCIczZjMGSJW4uk9o_TnhaEjRtQl6PdCQYbg8k6GZ_Ue0XNBKd6osIoEcdNBKfiwZk6GWxiXLNXiVju8zTKsy-5eaaWI13g0I4squyvpfVKhNRXpTqtU1B93DcKXQXyW7zopBYTXhnAcNo1kSNQSkGn2CRe_0WEVtdpBBrogg3y_4Qp5otIjJwEFvKYwL06aaKBQMnlatQ7FwWxDbKM-6saRSNhFS-f-SUTFV28LQr3rdoos7Wd3alyN3p_qk.JR-05bY-18h70u-UJhJ6cqZDsjVq5LZ97790b9gaqU0&dib_tag=se&keywords=button+up+shirts&qid=1730728391&s=apparel&sprefix=botton+up+shirits%2Capparel%2C833&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="botton up shirit.jpg" alt="Button-up Shirt"></a>
+        <h2>Button-up Shirt</h2>
+        <p>₹599</p>
+        <a href="https://www.amazon.in/ANGAR-Breathable-Sleeves-Minimalist-Regular/dp/B0CQGQG28T/ref=sr_1_1_sspa?crid=2T1OSXA3BVFKJ&dib=eyJ2IjoiMSJ9.OjCD3YxZAB5E8eMqMuDZAOVVgemBgWpZVT5t630AvLj8e6OCIczZjMGSJW4uk9o_TnhaEjRtQl6PdCQYbg8k6GZ_Ue0XNBKd6osIoEcdNBKfiwZk6GWxiXLNXiVju8zTKsy-5eaaWI13g0I4squyvpfVKhNRXpTqtU1B93DcKXQXyW7zopBYTXhnAcNo1kSNQSkGn2CRe_0WEVtdpBBrogg3y_4Qp5otIjJwEFvKYwL06aaKBQMnlatQ7FwWxDbKM-6saRSNhFS-f-SUTFV28LQr3rdoos7Wd3alyN3p_qk.JR-05bY-18h70u-UJhJ6cqZDsjVq5LZ97790b9gaqU0&dib_tag=se&keywords=button+up+shirts&qid=1730728391&s=apparel&sprefix=botton+up+shirits%2Capparel%2C833&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Zyke-Mens-Cotton-Graphic-Breathability/dp/B0B7KBGJPV/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.ukKP9cynvMJ1YndnfHrOX9l5UoCWSrIBiZyhf9uup1BtrDMmzedSO5f57Mt_8jpswtjAPNFCaPskJjLPovgvKwnOKVNGPQwaPwguGq-UOiob2vH8Bj5SKS0uoX6F4eKUsXzouByqHKZcSRCXtZcE9Mk9ucHzLk8BSFKSBmH-KbuWA0TU7motH8gpgD_TARNjCwMOnqd5-QCGYKh2jZHUTfpg5Iz7Kczb06Asc8I5ci-rNNwI9MH0UFWMG0y8-gku24eobxE8Brq1oKC83zwarfs-DQA5PqFwOMishgcYaC8.0N4GyrcLLyTKwKw8UjRV4rMnzsP0dMEIeNc9ujMvF8o&dib_tag=se&keywords=graphic+tee+for+men&qid=1731217785&s=apparel&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="graphic tee.webp" alt="Graphic Tee"></a>
+        <h2>Graphic Tee</h2>
+        <p>₹1,499</p>
+        <a href="https://www.amazon.in/Zyke-Mens-Cotton-Graphic-Breathability/dp/B0B7KBGJPV/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.ukKP9cynvMJ1YndnfHrOX9l5UoCWSrIBiZyhf9uup1BtrDMmzedSO5f57Mt_8jpswtjAPNFCaPskJjLPovgvKwnOKVNGPQwaPwguGq-UOiob2vH8Bj5SKS0uoX6F4eKUsXzouByqHKZcSRCXtZcE9Mk9ucHzLk8BSFKSBmH-KbuWA0TU7motH8gpgD_TARNjCwMOnqd5-QCGYKh2jZHUTfpg5Iz7Kczb06Asc8I5ci-rNNwI9MH0UFWMG0y8-gku24eobxE8Brq1oKC83zwarfs-DQA5PqFwOMishgcYaC8.0N4GyrcLLyTKwKw8UjRV4rMnzsP0dMEIeNc9ujMvF8o&dib_tag=se&keywords=graphic+tee+for+men&qid=1731217785&s=apparel&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Dennis-Lingo-Flannel-Regular-DLMSHW23243_RD_L/dp/B0DF5LMH2B/ref=sr_1_8?dib=eyJ2IjoiMSJ9.BEfjV1KzLTabN2a57RvVP7zLWv9w3KJveVntUsypqgksceLc5BsURuT5g-Z-ynpq3-L7XEGVDzN7wMamRiqZhjm87sLYJcIl5NYPWOT4KFfaQpR39Q9_H3v9RAB9maZ3km7385-nhxFI8gNWdmasi8ynWO5yVgtyzz5CXD7oJfRtYygjUbIlUxICbUypdoupmecUSKRf7Dx6WEiZwQweWpdr5Dfho5xGwUpq2AMcYA3w5X-rWG7VOUxaMpVzVdDt3z6QMwSfjgHLxgWSAQFCJGeo7OQuNWkU1byss4ey4s0.zfbqE6EfRSX4Hx5L-2Ae1r65-E0ZNkwXGRxkvZEU85g&dib_tag=se&keywords=Flannel+Shirt&qid=1730728860&s=apparel&sr=1-8"><img src="flannel shirit.jpg" alt="Flannel Shirt"></a>
+        <h2>Flannel Shirt</h2>
+        <p>₹2,199</p>
+        <a href="https://www.amazon.in/Dennis-Lingo-Flannel-Regular-DLMSHW23243_RD_L/dp/B0DF5LMH2B/ref=sr_1_8?dib=eyJ2IjoiMSJ9.BEfjV1KzLTabN2a57RvVP7zLWv9w3KJveVntUsypqgksceLc5BsURuT5g-Z-ynpq3-L7XEGVDzN7wMamRiqZhjm87sLYJcIl5NYPWOT4KFfaQpR39Q9_H3v9RAB9maZ3km7385-nhxFI8gNWdmasi8ynWO5yVgtyzz5CXD7oJfRtYygjUbIlUxICbUypdoupmecUSKRf7Dx6WEiZwQweWpdr5Dfho5xGwUpq2AMcYA3w5X-rWG7VOUxaMpVzVdDt3z6QMwSfjgHLxgWSAQFCJGeo7OQuNWkU1byss4ey4s0.zfbqE6EfRSX4Hx5L-2Ae1r65-E0ZNkwXGRxkvZEU85g&dib_tag=se&keywords=Flannel+Shirt&qid=1730728860&s=apparel&sr=1-8">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/CB-COLEBROOK-Casual-Button-Fashion-Textured/dp/B0D79CJFMV/ref=sr_1_5?crid=9W431M7Z13WQ&dib=eyJ2IjoiMSJ9.naMfLtZsnuxfPF-497NYKKrTwdvrfZh_R44PMgsXbm1OYoQQ3bSJRkWL4WExNydEdi_uUzPWx6XyMn3ybVHDZoiUDyso7Qlr1NLBrkv2Wk45MW3Z0cx0q0vA7AY4Xa5udXu02__bG_wvWlp-FVukY74-YWkL_kUjIfhPDQAK9BedMrfogWMok9zMszanz4cbRYzR6eW7d-Hep90dCo3tnC8Z9sGc4jzHFVZmojsRbuB2RdpkBtrMDgaF7QYhshWkAcYUZYs1wRZjyx8aXIAUhbBqPownxpJpVT8JBnZVih8._GkB_aUFQlGRzgfWHbm7pfNQMT0tH9Zsgvety95HBpc&dib_tag=se&keywords=Long+Sleeve+Shirt&qid=1730729010&s=apparel&sprefix=long+sleeve+shirt%2Capparel%2C286&sr=1-5"><img src="long sleeve.jpg" alt="Long Sleeve Shirt"></a>
+        <h2>Long Sleeve Shirt</h2>
+        <p>₹2,699</p>
+        <a href="https://www.amazon.in/CB-COLEBROOK-Casual-Button-Fashion-Textured/dp/B0D79CJFMV/ref=sr_1_5?crid=9W431M7Z13WQ&dib=eyJ2IjoiMSJ9.naMfLtZsnuxfPF-497NYKKrTwdvrfZh_R44PMgsXbm1OYoQQ3bSJRkWL4WExNydEdi_uUzPWx6XyMn3ybVHDZoiUDyso7Qlr1NLBrkv2Wk45MW3Z0cx0q0vA7AY4Xa5udXu02__bG_wvWlp-FVukY74-YWkL_kUjIfhPDQAK9BedMrfogWMok9zMszanz4cbRYzR6eW7d-Hep90dCo3tnC8Z9sGc4jzHFVZmojsRbuB2RdpkBtrMDgaF7QYhshWkAcYUZYs1wRZjyx8aXIAUhbBqPownxpJpVT8JBnZVih8._GkB_aUFQlGRzgfWHbm7pfNQMT0tH9Zsgvety95HBpc&dib_tag=se&keywords=Long+Sleeve+Shirt&qid=1730729010&s=apparel&sprefix=long+sleeve+shirt%2Capparel%2C286&sr=1-5">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/DAMENSCH-Regular-Cotton-Sleeve-T-Shirt/dp/B0CGZNQH1Y/ref=sr_1_1_sspa?crid=3MS95Y6JRRP4G&dib=eyJ2IjoiMSJ9.wt3Ot7NKPO-h1-2hOcILbhSXkVNnjBDjx5Arhwb7uDHl3CbpPOIqqHr-MNsbIp9OozjHtLXbaDIG8vHVIjEiydzrmNl2WiOuYkqJTMlvWf7fGVHRvmXWAzoe3LEykNlrujtDXH2-ktrocEQIXi2CvqAKCHsQ7I-Wbn-7Omi0wklZcXJr6ne9mNd0KzFRvfxXstLSoOwntmX6UE-sSGc1i83slrpAozrfD6kNdElU7EB9Zpl6GGilB0P_m3wTy6VRdA4CVux2nqXdoyn7memhnI88RP1uYd2UZYBPeqoTNdk.azdWosuRu5I1RUE_nbzrHp-VYQtkbIZIEvsi0_G9Xhc&dib_tag=se&keywords=Henley%2BShirt&qid=1730729134&s=apparel&sprefix=henley%2Bshirt%2Capparel%2C1032&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1"><img src="seelevn shirit.jpg" alt="Henley Shirt"></a>
+        <h2>Henley Shirt</h2>
+        <p>₹1,699</p>
+        <a href="https://www.amazon.in/DAMENSCH-Regular-Cotton-Sleeve-T-Shirt/dp/B0CGZNQH1Y/ref=sr_1_1_sspa?crid=3MS95Y6JRRP4G&dib=eyJ2IjoiMSJ9.wt3Ot7NKPO-h1-2hOcILbhSXkVNnjBDjx5Arhwb7uDHl3CbpPOIqqHr-MNsbIp9OozjHtLXbaDIG8vHVIjEiydzrmNl2WiOuYkqJTMlvWf7fGVHRvmXWAzoe3LEykNlrujtDXH2-ktrocEQIXi2CvqAKCHsQ7I-Wbn-7Omi0wklZcXJr6ne9mNd0KzFRvfxXstLSoOwntmX6UE-sSGc1i83slrpAozrfD6kNdElU7EB9Zpl6GGilB0P_m3wTy6VRdA4CVux2nqXdoyn7memhnI88RP1uYd2UZYBPeqoTNdk.azdWosuRu5I1RUE_nbzrHp-VYQtkbIZIEvsi0_G9Xhc&dib_tag=se&keywords=Henley%2BShirt&qid=1730729134&s=apparel&sprefix=henley%2Bshirt%2Capparel%2C1032&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Colorblock-Windbreaker-Jacket-White-Regular/dp/B0DHL3F39H/ref=sr_1_3?crid=1M39ISQ7PCDNW&dib=eyJ2IjoiMSJ9.ApNunsqadIcPPHAMUVSNBi5cuFGQsEfk0V6TQN1jJvlOO17LOfTtbEoplfc9YWEGse4WrOSPj4zYiiO6FErZoKc_CRm1LcbvZwCDTrdP9b3t-eNL9my0g0BO_6JKX1Hkt37mCkSHZwzD3qKrA8jUYd_OdF8_0HsRPmMEWhKxMUUAfDQtq_cB6JTetTjg1TB0nf3JEbziX-L4dDIE5gfbCOmVmGf0lfHdqSbZWyyQ3Bqs6DX__JDY65AMafZVnuCkwXxFrO15Vh0msWnFlPCptWHqNLNt7eroS8zncWe1kBU.S1YJnTyg4ron3RMTLnB5yEwXwcD9xVWfW_y99NVdqvk&dib_tag=se&keywords=Windbreaker&qid=1730729440&s=apparel&sprefix=windbreaker%2Capparel%2C334&sr=1-3"><img src="jWindbreaker shirit.jpg" alt="Windbreaker"></a>
+        <h2>Windbreaker</h2>
+        <p>₹3,299</p>
+        <a href="https://www.amazon.in/Colorblock-Windbreaker-Jacket-White-Regular/dp/B0DHL3F39H/ref=sr_1_3?crid=1M39ISQ7PCDNW&dib=eyJ2IjoiMSJ9.ApNunsqadIcPPHAMUVSNBi5cuFGQsEfk0V6TQN1jJvlOO17LOfTtbEoplfc9YWEGse4WrOSPj4zYiiO6FErZoKc_CRm1LcbvZwCDTrdP9b3t-eNL9my0g0BO_6JKX1Hkt37mCkSHZwzD3qKrA8jUYd_OdF8_0HsRPmMEWhKxMUUAfDQtq_cB6JTetTjg1TB0nf3JEbziX-L4dDIE5gfbCOmVmGf0lfHdqSbZWyyQ3Bqs6DX__JDY65AMafZVnuCkwXxFrO15Vh0msWnFlPCptWHqNLNt7eroS8zncWe1kBU.S1YJnTyg4ron3RMTLnB5yEwXwcD9xVWfW_y99NVdqvk&dib_tag=se&keywords=Windbreaker&qid=1730729440&s=apparel&sprefix=windbreaker%2Capparel%2C334&sr=1-3">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/XYXX-French-Cotton-Zip-Up-Jacket/dp/B0BLH9SYF7/ref=sr_1_1_sspa?crid=199AXEOIVBMT5&dib=eyJ2IjoiMSJ9.hIZc_EDWXCiu417OfD6LDbA7Q7qc2Fi0xyyr2TubAosKFJ-K6u8PMUA-cvejZ7w139YV0nXaB2jmk3MgKq5ndOgwh6gt8z2BaX95YTreKtuQfp9aiEWgQ3BuK5RrvL27A_COk7tjU5Tgo4BxTJVoa2Trm9ZrPqP53Y9gUWKF5gCHKg2089mfqIQ94LRP7vEAjHz9ATYRRfHwdbWqMi4X9o-pFDeXgbpFbBSaINyZDcVIerL6FYX1Qx9BH4Q52GA-_jN6wIPKtYiD0i0UmOsOtkPGsJVR3Cg0t66vdpp22v8.h626OVWypuIEN3i5B5QsHAxZNFC85JunDMLgeWPyLO0&dib_tag=se&keywords=Zip-up+Jacket&qid=1730729597&s=apparel&sprefix=zip-up+jacket%2Capparel%2C294&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="Zip-up Jacket.jpg" alt="Zip-up Jacket"></a>
+        <h2>Zip-up Jacket</h2>
+        <p>₹3,999</p>
+        <a href="https://www.amazon.in/XYXX-French-Cotton-Zip-Up-Jacket/dp/B0BLH9SYF7/ref=sr_1_1_sspa?crid=199AXEOIVBMT5&dib=eyJ2IjoiMSJ9.hIZc_EDWXCiu417OfD6LDbA7Q7qc2Fi0xyyr2TubAosKFJ-K6u8PMUA-cvejZ7w139YV0nXaB2jmk3MgKq5ndOgwh6gt8z2BaX95YTreKtuQfp9aiEWgQ3BuK5RrvL27A_COk7tjU5Tgo4BxTJVoa2Trm9ZrPqP53Y9gUWKF5gCHKg2089mfqIQ94LRP7vEAjHz9ATYRRfHwdbWqMi4X9o-pFDeXgbpFbBSaINyZDcVIerL6FYX1Qx9BH4Q52GA-_jN6wIPKtYiD0i0UmOsOtkPGsJVR3Cg0t66vdpp22v8.h626OVWypuIEN3i5B5QsHAxZNFC85JunDMLgeWPyLO0&dib_tag=se&keywords=Zip-up+Jacket&qid=1730729597&s=apparel&sprefix=zip-up+jacket%2Capparel%2C294&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/WANDERLOOMS-Sleeve-Trendsetter-Printed-X-Large/dp/B08X2SWPLG/ref=sr_1_1_sspa?crid=8JZ23JORC42U&dib=eyJ2IjoiMSJ9.9xFYqj8dYkbQBKoy61T96iu3IEAscpFpuATOevvXqiURlVGZlEpZcM6Vtq9byYxUFGrycEMpXDjE5q4ciNxdYPevQ0x2SA75rj29CfifTKZ89iGhOzI0eZfvtykRRCo3J_MIKiSq_vIb1REHcSt_QCg4enV7KjAamuweuxOdnzd6HknQwHYgb9zwaAqmoSA_9lTImEehej3Ss8ihad2uhC94s6HwvKbq_y7b565D0I3Je-dQQK39iP_oaTNQw6__pYrjOvLmudizW8-mnWdoJOUhufJOnpnTYcMTZfsG_IQ.gMhFoFb7wF7frTgUm2-IWhGZs-8hrzQKII_A8zahFaU&dib_tag=se&keywords=Sports+Jersey&qid=1730729670&s=apparel&sprefix=sports+jersey%2Capparel%2C385&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="Sports Jersey.jpg" alt="Sports Jersey"></a>
+        <h2>Sports Jersey</h2>
+        <p>₹2,199</p>
+        <a href="https://www.amazon.in/WANDERLOOMS-Sleeve-Trendsetter-Printed-X-Large/dp/B08X2SWPLG/ref=sr_1_1_sspa?crid=8JZ23JORC42U&dib=eyJ2IjoiMSJ9.9xFYqj8dYkbQBKoy61T96iu3IEAscpFpuATOevvXqiURlVGZlEpZcM6Vtq9byYxUFGrycEMpXDjE5q4ciNxdYPevQ0x2SA75rj29CfifTKZ89iGhOzI0eZfvtykRRCo3J_MIKiSq_vIb1REHcSt_QCg4enV7KjAamuweuxOdnzd6HknQwHYgb9zwaAqmoSA_9lTImEehej3Ss8ihad2uhC94s6HwvKbq_y7b565D0I3Je-dQQK39iP_oaTNQw6__pYrjOvLmudizW8-mnWdoJOUhufJOnpnTYcMTZfsG_IQ.gMhFoFb7wF7frTgUm2-IWhGZs-8hrzQKII_A8zahFaU&dib_tag=se&keywords=Sports+Jersey&qid=1730729670&s=apparel&sprefix=sports+jersey%2Capparel%2C385&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Dennis-Lingo-Solid-Casual-C301_Dustypink_L_Dustypink_L/dp/B07HK7SMGC/ref=sr_1_7?crid=KSVVU7BDADGB&dib=eyJ2IjoiMSJ9.jLRUU5L0zYVu210sn_Hk-4vyvnfqdNYI2F34f47SGptTR_y-_3ULAlUeclxttkAUNDeEPrB714Aj3GR-F58FeQ8JZdrCKLMN47xACsAriI6iWN-YEYFIhgbuNJk12Tb_7B56AK0zqSDqmWzSfcWdy7HR7ehic1BJ_JXF2RfZnaNuJ39hF8pXgNkzwLgEodbTiQLvvBQEw_xAvSV9BPDUpJM8BYgxDBdJ3Tb7r1WiTfk7DSRFwurq_qKJEKOpAW5QRXkwLbt005bfamJN-62NCkTMDfgrS33iVzDQTYZEATg.6lymB5QB5p5ZoouXxfe_6P9F6I-UhuVx2eJiXGoGL7Y&dib_tag=se&keywords=Dress+Shirt&qid=1730729821&s=apparel&sprefix=dress+shirt%2Capparel%2C348&sr=1-7"><img src="Dress Shirt.jpg" alt="Dress Shirt"></a>
+        <h2>Dress Shirt</h2>
+        <p>₹3,499</p>
+        <a href="https://www.amazon.in/Dennis-Lingo-Solid-Casual-C301_Dustypink_L_Dustypink_L/dp/B07HK7SMGC/ref=sr_1_7?crid=KSVVU7BDADGB&dib=eyJ2IjoiMSJ9.jLRUU5L0zYVu210sn_Hk-4vyvnfqdNYI2F34f47SGptTR_y-_3ULAlUeclxttkAUNDeEPrB714Aj3GR-F58FeQ8JZdrCKLMN47xACsAriI6iWN-YEYFIhgbuNJk12Tb_7B56AK0zqSDqmWzSfcWdy7HR7ehic1BJ_JXF2RfZnaNuJ39hF8pXgNkzwLgEodbTiQLvvBQEw_xAvSV9BPDUpJM8BYgxDBdJ3Tb7r1WiTfk7DSRFwurq_qKJEKOpAW5QRXkwLbt005bfamJN-62NCkTMDfgrS33iVzDQTYZEATg.6lymB5QB5p5ZoouXxfe_6P9F6I-UhuVx2eJiXGoGL7Y&dib_tag=se&keywords=Dress+Shirt&qid=1730729821&s=apparel&sprefix=dress+shirt%2Capparel%2C348&sr=1-7">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Linen-Club-Beige-Casual-Regular/dp/B0BGHSFXZ2/ref=sr_1_2_sspa?crid=G8CVN7NNH9F0&dib=eyJ2IjoiMSJ9.Uk2Zc7Kmt2oAGJBnlKdLGnRQGWr8vyGHQlV-V0yrJj9ZXMYFaG6tzssLJxLrnMyDS2jSSNXhPYO-uVjgOzJKelxjbemhkZOpUlfCk2ZKVQzpN9Q6S7lIgwmh77boRSfOmGUb1bsPBEx-ZQY6xTUuqjijqMcWMoIolpfxOAPFhHrEzGGEt5WpwbJnbHhHsxosslii6hdiLQpFg2KFTTSt2wSp6snhBe9jj-rDnnrbgUudEN8dxTjGn3wu4L8wZwnDY0zRWgJ707BZ3m_mz0bg0WjcmgSlmiE6RI52DtJH3ZY.MjRGaXikGKXkb8_otT3QJg8WNLV08P8oU4Fg_M3n7mY&dib_tag=se&keywords=linen+shirt+for+man&qid=1730729900&s=apparel&sprefix=Linen+Shirt%2Capparel%2C285&sr=1-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="Linen Shirt.jpg" alt="Linen Shirt"></a>
+        <h2>Linen Shirt</h2>
+        <p>₹2,799</p>
+        <a href="https://www.amazon.in/Linen-Club-Beige-Casual-Regular/dp/B0BGHSFXZ2/ref=sr_1_2_sspa?crid=G8CVN7NNH9F0&dib=eyJ2IjoiMSJ9.Uk2Zc7Kmt2oAGJBnlKdLGnRQGWr8vyGHQlV-V0yrJj9ZXMYFaG6tzssLJxLrnMyDS2jSSNXhPYO-uVjgOzJKelxjbemhkZOpUlfCk2ZKVQzpN9Q6S7lIgwmh77boRSfOmGUb1bsPBEx-ZQY6xTUuqjijqMcWMoIolpfxOAPFhHrEzGGEt5WpwbJnbHhHsxosslii6hdiLQpFg2KFTTSt2wSp6snhBe9jj-rDnnrbgUudEN8dxTjGn3wu4L8wZwnDY0zRWgJ707BZ3m_mz0bg0WjcmgSlmiE6RI52DtJH3ZY.MjRGaXikGKXkb8_otT3QJg8WNLV08P8oU4Fg_M3n7mY&dib_tag=se&keywords=linen+shirt+for+man&qid=1730729900&s=apparel&sprefix=Linen+Shirt%2Capparel%2C285&sr=1-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/HEED-ATTENTIVE-Premium-Regular-Chambray/dp/B0DFMNVZHW/ref=sr_1_7?crid=34LGDXN26T1H8&dib=eyJ2IjoiMSJ9.WdWlh73W8AKxmXVFLGvRTQymmLJb1ii6tgHkMYboqTkqSdPRQ8q81FBZze83rdtYC-ffvh6K9UG1V8YhzzWrOOsM2n_UCmICWtqe5g8QZ5KNfu6YwgKUtwEUS9l2xwNIdAkiuY8Zf3HOAfVuVleHgosE5u65MkjodzAEChMJuBaRiuGylS_0Xh8jdaXVP4FITHs0b1XLLxOpP2VvZSoMAj0PBlh_W3xAhYf5oluAdrNGYN-dyPMLjMrFBxv0_nG9njEYmoGWpf92XI4qKtdM5ud06wpypv-fgUp5d3im9wk.FKhOcAEoRxrho1ra2Weai6mFYEtBf5rJu2NG6gLyPD0&dib_tag=se&keywords=Chambray+Shirt&qid=1730729990&s=apparel&sprefix=chambray+shirt%2Capparel%2C308&sr=1-7"></a><img src="Chambray Shirt.jpg" alt="Chambray Shirt">
+        <h2>Chambray Shirt</h2>
+        <p>₹2,299</p>
+        <a href="https://www.amazon.in/HEED-ATTENTIVE-Premium-Regular-Chambray/dp/B0DFMNVZHW/ref=sr_1_7?crid=34LGDXN26T1H8&dib=eyJ2IjoiMSJ9.WdWlh73W8AKxmXVFLGvRTQymmLJb1ii6tgHkMYboqTkqSdPRQ8q81FBZze83rdtYC-ffvh6K9UG1V8YhzzWrOOsM2n_UCmICWtqe5g8QZ5KNfu6YwgKUtwEUS9l2xwNIdAkiuY8Zf3HOAfVuVleHgosE5u65MkjodzAEChMJuBaRiuGylS_0Xh8jdaXVP4FITHs0b1XLLxOpP2VvZSoMAj0PBlh_W3xAhYf5oluAdrNGYN-dyPMLjMrFBxv0_nG9njEYmoGWpf92XI4qKtdM5ud06wpypv-fgUp5d3im9wk.FKhOcAEoRxrho1ra2Weai6mFYEtBf5rJu2NG6gLyPD0&dib_tag=se&keywords=Chambray+Shirt&qid=1730729990&s=apparel&sprefix=chambray+shirt%2Capparel%2C308&sr=1-7">
+        <button>BUY NOW</button></a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Prime Deals. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+//men bottom
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Bottom Wear - Prime Deals</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            background-color: #000;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        #Das {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            width: calc(25% - 40px); 
+            box-sizing: border-box;
+        }
+
+        .product:hover {
+            transform: translateY(-5px);
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product h2 {
+            font-size: 1.2em;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .product p {
+            color: #666;
+            margin: 5px 0;
+        }
+
+        .product button {
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .product button:hover {
+            background-color: #d36e7c;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #003366;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Prime Deals - Men's Bottom Wear</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="http://127.0.0.1:5500/project.html">Home</a>
+        <li><a href="http://127.0.0.1:5500/aboutus.html">About Us</a></li>
+        <li><a href="http://127.0.0.1:5500/Contact%20us.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+<div id="Das">
+    <h2>Bottom Wear</h2>
+</div>
+
+<div class="product-list">
+    <div class="product">
+        <a href="https://www.amazon.in/Ben-Martin-Jeans-Pants-Baggy/dp/B0DGTZB7N7/ref=sr_1_8?crid=14T4PV8LQ72I9&dib=eyJ2IjoiMSJ9.loW9tDrkb73dvNPalTNrmGIvtApvMkJL9E8uTIYiBn1OAgDr_Gv9i1pcKRsIYUbmQZsWTTMrqG8ffkiLni3P-yZlcO4pIA9SFV7RURYhdL_O8JnYhXEZKrToIIXIuO8iXPckvhBkksUB6tIqfh5Xq4UhHCSrV79eP4KYeNynpMEgBR9evewWHzxUaBcUiUnIBNmj7KofNvnxdCttXZdr-NYSKiW_S57vNC4y3JYcu7PUGTxun1cElrA56otVVJe9nGIDVoE2TTMxnV_0IUmdur9-5mV6O11Xddl_BHoKVzk.e71WijNa6w4ewquGEekzwPwfg1Id3yRG8-FQ3zvArAE&dib_tag=se&keywords=Jeans&qid=1730736865&sprefix=jeans%2Caps%2C538&sr=8-8">
+            <img src="Jeans.jpg" alt="Jeans">
+        </a>
+        <h2>Blue Jeans</h2>
+        <p><b>-75% ₹749</b><br>
+            M.R.P.: <strike>₹2,999.0</strike>
+            </p>
+        <a href="https://www.amazon.in/Ben-Martin-Jeans-Pants-Baggy/dp/B0DGTZB7N7/ref=sr_1_8?crid=14T4PV8LQ72I9&dib=eyJ2IjoiMSJ9.loW9tDrkb73dvNPalTNrmGIvtApvMkJL9E8uTIYiBn1OAgDr_Gv9i1pcKRsIYUbmQZsWTTMrqG8ffkiLni3P-yZlcO4pIA9SFV7RURYhdL_O8JnYhXEZKrToIIXIuO8iXPckvhBkksUB6tIqfh5Xq4UhHCSrV79eP4KYeNynpMEgBR9evewWHzxUaBcUiUnIBNmj7KofNvnxdCttXZdr-NYSKiW_S57vNC4y3JYcu7PUGTxun1cElrA56otVVJe9nGIDVoE2TTMxnV_0IUmdur9-5mV6O11Xddl_BHoKVzk.e71WijNa6w4ewquGEekzwPwfg1Id3yRG8-FQ3zvArAE&dib_tag=se&keywords=Jeans&qid=1730736865&sprefix=jeans%2Caps%2C538&sr=8-8"><button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/BEYOUNG-Casual-Regular-fit-Black-Chino/dp/B0D5QKWM9T/ref=sr_1_2_sspa?crid=2E8BS6APDICAB&dib=eyJ2IjoiMSJ9.PoodxgfANQdg0YToIjHfRKr7yDsPMjySK4usOAZ3EtdROzxWiaWG8Ncp6ex4_lj_hfkr7CDa2XciqGVyYR2hyl9AzhaxElPY30U8SbURCNix-hJGV3ip8BUfPB5MHyD4CjcZEgTPtupUn5l5ykVwyRPCzAkCGRrJqVZpHGO0lR95u6JfDwKXpNGXQwSkJm3xEqRgvQ1do1l-mrVJF68wGFKC0IHSr_DOu2Lu43h2XcyNK03FtkgN9MQilRHHFHlBtZlBFHcnykwNY6ZztUflJSweqhHbELOp1zg5gUAV68I.AgQCMvcfXO9x5r-6h2xccCTLlvLBn9RSxqoRmJJHnZI&dib_tag=se&keywords=Chino+Pants&qid=1730737276&sprefix=chino+pants%2Caps%2C322&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <img src="Chino Pants.jpg" alt="Chinos">
+        </a>
+        <h2>Chino Pants</h2>
+        <p><b>-58% ₹998</b><br>
+            M.R.P.:<strike> ₹2,399.0</strike>
+            </p>
+        <a href="https://www.amazon.in/BEYOUNG-Casual-Regular-fit-Black-Chino/dp/B0D5QKWM9T/ref=sr_1_2_sspa?crid=2E8BS6APDICAB&dib=eyJ2IjoiMSJ9.PoodxgfANQdg0YToIjHfRKr7yDsPMjySK4usOAZ3EtdROzxWiaWG8Ncp6ex4_lj_hfkr7CDa2XciqGVyYR2hyl9AzhaxElPY30U8SbURCNix-hJGV3ip8BUfPB5MHyD4CjcZEgTPtupUn5l5ykVwyRPCzAkCGRrJqVZpHGO0lR95u6JfDwKXpNGXQwSkJm3xEqRgvQ1do1l-mrVJF68wGFKC0IHSr_DOu2Lu43h2XcyNK03FtkgN9MQilRHHFHlBtZlBFHcnykwNY6ZztUflJSweqhHbELOp1zg5gUAV68I.AgQCMvcfXO9x5r-6h2xccCTLlvLBn9RSxqoRmJJHnZI&dib_tag=se&keywords=Chino+Pants&qid=1730737276&sprefix=chino+pants%2Caps%2C322&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/U-S-POLO-ASSN-Hybrid-OES02-PL_Black/dp/B0CW9H4QLH/ref=sr_1_2_sspa?crid=1A5JM24KG5VMA&dib=eyJ2IjoiMSJ9.mTNaTBr7P3H9UoeUu-6l2_Bszm8fB2dFLiBt2gNn-nvvjBk9EXTVKfIhF76k7Pr08FsuClDvr-mPVoosfNyxgwL_z8uh34KQxN_IQRMGFM_s0HeFBP62JHW3sk4nZrswbhaCM9W_qcZnQavb3hCIW1N--ID3rov9-e_b4VbJt7A3K3VOf-olTG8wPi4a5KMnJRs6qJ8ef7hOOC1L3FGg0SitXu1nFIZ_pJuBqrRuSkUWfAPkt5FE4UrJ8PvtfQGUc1Urxo66it0QFKsSAcOXuSki_u3OTVb-IZAQAmD0o6Y.xncOlnuCtlhaYSB-TWI4P1vPpcrTcBsvkxZ16woFgPc&dib_tag=se&keywords=Casual+Shorts&qid=1730737550&sprefix=casual+shorts%2Caps%2C308&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <img src="Casual Shorts.jpg" alt="Shorts">
+        </a>
+        <h2>Casual Shorts</h2>
+        <p><b>-20% ₹839</b><br>
+            M.R.P.:<strike>₹1,049.00</strike></p>
+        <a href="https://www.amazon.in/U-S-POLO-ASSN-Hybrid-OES02-PL_Black/dp/B0CW9H4QLH/ref=sr_1_2_sspa?crid=1A5JM24KG5VMA&dib=eyJ2IjoiMSJ9.mTNaTBr7P3H9UoeUu-6l2_Bszm8fB2dFLiBt2gNn-nvvjBk9EXTVKfIhF76k7Pr08FsuClDvr-mPVoosfNyxgwL_z8uh34KQxN_IQRMGFM_s0HeFBP62JHW3sk4nZrswbhaCM9W_qcZnQavb3hCIW1N--ID3rov9-e_b4VbJt7A3K3VOf-olTG8wPi4a5KMnJRs6qJ8ef7hOOC1L3FGg0SitXu1nFIZ_pJuBqrRuSkUWfAPkt5FE4UrJ8PvtfQGUc1Urxo66it0QFKsSAcOXuSki_u3OTVb-IZAQAmD0o6Y.xncOlnuCtlhaYSB-TWI4P1vPpcrTcBsvkxZ16woFgPc&dib_tag=se&keywords=Casual+Shorts&qid=1730737550&sprefix=casual+shorts%2Caps%2C308&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/SaintX-Stretchable-Expandable-Anti-Slip-SAINTR02_Khaki_36/dp/B0D119MSDB/ref=sr_1_3_sspa?crid=1F9GRRWM3A488&dib=eyJ2IjoiMSJ9.MbbVhVJZ9TiV9TgQZUEjwPGIW6SZKW1XvagTqs71d_3VqB4xN0S3HqdbfoWrDoFOLNlpEghdk5RU8a-VD_cPLBnNcsDAaOgLfK23ENsdB7TyWgvSTxrmKOi9NfstV_eqaTpCfuFVBVr7OAPXp7JgK3Pi52xGsGGOZoFfKfViG3Pwa2CnGfQDm2gZ90Ag8XJKXdA_wq3o88htvLRyz8FZ6_gqc55I6-QUPLRWhsg6XOX7kKxUBWhb96DImkxxYQGGrv-3Zd7-MWlnjpvLNo6ZG5G5KBYbAz5IFtzmYZQ2ULc.RsaU8E8mERTq46JF0KYRBh1BXKgMsVlWbVEbxZqM8tY&dib_tag=se&keywords=Formal+Trousers&qid=1730737758&sprefix=formal+trousers%2Caps%2C278&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <img src="Formal Trousers.jpg" alt="Trousers">
+        </a>
+        <h2>Formal Trousers</h2>
+        <p><b>-60% ₹1,249</b><br>
+            M.R.P.:<strike> ₹3,099.0</strike>
+            </p>
+        <a href="https://www.amazon.in/SaintX-Stretchable-Expandable-Anti-Slip-SAINTR02_Khaki_36/dp/B0D119MSDB/ref=sr_1_3_sspa?crid=1F9GRRWM3A488&dib=eyJ2IjoiMSJ9.MbbVhVJZ9TiV9TgQZUEjwPGIW6SZKW1XvagTqs71d_3VqB4xN0S3HqdbfoWrDoFOLNlpEghdk5RU8a-VD_cPLBnNcsDAaOgLfK23ENsdB7TyWgvSTxrmKOi9NfstV_eqaTpCfuFVBVr7OAPXp7JgK3Pi52xGsGGOZoFfKfViG3Pwa2CnGfQDm2gZ90Ag8XJKXdA_wq3o88htvLRyz8FZ6_gqc55I6-QUPLRWhsg6XOX7kKxUBWhb96DImkxxYQGGrv-3Zd7-MWlnjpvLNo6ZG5G5KBYbAz5IFtzmYZQ2ULc.RsaU8E8mERTq46JF0KYRBh1BXKgMsVlWbVEbxZqM8tY&dib_tag=se&keywords=Formal+Trousers&qid=1730737758&sprefix=formal+trousers%2Caps%2C278&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Boldfit-Joggers-Regular-Stylish-Trouser/dp/B0CNH4M73B/ref=sr_1_2_sspa?crid=1WZI59ZTTCOVD&dib=eyJ2IjoiMSJ9.NJ7zxkyyZF7dx0aM18FZudKRQVFf3-_mlawywJhTvQwMWCqlHd57WCM0RwpF7tKzVlFoA_JUP0A3nME6Ak-uWErrViPbka63R7R7GS0uIH3NOgdf7E-qJV6luaTqw-JPC3EfDwp4PPdhsJdbtfVkvgnVi52DlUV0XaiMChoIGfOjebSbluHmAsyJA94wb10hWn7jfAGJKIJMHXIHUQi89poq_0Eiy1rJikWtDIAY_a2KbEJlLJ10bZhiOKHldMsWKz1ypMX40q4PGSW8NfkKZWME356YAomp5Z5NEs3q20c.i3d33W4-US1z6at3vHRv2lOxwbs20M62T46jHdJMMeA&dib_tag=se&keywords=Cargo%2BPants&qid=1730737910&sprefix=cargo%2Bpants%2Caps%2C266&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1">
+            <img src="Cargo Pants.jpg" alt="Cargo Pants">
+        </a>
+        <h2>Cargo Pants</h2>
+        <p><b>-70% ₹899</b><br>
+            M.R.P.:<strike> ₹2,999.0</strike>
+            </p>
+        <a href="https://www.amazon.in/Boldfit-Joggers-Regular-Stylish-Trouser/dp/B0CNH4M73B/ref=sr_1_2_sspa?crid=1WZI59ZTTCOVD&dib=eyJ2IjoiMSJ9.NJ7zxkyyZF7dx0aM18FZudKRQVFf3-_mlawywJhTvQwMWCqlHd57WCM0RwpF7tKzVlFoA_JUP0A3nME6Ak-uWErrViPbka63R7R7GS0uIH3NOgdf7E-qJV6luaTqw-JPC3EfDwp4PPdhsJdbtfVkvgnVi52DlUV0XaiMChoIGfOjebSbluHmAsyJA94wb10hWn7jfAGJKIJMHXIHUQi89poq_0Eiy1rJikWtDIAY_a2KbEJlLJ10bZhiOKHldMsWKz1ypMX40q4PGSW8NfkKZWME356YAomp5Z5NEs3q20c.i3d33W4-US1z6at3vHRv2lOxwbs20M62T46jHdJMMeA&dib_tag=se&keywords=Cargo%2BPants&qid=1730737910&sprefix=cargo%2Bpants%2Caps%2C266&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1"><button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/RynoGear-Regular-Super-Stretchable-Track/dp/B0CQ4ZQ184/ref=sr_1_3_sspa?crid=3U8E7RKPQ4BT3&dib=eyJ2IjoiMSJ9.1h4vB-D_MTXfkYJyVSVQxe2WQeY9DuPIQJzae3BkIyICSF_RG0wC4vKpVX4EZp2w9vtTNAYm2gEFmeNflfQEkMZaGwj7AnJl_mOB0i-IPlRwVf2Cma7ikaS-fQlJANya0r2KV7pCPXYX62PxrdF4Mwyo3vtOAETz20xjwY0RjD_4ZcbXaqIC1jWesSco1JxHaUeu4rbDEWbJg7QCEL1LP8LJiUEE94G2QLOnHVovwbJNpPOjsROYjuANHDp_1XxUSJbK5_R28OozL-DQ56-35E9XmCr2iIm63zBXDu8Xo6c.63iItRkAmsDwAQuBKECPov5YxJOioDaiH8gyY8GVTb0&dib_tag=se&keywords=Sweatpants&qid=1730738093&sprefix=sweatpants%2Caps%2C341&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <img src="Sweatpants.jpg" alt="Sweatpants">
+        </a>
+        <h2>Sweatpants</h2>
+        <p><b>-50% ₹499</b><br>
+            M.R.P.: <strike>₹999.0</strike></p>
+        <a href="https://www.amazon.in/RynoGear-Regular-Super-Stretchable-Track/dp/B0CQ4ZQ184/ref=sr_1_3_sspa?crid=3U8E7RKPQ4BT3&dib=eyJ2IjoiMSJ9.1h4vB-D_MTXfkYJyVSVQxe2WQeY9DuPIQJzae3BkIyICSF_RG0wC4vKpVX4EZp2w9vtTNAYm2gEFmeNflfQEkMZaGwj7AnJl_mOB0i-IPlRwVf2Cma7ikaS-fQlJANya0r2KV7pCPXYX62PxrdF4Mwyo3vtOAETz20xjwY0RjD_4ZcbXaqIC1jWesSco1JxHaUeu4rbDEWbJg7QCEL1LP8LJiUEE94G2QLOnHVovwbJNpPOjsROYjuANHDp_1XxUSJbK5_R28OozL-DQ56-35E9XmCr2iIm63zBXDu8Xo6c.63iItRkAmsDwAQuBKECPov5YxJOioDaiH8gyY8GVTb0&dib_tag=se&keywords=Sweatpants&qid=1730738093&sprefix=sweatpants%2Caps%2C341&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/SEWELO-FASHION-Shorts-Bermuda-Regular/dp/B0DF2YRN9N/ref=sr_1_7?crid=14YU8T883ZWEA&dib=eyJ2IjoiMSJ9.mXwH8CKWNcvszWp5LYd60gMc4Ig6pfYei72_7ptzeRNphFapbjVB13ZIOs_XlmcXdltSVwNcB3lsmZZS60aedBAVQ7B5MxDcRkhUkWTa0bSCNcTqxqMOK8n7qzt0Y4KD-MvpdDakO429HZSOXtjxBqqEd5vFlS6nYHZ5N6-K0es9itk3hCiJWUqCb_mSVI6wxvyHX9_9RGY-lK8eyzxGZDqXVUef3fzOsSFAReCJ-KOV5xrSK6R2xEpOWRX-p-vtcLNHfQ-QJ3nEy_cUNQlxpRt9HtRdm7u-VT7KUO8NB38.Lby-3RYg8sc9SWsTTIF9HSFuDhj2IJV3O8XtavYiSuk&dib_tag=se&keywords=Bermuda+Shorts&qid=1730738231&sprefix=bermuda+shorts%2Caps%2C226&sr=8-7">
+            <img src="Bermuda Shorts.jpg" alt="Bermuda Shorts">
+        </a>
+        <h2>Bermuda Shorts</h2>
+        <p><b>-71% ₹499</b><br>
+            M.R.P.:<strike>₹1,699.0</strike>
+            </p>
+        <a href="https://www.amazon.in/SEWELO-FASHION-Shorts-Bermuda-Regular/dp/B0DF2YRN9N/ref=sr_1_7?crid=14YU8T883ZWEA&dib=eyJ2IjoiMSJ9.mXwH8CKWNcvszWp5LYd60gMc4Ig6pfYei72_7ptzeRNphFapbjVB13ZIOs_XlmcXdltSVwNcB3lsmZZS60aedBAVQ7B5MxDcRkhUkWTa0bSCNcTqxqMOK8n7qzt0Y4KD-MvpdDakO429HZSOXtjxBqqEd5vFlS6nYHZ5N6-K0es9itk3hCiJWUqCb_mSVI6wxvyHX9_9RGY-lK8eyzxGZDqXVUef3fzOsSFAReCJ-KOV5xrSK6R2xEpOWRX-p-vtcLNHfQ-QJ3nEy_cUNQlxpRt9HtRdm7u-VT7KUO8NB38.Lby-3RYg8sc9SWsTTIF9HSFuDhj2IJV3O8XtavYiSuk&dib_tag=se&keywords=Bermuda+Shorts&qid=1730738231&sprefix=bermuda+shorts%2Caps%2C226&sr=8-7"><button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/GRECIILOOKS-Track-Pant-Men-GL-TP-1023-S-BLUE/dp/B0D1CLR56B/ref=sr_1_4_sspa?crid=1QOB2XF6070R8&dib=eyJ2IjoiMSJ9.IkANZmRER29RFwSgjVyJQthUkUvvot8UV3y1y_1-ypFuhlV7ifb6F34yGEZjsSp9kUO_yJ1WYp_FybD1xLLGdc9cjra3r3NqdvDWb4A-ywkEK-dc_1c2cfboqZiJLY4z8TEm6pyLbhr2uzbXQi-diIPC9q2rFA4hExRc5xi-uuub20_aRkslOju0kznbIiNdydkKBhHVu3IVyZKbkHeK0iirzc3SmScNICEhtKhEM1ifCA4aIJ2GMbTWteo9B3xdJ4Bl5HDKULkta62uE3AgdayqRHEEEsjEfbeUmlwKcF4.ggRbAxQcV73RZULGI2yFRkjlDs6ThPFe88FY6x-oNCw&dib_tag=se&keywords=Track+Pants&qid=1730738368&sprefix=track+pants%2Caps%2C363&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <img src="Track Pants.jpg" alt="Track Pants">
+        </a>
+        <h2>Track Pants</h2>
+        <p><b>-83% ₹349</b><br>
+            M.R.P.:<strike> ₹1,999.0</strike>
+            </p>
+        <a href="https://www.amazon.in/GRECIILOOKS-Track-Pant-Men-GL-TP-1023-S-BLUE/dp/B0D1CLR56B/ref=sr_1_4_sspa?crid=1QOB2XF6070R8&dib=eyJ2IjoiMSJ9.IkANZmRER29RFwSgjVyJQthUkUvvot8UV3y1y_1-ypFuhlV7ifb6F34yGEZjsSp9kUO_yJ1WYp_FybD1xLLGdc9cjra3r3NqdvDWb4A-ywkEK-dc_1c2cfboqZiJLY4z8TEm6pyLbhr2uzbXQi-diIPC9q2rFA4hExRc5xi-uuub20_aRkslOju0kznbIiNdydkKBhHVu3IVyZKbkHeK0iirzc3SmScNICEhtKhEM1ifCA4aIJ2GMbTWteo9B3xdJ4Bl5HDKULkta62uE3AgdayqRHEEEsjEfbeUmlwKcF4.ggRbAxQcV73RZULGI2yFRkjlDs6ThPFe88FY6x-oNCw&dib_tag=se&keywords=Track+Pants&qid=1730738368&sprefix=track+pants%2Caps%2C363&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Van-Heusen-Athleisure-Track-50054_Black_Large/dp/B07R8V9QSB/ref=sr_1_1_sspa?crid=164KFUPW63E38&dib=eyJ2IjoiMSJ9.3hQ0whbfgclypWNTYMsh8odWdadJJPIOvrwzuKHJjjNgIPjXDam31_rdGUjMXBMI6hApY7TxErE5VwS4F4xV5aM-BHc-Sh32DghbWus6MAt-hndHVHLk7_WD3Xgv8wnerKh6brNj4UAUDU0d3LYoTKTQnXqX3xrQ_nIm8-hXwGg5o_pRqsI1LgcT7HLL3ybpMDegN6FuZg6tusmlljEQG6ErrESZXugbCXyT88BY3P6IZQy7fPWHFyeDmrLoQC6wd-zSaw3QWlLV5GqfOZ_JN_Squfag20WG6WkN3ybmIps.tdu5vVn-LolIES4fFIY5j81wKoIL1FKW7RNXQFK1URU&dib_tag=se&keywords=Joggers&qid=1730738504&sprefix=joggers%2Caps%2C302&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <img src="Joggers.jpg" alt="Joggers">
+        </a>
+        <h2>Joggers</h2>
+        <p><b>-11% ₹1,423</b><br>
+            M.R.P.: <strike>₹1,599.0</strike></p>
+        <a href="https://www.amazon.in/Van-Heusen-Athleisure-Track-50054_Black_Large/dp/B07R8V9QSB/ref=sr_1_1_sspa?crid=164KFUPW63E38&dib=eyJ2IjoiMSJ9.3hQ0whbfgclypWNTYMsh8odWdadJJPIOvrwzuKHJjjNgIPjXDam31_rdGUjMXBMI6hApY7TxErE5VwS4F4xV5aM-BHc-Sh32DghbWus6MAt-hndHVHLk7_WD3Xgv8wnerKh6brNj4UAUDU0d3LYoTKTQnXqX3xrQ_nIm8-hXwGg5o_pRqsI1LgcT7HLL3ybpMDegN6FuZg6tusmlljEQG6ErrESZXugbCXyT88BY3P6IZQy7fPWHFyeDmrLoQC6wd-zSaw3QWlLV5GqfOZ_JN_Squfag20WG6WkN3ybmIps.tdu5vVn-LolIES4fFIY5j81wKoIL1FKW7RNXQFK1URU&dib_tag=se&keywords=Joggers&qid=1730738504&sprefix=joggers%2Caps%2C302&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/American-Elm-Formal-Trouser-Office/dp/B0D5H6SSS2/ref=sr_1_9?crid=3VCYVAFZFB7EZ&dib=eyJ2IjoiMSJ9.-meIKEgu3Cz9SBAIxXlKqFGoJInaGvXS9YkSDaGK1jBtnzRgIynYcPkIh5Tm3LDCtJpLSYTnEOtgqrl3MN54bOM4SilF44aomLQ7pJLLJwoNKO47U2JDndj7-a9v6g1O8IWZvYI73nTpB5KOS30T7w28Zp3g607pIVxjwJW0K1oOpEMyfU-yaxCfd0f_gdBZxjsq_EQWeScLFvyDq3yf-S4A6Bs6XVpHJmhkxUm64888Ef6BN6t-yeIPRZd77O7X6Tf6fdUSyzjjQLI4yshHBY13K9GsVU6q_rI7fV_GfoQ.QIhswH9P6RHX5xwetts9hks5P7kTIE5xtH1vGrRd0XA&dib_tag=se&keywords=suit+pants+for+men&qid=1730738696&sprefix=Suit+Pants+for%2Caps%2C289&sr=8-9">
+            <img src="Suit Pants.jpg" alt="Suit Pants">
+        </a>
+        <h2>Suit Pants</h2>
+        <p><b>-43% ₹599</b><br>
+            M.R.P.:<strike> ₹1,049.0</strike>
+            </p>
+            <a href="https://www.amazon.in/American-Elm-Formal-Trouser-Office/dp/B0D5H6SSS2/ref=sr_1_9?crid=3VCYVAFZFB7EZ&dib=eyJ2IjoiMSJ9.-meIKEgu3Cz9SBAIxXlKqFGoJInaGvXS9YkSDaGK1jBtnzRgIynYcPkIh5Tm3LDCtJpLSYTnEOtgqrl3MN54bOM4SilF44aomLQ7pJLLJwoNKO47U2JDndj7-a9v6g1O8IWZvYI73nTpB5KOS30T7w28Zp3g607pIVxjwJW0K1oOpEMyfU-yaxCfd0f_gdBZxjsq_EQWeScLFvyDq3yf-S4A6Bs6XVpHJmhkxUm64888Ef6BN6t-yeIPRZd77O7X6Tf6fdUSyzjjQLI4yshHBY13K9GsVU6q_rI7fV_GfoQ.QIhswH9P6RHX5xwetts9hks5P7kTIE5xtH1vGrRd0XA&dib_tag=se&keywords=suit+pants+for+men&qid=1730738696&sprefix=Suit+Pants+for%2Caps%2C289&sr=8-9">
+                <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Twist-Checked-Sleepwear-Contrast-Shipping/dp/B0777JRC53/ref=sr_1_2?crid=HNPVWYAY84FM&dib=eyJ2IjoiMSJ9.nYoBzYqBq5myr0B8rCP-YEk_zZiUukMTzcCWjm3jIN2TGlgcOM3zc70RQPavco_Yhoo1Q6bhFCCoIDOsjb2iPYX9UULO6ax5tK8ejbSd4zSBZgP1BpRmuspJmxXC8PKvGdjwbv2bZehNApvMw3M25SilO62jqoWRO0-ysxKmFVxAEosg_WAr9FQk88nGvUUtm3sb74DzGiGU176qvdgt_9r7BS-5llf33bL0aAe56l5gzbQ7w4x0TlLYyJHfojzpFevbsqDMFNlxCZzn3N6XGABmHt4OweQo2MphNepKq7E.zkTR22vQ59ZtCa5E-1RL--fKEdXtp9DqaqDALrSN6aY&dib_tag=se&keywords=Plaid+Pants&qid=1730738829&sprefix=plaid+pants%2Caps%2C264&sr=8-2">
+            <img src="Plaid Pants.jpg" alt="Plaid Pants">
+        </a>
+        <h2>Plaid Pants</h2>
+        <p><b>-60% ₹795</b><br>
+            M.R.P.:<strike> ₹1,999.0</strike></p>
+            <a href="https://www.amazon.in/Twist-Checked-Sleepwear-Contrast-Shipping/dp/B0777JRC53/ref=sr_1_2?crid=HNPVWYAY84FM&dib=eyJ2IjoiMSJ9.nYoBzYqBq5myr0B8rCP-YEk_zZiUukMTzcCWjm3jIN2TGlgcOM3zc70RQPavco_Yhoo1Q6bhFCCoIDOsjb2iPYX9UULO6ax5tK8ejbSd4zSBZgP1BpRmuspJmxXC8PKvGdjwbv2bZehNApvMw3M25SilO62jqoWRO0-ysxKmFVxAEosg_WAr9FQk88nGvUUtm3sb74DzGiGU176qvdgt_9r7BS-5llf33bL0aAe56l5gzbQ7w4x0TlLYyJHfojzpFevbsqDMFNlxCZzn3N6XGABmHt4OweQo2MphNepKq7E.zkTR22vQ59ZtCa5E-1RL--fKEdXtp9DqaqDALrSN6aY&dib_tag=se&keywords=Plaid+Pants&qid=1730738829&sprefix=plaid+pants%2Caps%2C264&sr=8-2">
+                <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/XYXX-Cotton-Chinos-Regular-CB1SHT03_34/dp/B0D25TY3XV/ref=sr_1_1_sspa?crid=2PZ6Y845MSZAI&dib=eyJ2IjoiMSJ9.ILl5QJ-g-QciPavSO1x63xHCqyGe4-LKTbNUIOaD1XkG9kCSHQdLgFpK2W9JDH6nsH6KePJNTlalRzQ8zONwDraX9r7fXVzXoWbgG3-RqamLtQK_AbHBuuu4Vsj6dRTCcf8I7j1vJlNSYoGY2eEuFpRQlPQIzxvBepjHtM69QV77jD6aRN8Pyugng_-DpeXrEPSO7LfzdU5Te6XjG0vtimQkcky4grmfLue4NtmkEFPiy2PlRxEKnl7YskV5R7h0mLAAAJWVydnd_eJMnZo7k5vbDGUi9tNldJfrWY9rpSs.I1u4In6F-mg1ArrhWFAamGj9o_HcWprl5yeTgW7LqYQ&dib_tag=se&keywords=Cargo+Shorts&qid=1730739036&sprefix=cargo+shorts%2Caps%2C473&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <img src="Cargo Shorts.jpg" alt="Cargo Shorts">
+        </a>
+        <h2>Cargo Shorts</h2>
+        <p><b>-10% ₹854</b><br>
+            M.R.P.:<strike> ₹949.0</strike>
+            </p>
+            <a href="https://www.amazon.in/XYXX-Cotton-Chinos-Regular-CB1SHT03_34/dp/B0D25TY3XV/ref=sr_1_1_sspa?crid=2PZ6Y845MSZAI&dib=eyJ2IjoiMSJ9.ILl5QJ-g-QciPavSO1x63xHCqyGe4-LKTbNUIOaD1XkG9kCSHQdLgFpK2W9JDH6nsH6KePJNTlalRzQ8zONwDraX9r7fXVzXoWbgG3-RqamLtQK_AbHBuuu4Vsj6dRTCcf8I7j1vJlNSYoGY2eEuFpRQlPQIzxvBepjHtM69QV77jD6aRN8Pyugng_-DpeXrEPSO7LfzdU5Te6XjG0vtimQkcky4grmfLue4NtmkEFPiy2PlRxEKnl7YskV5R7h0mLAAAJWVydnd_eJMnZo7k5vbDGUi9tNldJfrWY9rpSs.I1u4In6F-mg1ArrhWFAamGj9o_HcWprl5yeTgW7LqYQ&dib_tag=se&keywords=Cargo+Shorts&qid=1730739036&sprefix=cargo+shorts%2Caps%2C473&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                <button>BUY NOW</button></a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Prime Deals. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+//men footwear
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Footwear - Prime Deals</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            background-color: #000;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        #Das {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            width: calc(25% - 40px); 
+            box-sizing: border-box;
+        }
+
+        .product:hover {
+            transform: translateY(-5px);
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product h2 {
+            font-size: 1.2em;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .product p {
+            color: #666;
+            margin: 5px 0;
+        }
+
+        .product button {
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .product button:hover {
+            background-color: #d36e7c;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #003366;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Prime Deals - Men's Footwear</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="http://127.0.0.1:5500/project.html">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/aboutus.html">About Us</a></li>
+        <li><a href="http://127.0.0.1:5500/Contact%20us.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+<div id="Das">
+    <h2>Footwear Collection</h2>
+</div>
+
+<div class="product-list">
+    <div class="product">
+        <a href="https://www.amazon.in/LUDIC-Leather-Sneakers-Classic-Comfort/dp/B0CQP9ZJKL/ref=sr_1_1_sspa?crid=2MEEXUJ7QVJP5&dib=eyJ2IjoiMSJ9.1t7ys52X-A4jseduCrrMLPZdyq8p9AFoPY3CpLZpw0jj3qjqbhOqsLWx-Zg0Lr-mDDLkF1ArWhQDj5h-rbmRAG0HOP-MKehYnk8P8EuRuo30uZH-VQ0KGBl1AJl0slJ3Bfp7-FtKTb10ykCIdA-ekFoDLovZ92kB6vTdEbXxkqKNzd9zwTQDQI6UKMS66aP9OaJZTJYBE2n9s6fWzB8ggGcbd7x8w1oPZ2K4nSBGmfOwZNYEGIk0YDtsTYx68J5-hiycaaHmP8RySx_vNqz69_vnJnJovX-cj2AQCesJRvY.PQm8gRJwBz8yDBHgoqrf0_gewtRodQhM1x4xUd1KmdY&dib_tag=se&keywords=Classic+Sneakers&qid=1730739869&sprefix=classic+sneakers%2Caps%2C617&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <img src="Classic Sneakers.jpg" alt="Sneakers">
+        </a>
+        <h2>Classic Sneakers</h2>
+        <p><b>-25% ₹2,624</b><br>
+            M.R.P.: <strike>₹3,499.0</strike>
+        </p>
+        <a href="https://www.amazon.in/LUDIC-Leather-Sneakers-Classic-Comfort/dp/B0CQP9ZJKL/ref=sr_1_1_sspa?crid=2MEEXUJ7QVJP5&dib=eyJ2IjoiMSJ9.1t7ys52X-A4jseduCrrMLPZdyq8p9AFoPY3CpLZpw0jj3qjqbhOqsLWx-Zg0Lr-mDDLkF1ArWhQDj5h-rbmRAG0HOP-MKehYnk8P8EuRuo30uZH-VQ0KGBl1AJl0slJ3Bfp7-FtKTb10ykCIdA-ekFoDLovZ92kB6vTdEbXxkqKNzd9zwTQDQI6UKMS66aP9OaJZTJYBE2n9s6fWzB8ggGcbd7x8w1oPZ2K4nSBGmfOwZNYEGIk0YDtsTYx68J5-hiycaaHmP8RySx_vNqz69_vnJnJovX-cj2AQCesJRvY.PQm8gRJwBz8yDBHgoqrf0_gewtRodQhM1x4xUd1KmdY&dib_tag=se&keywords=Classic+Sneakers&qid=1730739869&sprefix=classic+sneakers%2Caps%2C617&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Big-Fox-Tasseled-Loafers-Moccasins/dp/B076H38RRT/ref=sr_1_1_sspa?crid=32IG7CCDAM142&dib=eyJ2IjoiMSJ9.3-GNOo1qMlf3VZI7m7I4iSQVmc38jmFFu8eaBf_4wQ50_YSQoQ9ChpOBN1ovPJjmGUh9_jypu6IxAgQIDhorvQVH7MQSHwi4JgxutfjZ3UMA2eB2X-4nkguYdJLark63J5tJhvxTjZs7-mcg1q7KcVBYbC2AC5vaWuSjO8s2fOaEsqKbk_aZuA3Agxnb0SUqscLyIbdlEfvMxspWyw8Z1-pR0GOB0XWHYA7zeGFWV1lWg9UWmuCzwhFl6ZuSZftBqxcSt2k65xiHM5P7esvmjvrn7Af8zhVCHVO4zmrVyEs.XDvs-kAlAH6XN06f4ATM0RohJ0LStn4kbmsoSPYkuAQ&dib_tag=se&keywords=Loafers&qid=1730740060&sprefix=loafers%2Caps%2C675&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <img src="Loafers.jpg" alt="Loafers">
+        </a>
+        <h2>Leather Loafers</h2>
+        <p><b>-63% ₹749</b><br>
+            M.R.P.:<strike>1,999.0</strike>
+        </p>
+        <a href="https://www.amazon.in/Big-Fox-Tasseled-Loafers-Moccasins/dp/B076H38RRT/ref=sr_1_1_sspa?crid=32IG7CCDAM142&dib=eyJ2IjoiMSJ9.3-GNOo1qMlf3VZI7m7I4iSQVmc38jmFFu8eaBf_4wQ50_YSQoQ9ChpOBN1ovPJjmGUh9_jypu6IxAgQIDhorvQVH7MQSHwi4JgxutfjZ3UMA2eB2X-4nkguYdJLark63J5tJhvxTjZs7-mcg1q7KcVBYbC2AC5vaWuSjO8s2fOaEsqKbk_aZuA3Agxnb0SUqscLyIbdlEfvMxspWyw8Z1-pR0GOB0XWHYA7zeGFWV1lWg9UWmuCzwhFl6ZuSZftBqxcSt2k65xiHM5P7esvmjvrn7Af8zhVCHVO4zmrVyEs.XDvs-kAlAH6XN06f4ATM0RohJ0LStn4kbmsoSPYkuAQ&dib_tag=se&keywords=Loafers&qid=1730740060&sprefix=loafers%2Caps%2C675&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Spykar-Gio-Mocha-Comfort-Sandals/dp/B0CY578NK1/ref=sr_1_1_sspa?crid=2SCMG18N1BBDU&dib=eyJ2IjoiMSJ9.1XlsH2qSt0jAd8vDNf8dZc2ijA_UrP09IrTaeF_Zsr--mh2is2Hp737rjUPDXRDgZg7rBVYWATBJ6vzNfxTA7mVe_oYTVrUd5BcH_PXHwA0vgoKAL4lexOnSylTPfGsW28xBXq5xt364NYewqvgSnGfPMQK6kovfdB_zKFjEIzAME5jrKDI6tAmecuszX4o1agHFdQ5ShW_BqwWgnDZ7J5e8NJdQT7Z5gCgkBXC1_GDELHTPWurhzGTqLgvtGQrKWpevY6PA4kHg0sWuwrv4-U8R3a9C_z40oBaR03pO2Xc.SFUh2ce0j-Ouj0CjHtXMULz29RKVdMoaJIkA6BHCzfA&dib_tag=se&keywords=Comfort+Sandals+for+men&qid=1730740247&sprefix=comfort+sandals+for+men%2Caps%2C270&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <img src="Comfort Sandals.jpg" alt="Sandals">
+        </a>
+        <h2>Comfort Sandals</h2>
+        <p><b>₹2,399</b>
+        </p>
+        <a href="https://www.amazon.in/Spykar-Gio-Mocha-Comfort-Sandals/dp/B0CY578NK1/ref=sr_1_1_sspa?crid=2SCMG18N1BBDU&dib=eyJ2IjoiMSJ9.1XlsH2qSt0jAd8vDNf8dZc2ijA_UrP09IrTaeF_Zsr--mh2is2Hp737rjUPDXRDgZg7rBVYWATBJ6vzNfxTA7mVe_oYTVrUd5BcH_PXHwA0vgoKAL4lexOnSylTPfGsW28xBXq5xt364NYewqvgSnGfPMQK6kovfdB_zKFjEIzAME5jrKDI6tAmecuszX4o1agHFdQ5ShW_BqwWgnDZ7J5e8NJdQT7Z5gCgkBXC1_GDELHTPWurhzGTqLgvtGQrKWpevY6PA4kHg0sWuwrv4-U8R3a9C_z40oBaR03pO2Xc.SFUh2ce0j-Ouj0CjHtXMULz29RKVdMoaJIkA6BHCzfA&dib_tag=se&keywords=Comfort+Sandals+for+men&qid=1730740247&sprefix=comfort+sandals+for+men%2Caps%2C270&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/FAUSTO-Formal-Office-Dress-Numeric_8/dp/B0CXSCK8GZ/ref=sr_1_1_sspa?crid=JXIKBZE8SZ75&dib=eyJ2IjoiMSJ9.VUtzpoc9n8VOkmUULhTZOjDf0_csMudrWmUhh1ZYi54ofUYL-dnkIhE0o-LUvWesBbeVIV41HBu4_OkLaGxp03k-TBBtPNgK74UiKJkswZwxAb7Q2pIgGBbJxzOCaJMf9lOFQEGrQQPD8fV2SWXU-P5A113HY1Sik4EFK8mzlcZXDwy_zwI8PByEwKmp-P4FxGjObtbv_Q4WsWt-nduTNh9DtfWdkpetdfa-vaozdKzK7BmuS8V8Bmq3BGOTCMVfp4LhIUcJv4LWivp-KzCKMreX6kzsJTWzwf0hLTRkZrw.M41RagC9bdMEnQdMCoWtdrWd26ODqJ8d8HM77AEiAys&dib_tag=se&keywords=Formal+Dress+Shoes&qid=1730740420&sprefix=formal+dress+shoes%2Caps%2C600&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <img src="Formal Dress Shoes.jpg" alt="Formal Shoes">
+        </a>
+        <h2>Formal Dress Shoes</h2>
+        <p><b>-64% ₹899</b><br>
+            M.R.P.: <strike>₹2,499.0</strike>
+        </p>
+        <a href="https://www.amazon.in/FAUSTO-Formal-Office-Dress-Numeric_8/dp/B0CXSCK8GZ/ref=sr_1_1_sspa?crid=JXIKBZE8SZ75&dib=eyJ2IjoiMSJ9.VUtzpoc9n8VOkmUULhTZOjDf0_csMudrWmUhh1ZYi54ofUYL-dnkIhE0o-LUvWesBbeVIV41HBu4_OkLaGxp03k-TBBtPNgK74UiKJkswZwxAb7Q2pIgGBbJxzOCaJMf9lOFQEGrQQPD8fV2SWXU-P5A113HY1Sik4EFK8mzlcZXDwy_zwI8PByEwKmp-P4FxGjObtbv_Q4WsWt-nduTNh9DtfWdkpetdfa-vaozdKzK7BmuS8V8Bmq3BGOTCMVfp4LhIUcJv4LWivp-KzCKMreX6kzsJTWzwf0hLTRkZrw.M41RagC9bdMEnQdMCoWtdrWd26ODqJ8d8HM77AEiAys&dib_tag=se&keywords=Formal+Dress+Shoes&qid=1730740420&sprefix=formal+dress+shoes%2Caps%2C600&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/GALEX-DESIDERIO-Leather-Chelsea-Stylish/dp/B0CR138JKK/ref=sr_1_3_sspa?crid=3AEH3UQIK59F5&dib=eyJ2IjoiMSJ9.q9VspCD2sL9cBwrwqkalZ-vmdK-J1QYWcZkkg04uS15YmOZKYrGGU07UjoyNUEMCwYaajHYd_CFAt9vIUlZfP-O5wmf7nxGVY4MABMQbTUDXaEVtiB3dSdMtZTUu5g0wJBFdTYUb-GkwYnmpDJdnWt123Q3IZkqCMe81namYr3YN4SYHBOOdeS7fQa4GQwTvyPO--gVsfYX-wibv_2HZ_O8JEhsvdXwoSEpt88QvTAIeDnGNfXo497XX8iqeWgGbsbpxD0keq0HVgn_8TihftIdsBH2-IKACsM3EA-knJok.FIiV0n5bGbw8Yh8iB6kx3z9jzwMvibLNioe6CiiVmrw&dib_tag=se&keywords=Stylish+Boots&qid=1730740564&sprefix=stylish+boots%2Caps%2C260&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <img src="Stylish Boots.jpg" alt="Boots">
+        </a>
+        <h2>Stylish Boots</h2>
+        <p><b>-71% ₹2,649</b><br>
+            M.R.P.:<strike> ₹8,999.0</strike>
+        </p>
+        <a href="https://www.amazon.in/GALEX-DESIDERIO-Leather-Chelsea-Stylish/dp/B0CR138JKK/ref=sr_1_3_sspa?crid=3AEH3UQIK59F5&dib=eyJ2IjoiMSJ9.q9VspCD2sL9cBwrwqkalZ-vmdK-J1QYWcZkkg04uS15YmOZKYrGGU07UjoyNUEMCwYaajHYd_CFAt9vIUlZfP-O5wmf7nxGVY4MABMQbTUDXaEVtiB3dSdMtZTUu5g0wJBFdTYUb-GkwYnmpDJdnWt123Q3IZkqCMe81namYr3YN4SYHBOOdeS7fQa4GQwTvyPO--gVsfYX-wibv_2HZ_O8JEhsvdXwoSEpt88QvTAIeDnGNfXo497XX8iqeWgGbsbpxD0keq0HVgn_8TihftIdsBH2-IKACsM3EA-knJok.FIiV0n5bGbw8Yh8iB6kx3z9jzwMvibLNioe6CiiVmrw&dib_tag=se&keywords=Stylish+Boots&qid=1730740564&sprefix=stylish+boots%2Caps%2C260&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Campus-Womens-Raise-Running-Shoes/dp/B0BHHHRLHR/ref=sr_1_3_sspa?crid=390AT64RRG01I&dib=eyJ2IjoiMSJ9.k3FgLJAB9kOLDrZaaAe6gw3TaIm-c31KDRfUSatAuvi5GlQCo5PfrD0A7NfJX0htaLTwWC0svpi6_6FCpM24HbgjtRcSkRnujl1snZCdO8-85kUOiH5NQBxt11KC1O8b2HyRpgLqwe3BraDehbUiLCLB4AVWTfzZpW3mZiDlabM0CKHKphc9G86xi_Js_5Bvgk0ZvdfaVdjQoKDJPMMFZ88lgTXBLcAE9IiMxD_u83x1ZY8SAog1uSqIs0TDP7WWk0kkEhIFe8SH8t6KyHnU1c5JiBZHrkf79aMsGuefddM.u5jM5CvVbqPKvnU3qqPGSDh3RmOyySYDfCemyKctQcc&dib_tag=se&keywords=Running+Shoes&qid=1730740728&sprefix=running+shoes%2Caps%2C245&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <img src="Running Shoes.jpg" alt="Running Shoes">
+        </a>
+        <h2>Running Shoes</h2>
+        <p><b>-21% ₹1,499</b><br>
+            M.R.P.:<strike >₹1,899.0</strike>
+        </p>
+        <a href="https://www.amazon.in/Campus-Womens-Raise-Running-Shoes/dp/B0BHHHRLHR/ref=sr_1_3_sspa?crid=390AT64RRG01I&dib=eyJ2IjoiMSJ9.k3FgLJAB9kOLDrZaaAe6gw3TaIm-c31KDRfUSatAuvi5GlQCo5PfrD0A7NfJX0htaLTwWC0svpi6_6FCpM24HbgjtRcSkRnujl1snZCdO8-85kUOiH5NQBxt11KC1O8b2HyRpgLqwe3BraDehbUiLCLB4AVWTfzZpW3mZiDlabM0CKHKphc9G86xi_Js_5Bvgk0ZvdfaVdjQoKDJPMMFZ88lgTXBLcAE9IiMxD_u83x1ZY8SAog1uSqIs0TDP7WWk0kkEhIFe8SH8t6KyHnU1c5JiBZHrkf79aMsGuefddM.u5jM5CvVbqPKvnU3qqPGSDh3RmOyySYDfCemyKctQcc&dib_tag=se&keywords=Running+Shoes&qid=1730740728&sprefix=running+shoes%2Caps%2C245&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Heels-County-Leather-Canvas-Sneakers/dp/B0DHH5P972/ref=sr_1_2_sspa?crid=WZ0QW08SUF0M&dib=eyJ2IjoiMSJ9.vv8AxtDqjdZu6P9j2AArgkgN6TaS0kp6y5n9w594rWys2qAxPMlmdlqPMUeP6kA8-IjLCNvT_GThJUbUse7bHyLnnNnNlqHKsvkE96MZ7iT_psffCGW3N1AUtYkw6KMB1GEscN3yFVHLBBfXK8-rhCEYlu010-AMKjlfyRutg5E0Wj0LxNMv8EdAjT_LjHr1ccObmq2gZvTy-IkK6NbN2DBFm5UtJoEwf7oNZ3_2mApTkYh7_-Z6E8YNwyCJ4b_U9rPoKJXFTZX72FKV8hMC_ukRNCRuhaZKPMADFXyQUqM.Q20cK9_56PD8I9JnK7c-Ni2MrqTPIgCxmUMxA4OJ_E8&dib_tag=se&keywords=Canvas+Shoes&qid=1731216177&sprefix=canvas+shoes%2Caps%2C373&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+        <img src="Canvas Shoes.jpg" alt="Canvas Shoes">
+        </a>
+        <h2>Canvas Shoes</h2>
+        <p><b>-60% ₹999</b><br>
+            M.R.P.:<strike> ₹2,499.0</strike>
+        </p>
+        <a href="https://www.amazon.in/Heels-County-Leather-Canvas-Sneakers/dp/B0DHH5P972/ref=sr_1_2_sspa?crid=WZ0QW08SUF0M&dib=eyJ2IjoiMSJ9.vv8AxtDqjdZu6P9j2AArgkgN6TaS0kp6y5n9w594rWys2qAxPMlmdlqPMUeP6kA8-IjLCNvT_GThJUbUse7bHyLnnNnNlqHKsvkE96MZ7iT_psffCGW3N1AUtYkw6KMB1GEscN3yFVHLBBfXK8-rhCEYlu010-AMKjlfyRutg5E0Wj0LxNMv8EdAjT_LjHr1ccObmq2gZvTy-IkK6NbN2DBFm5UtJoEwf7oNZ3_2mApTkYh7_-Z6E8YNwyCJ4b_U9rPoKJXFTZX72FKV8hMC_ukRNCRuhaZKPMADFXyQUqM.Q20cK9_56PD8I9JnK7c-Ni2MrqTPIgCxmUMxA4OJ_E8&dib_tag=se&keywords=Canvas+Shoes&qid=1731216177&sprefix=canvas+shoes%2Caps%2C373&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Sparx-Casual-Slippers-Whgy-Sf2101Gwhgy0009/dp/B0CP3HXYZM/ref=sr_1_6?crid=3DCPIHF10S2UG&dib=eyJ2IjoiMSJ9.iQ8m4oXDmy1oc0hCVT1mrMsRQN0xcQL9Io5j4erY6TUo76NVAKVG-aOxPgELzkpIAmpmBm0c7ThfTxC2U2OHfr8Qzn5VmaBRQUWFJOrtP_Cd1jdLGGBfX0vOZMMqULdZRLN-nX4Xn2NOsR6TkKbxXLoHw4BzK7Luu1-clUMIW_2N4sFyyu7g6YcnXqwN0pJ4jka35A2rjEoXfvOGyPxd2F5V2vUFPdiuvbn6j_CTLKn1zL0kuphMq6BH_plGbpfDFyqvDbjXx1XJzwjtk3prqQF-9u_9YsrILT65CFSAJ7M.EGgaySOUsZLS2EyMCVRDTpv0IvAfNaAba_nFfK_SSbc&dib_tag=se&keywords=Casual+Slides&qid=1730740956&sprefix=casual+slides%2Caps%2C430&sr=8-6">
+            <img src="Casual Slides.jpg" alt="Slides">
+        </a>
+        <h2>Casual Slides</h2>
+        <p><b>-27% ₹328 ₹164.00 per Count(₹164 / Count)</b><br>
+            M.R.P.:<strike> ₹449.0</strike>
+        </p>
+        <a href="https://www.amazon.in/Sparx-Casual-Slippers-Whgy-Sf2101Gwhgy0009/dp/B0CP3HXYZM/ref=sr_1_6?crid=3DCPIHF10S2UG&dib=eyJ2IjoiMSJ9.iQ8m4oXDmy1oc0hCVT1mrMsRQN0xcQL9Io5j4erY6TUo76NVAKVG-aOxPgELzkpIAmpmBm0c7ThfTxC2U2OHfr8Qzn5VmaBRQUWFJOrtP_Cd1jdLGGBfX0vOZMMqULdZRLN-nX4Xn2NOsR6TkKbxXLoHw4BzK7Luu1-clUMIW_2N4sFyyu7g6YcnXqwN0pJ4jka35A2rjEoXfvOGyPxd2F5V2vUFPdiuvbn6j_CTLKn1zL0kuphMq6BH_plGbpfDFyqvDbjXx1XJzwjtk3prqQF-9u_9YsrILT65CFSAJ7M.EGgaySOUsZLS2EyMCVRDTpv0IvAfNaAba_nFfK_SSbc&dib_tag=se&keywords=Casual+Slides&qid=1730740956&sprefix=casual+slides%2Caps%2C430&sr=8-6">
+            <button>BUY NOW</button></a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Prime Deals. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+//women sarees
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Shopping Website</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #35424a;
+}
+
+.product-section {
+    margin: 40px 0;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1 0 30%;
+    max-width: calc(33.33% - 20px);
+    box-sizing: border-box;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+.product:hover img {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.product h3 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.product p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.product .price {
+    font-size: 1.1em;
+    color: #e67e22;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #e67e22;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #d35400;
+}
+
+
+@media (max-width: 768px) {
+    .product {
+        flex: 1 0 100%; 
+        max-width: 100%; 
+    }
+}
+
+     </style>
+</head>
+<body>
+
+<header>
+    <h1>Prime Deals</h1>
+</header>
+
+<div class="container">
+    <div class="product-section">
+        <h2>Sarees</h2>
+        <div class="products">
+            <div class="product">
+                <a href="https://www.amazon.in/SGF11-Womens-Kanjivaram-Lichi-Blouse/dp/B0BM8ZHK7D/ref=sr_1_16?dib=eyJ2IjoiMSJ9.qrSXb60Xwr1UeGeAz8I8FgUl4N2yf-BQylu_RI_5eCOz3vcbtauCsUM8N-YFZ5BO6aQ-_qGh97o5i6Svdfamhhgfotuj4_KY0YdyBSy15LBiIV1tm4idbuwaFVYb5WoYmIetL8t4krmbmR0nVXFtz-P_h5E8go4hls901TKUbNHSKmizeIMShyD0A36QUcYOrNqVaFKmnl-sPy2Pjx7SdOZn9Qh8C4x637bLsoxKHZMydRzpBip-my6-pgueJchBqqgqCbjrjxcLbMbsgQei2SgbiPT4jCvxagExYvTdusI.0GYqrYO_zY0BfdJR7QT6EXkxNTj8xkG-Vvf1vX9clBc&dib_tag=se&keywords=Silk+Saree&qid=1730741855&sr=8-16"><img src="Silk Saree.jpg" alt="Silk Saree"></a>
+                <h3>Silk Saree</h3>
+                <p>"A silk saree drapes you in timeless luxury, shimmering with the grace of tradition and the elegance of art."</p>
+                <div class="price"><b>-87% ₹799</b><br>
+                    M.R.P.:<strike> ₹5,999.0</strike>
+                    </div>
+                <a href="https://www.amazon.in/SGF11-Womens-Kanjivaram-Lichi-Blouse/dp/B0BM8ZHK7D/ref=sr_1_16?dib=eyJ2IjoiMSJ9.qrSXb60Xwr1UeGeAz8I8FgUl4N2yf-BQylu_RI_5eCOz3vcbtauCsUM8N-YFZ5BO6aQ-_qGh97o5i6Svdfamhhgfotuj4_KY0YdyBSy15LBiIV1tm4idbuwaFVYb5WoYmIetL8t4krmbmR0nVXFtz-P_h5E8go4hls901TKUbNHSKmizeIMShyD0A36QUcYOrNqVaFKmnl-sPy2Pjx7SdOZn9Qh8C4x637bLsoxKHZMydRzpBip-my6-pgueJchBqqgqCbjrjxcLbMbsgQei2SgbiPT4jCvxagExYvTdusI.0GYqrYO_zY0BfdJR7QT6EXkxNTj8xkG-Vvf1vX9clBc&dib_tag=se&keywords=Silk+Saree&qid=1730741855&sr=8-16"
+                class="btn">BUY NOW</a>
+            </div>
+            <div class="product">
+                <a href="https://www.amazon.in/Crafts-Moda-Cotton-Paisley-Fabric/dp/B0D9YR8Z5Q/ref=sr_1_2?crid=10U2ROEK6UY8Z&dib=eyJ2IjoiMSJ9.C9DMONX2c_1m484enp_2v4xIoomJ1mvzwFbjeQp7viqizOeXmSFlKwYHEzfwqq6S4WlFmPLlQqFWPBtQoWXDyIufM4uFRUMZxKCs6HheP8vShvo1whOv2ykFHJltI7ajBMa6f8FZbCyuv1sIPePIqrO6cK-iJtI1FXZCIMojssLYYVoRqOm3HE4tm5lpBOnAplvYL14_c8uhKDC7GOwIC8yeJAVOW5FTIioHvDMq-hCoFfSuspdkd5IhR4s2uK-iAGfRfSzY0RpKuSt69v8xLhkAGzuhVUCYu47UpzuyU9Q.A5hntuRsWWxY9jxxW8dH1T_nV6HvqAjrjchg4eIn1Oc&dib_tag=se&keywords=Cotton+Saree&qid=1730742556&sprefix=cotton+saree%2Caps%2C250&sr=8-2"><img src="Cotton Saree.jpg" alt="Cotton Saree"></a>
+                <h3>Cotton Saree</h3>
+                <p>"Graceful and grounded, a cotton saree breathes simplicity and elegance into every thread."</p>
+                <div class="price"><b>-57% ₹854</b><br>
+                    M.R.P.:<strike> ₹1,999.0</strike>
+                </div>
+                <a href="https://www.amazon.in/Crafts-Moda-Cotton-Paisley-Fabric/dp/B0D9YR8Z5Q/ref=sr_1_2?crid=10U2ROEK6UY8Z&dib=eyJ2IjoiMSJ9.C9DMONX2c_1m484enp_2v4xIoomJ1mvzwFbjeQp7viqizOeXmSFlKwYHEzfwqq6S4WlFmPLlQqFWPBtQoWXDyIufM4uFRUMZxKCs6HheP8vShvo1whOv2ykFHJltI7ajBMa6f8FZbCyuv1sIPePIqrO6cK-iJtI1FXZCIMojssLYYVoRqOm3HE4tm5lpBOnAplvYL14_c8uhKDC7GOwIC8yeJAVOW5FTIioHvDMq-hCoFfSuspdkd5IhR4s2uK-iAGfRfSzY0RpKuSt69v8xLhkAGzuhVUCYu47UpzuyU9Q.A5hntuRsWWxY9jxxW8dH1T_nV6HvqAjrjchg4eIn1Oc&dib_tag=se&keywords=Cotton+Saree&qid=1730742556&sprefix=cotton+saree%2Caps%2C250&sr=8-2"
+                class="btn">BUY NOW</a>
+            </div>
+            <div class="product">
+                <a href="https://www.amazon.in/Enterprise-Womens-Banarasi-Kanjivaram-Wedding/dp/B0D8GYHB4M/ref=sr_1_3?crid=3NVQQ32TZ180&dib=eyJ2IjoiMSJ9.DUxekA-st3nJIXCC3bHsskEP9syWPATnC_8wZBJbDN4v4ZWsU7fuiyUwgYQ9G2OeFvu98fdYLR6o3dzrSpLnjbeM2-yUvTKXCmuILh82muFKBPS_HrfBJtVaYnI9mN1Ez5bc6Izqpkv-B2b6NwhQboqaoGkHpZhvxlYIQbU3uqb6_e031oG8cAEyoUeaR8A3aGYWy8_44xb6E49SAQOizqqgPkUDSEB0O7sllCqKnm3q1ld8gM15vwDBmVRwRHeUdtw-k0lA98hSG_3WuLZOU9UhUgeC48L-xpEU2zsjEJg.3m4pazBx2K5kQ3u8PdRbromUn-yGGd4qeX3WUnzpWmE&dib_tag=se&keywords=Banarasi+Saree&qid=1730742691&sprefix=banarasi+saree%2Caps%2C377&sr=8-3"><img src="Banarasi Saree.jpg" alt="Banarasi Saree"></a>
+                <h3>Banarasi Saree</h3>
+                <p>"Elegance woven with golden dreams, the Banarasi is a heritage carried through the generations."</p>
+                <div class="price"><b>-53% ₹474</b><br>
+                    M.R.P.:<strike> ₹999.0</strike>
+                </div>
+                <a href="https://www.amazon.in/Enterprise-Womens-Banarasi-Kanjivaram-Wedding/dp/B0D8GYHB4M/ref=sr_1_3?crid=3NVQQ32TZ180&dib=eyJ2IjoiMSJ9.DUxekA-st3nJIXCC3bHsskEP9syWPATnC_8wZBJbDN4v4ZWsU7fuiyUwgYQ9G2OeFvu98fdYLR6o3dzrSpLnjbeM2-yUvTKXCmuILh82muFKBPS_HrfBJtVaYnI9mN1Ez5bc6Izqpkv-B2b6NwhQboqaoGkHpZhvxlYIQbU3uqb6_e031oG8cAEyoUeaR8A3aGYWy8_44xb6E49SAQOizqqgPkUDSEB0O7sllCqKnm3q1ld8gM15vwDBmVRwRHeUdtw-k0lA98hSG_3WuLZOU9UhUgeC48L-xpEU2zsjEJg.3m4pazBx2K5kQ3u8PdRbromUn-yGGd4qeX3WUnzpWmE&dib_tag=se&keywords=Banarasi+Saree&qid=1730742691&sprefix=banarasi+saree%2Caps%2C377&sr=8-3"
+                class="btn">BUY NOW</a>
+            </div>
+            <div class="product">
+                <a href="https://www.amazon.in/SGF11-Womens-Kanjivaram-Woven-Blouse/dp/B0B6FHTHQC/ref=sr_1_2?crid=1A7MQ9DPNKLYO&dib=eyJ2IjoiMSJ9.r1xNcqBDnXeK50EKEMOw1v3dfBQ5hywciwiidk7HUv9Wrp3ExL8_bNHYe4-L0vaf4m6uSGuOFdnS_fhE9D8-oIdxkLUclXj62FiMcqq160P5xe-wMFqMMYFaC8FtZWXHlgPaTQpnThH2qclWvQSVzYsDS_xYXvbo5OOX7vmlllCMioRg3fQyd6nigtmW3ZZcrtEThNpdg_4oaWlyE-5VpAX4punHCglJa3TT560I1Wq9bmDEFFM9pxFJ8V296Z3MeBaW6b9XlLU-uYM_hDzVrmWAfySl_xdbs7ELHe3Sh-E.bOKyQmh1gW5c7p9HM-zIacDbeZqKgK-XSAjlGgDFADw&dib_tag=se&keywords=Kanjeevaram+Saree&qid=1730742861&sprefix=kanjeevaram+saree%2Caps%2C425&sr=8-2"><img src="Kanjeevaram Saree.jpg" alt="Kanjeevaram Saree"></a>
+                <h3>Kanjeevaram Saree</h3>
+                <p>"A saree that echoes the grandeur of Tamil Nadu, Kanjeevaram is silk woven with the magic of tradition."</p>
+                <div class="price"><b>-73% ₹1,599</b><br>
+                    M.R.P.:<strike> ₹5,999.0</strike>
+                </div>
+                <a href="https://www.amazon.in/SGF11-Womens-Kanjivaram-Woven-Blouse/dp/B0B6FHTHQC/ref=sr_1_2?crid=1A7MQ9DPNKLYO&dib=eyJ2IjoiMSJ9.r1xNcqBDnXeK50EKEMOw1v3dfBQ5hywciwiidk7HUv9Wrp3ExL8_bNHYe4-L0vaf4m6uSGuOFdnS_fhE9D8-oIdxkLUclXj62FiMcqq160P5xe-wMFqMMYFaC8FtZWXHlgPaTQpnThH2qclWvQSVzYsDS_xYXvbo5OOX7vmlllCMioRg3fQyd6nigtmW3ZZcrtEThNpdg_4oaWlyE-5VpAX4punHCglJa3TT560I1Wq9bmDEFFM9pxFJ8V296Z3MeBaW6b9XlLU-uYM_hDzVrmWAfySl_xdbs7ELHe3Sh-E.bOKyQmh1gW5c7p9HM-zIacDbeZqKgK-XSAjlGgDFADw&dib_tag=se&keywords=Kanjeevaram+Saree&qid=1730742861&sprefix=kanjeevaram+saree%2Caps%2C425&sr=8-2"
+                class="btn">BUY NOW</a>
+            </div>
+            <div class="product">
+                <a href="https://www.amazon.in/Designer-Yellow-Bandhani-Print-Saree/dp/B0DGXZVJYV/ref=sr_1_3?crid=2ZEHKR9MRXJ9M&dib=eyJ2IjoiMSJ9.uzzI3o_ZqEBqeljju-ie3xv8-7S-eaJ7AaL1c1EmRKepNjQqst7NYZeE-FalIariGektnYqMhk7KUwXeykUFlfDwRGOJeNkcstvHTCjxmvrKXj8Be83Ii8JWBFqq-6Yk30k43YuszoPPlk4VsQl_8wSo9sA5T3CJBfugMsSjmkdSreHPOET-enOXl1xwNRR2XlvU4Hh1nbX41KC1H59deZKaBff88vRYibEjMuRrgOkIIy_oZfXUr-FyuflI4uJVzlcSn907C3hTfmclpvLqqwxU0nINIWsP0ZFOIsWT3mU.h2PUyOmRomgG5zly3ikPzmhThpFpUAnTeiDOXQNSOjI&dib_tag=se&keywords=Bandhani+Saree&qid=1730742352&sprefix=bandhani+saree%2Caps%2C270&sr=8-3"><img src="Bandhani Saree.jpg" alt="Bandhani Saree"></a>
+                <h3>Bandhani Saree</h3>
+                <p>"Colorful like the spirit of Rajasthan, each Bandhani knot tells a tale of joy."</p>
+                <div class="price"><b>-50% ₹800</b><br>
+                    M.R.P.:<strike> ₹1,600.0</strike>
+                    </div>
+                    <a href="https://www.amazon.in/Designer-Yellow-Bandhani-Print-Saree/dp/B0DGXZVJYV/ref=sr_1_3?crid=2ZEHKR9MRXJ9M&dib=eyJ2IjoiMSJ9.uzzI3o_ZqEBqeljju-ie3xv8-7S-eaJ7AaL1c1EmRKepNjQqst7NYZeE-FalIariGektnYqMhk7KUwXeykUFlfDwRGOJeNkcstvHTCjxmvrKXj8Be83Ii8JWBFqq-6Yk30k43YuszoPPlk4VsQl_8wSo9sA5T3CJBfugMsSjmkdSreHPOET-enOXl1xwNRR2XlvU4Hh1nbX41KC1H59deZKaBff88vRYibEjMuRrgOkIIy_oZfXUr-FyuflI4uJVzlcSn907C3hTfmclpvLqqwxU0nINIWsP0ZFOIsWT3mU.h2PUyOmRomgG5zly3ikPzmhThpFpUAnTeiDOXQNSOjI&dib_tag=se&keywords=Bandhani+Saree&qid=1730742352&sprefix=bandhani+saree%2Caps%2C270&sr=8-3"
+                    class="btn">BUY NOW</a>
+            </div>
+            <div class="product">
+                <a href="https://www.amazon.in/AKHILAM-Womens-Phulkari-Unstitched-Blue_KSHFA201004_R/dp/B0BXPDKYNG/ref=sr_1_1?crid=PVT3M2GVTT9E&dib=eyJ2IjoiMSJ9.hIACN4BHV1IeSecgOpr72GeAKXNMUN-g_rCPOQ5DR4XFaEvNkDGUBbE6kkMI94qpzSXhId7rXiqkLvpjnkvNbjM9YktFH_q0a5jnLaI8c7L7FulDp8zyKd4dbeUqKF803f3THksm0LhDRYTNwMoBIwvVgGyfuoGTh5ykdbNfu0ILCsEPRmP28U9AUpXfmlDMSd_MfJMocnJ2a5TU6e-v3CfDZ_zC2ICdGm7D5Grm-2dQSpbyxV8WHAHyI1u3XKD0L0jx5Ti2jbre52GTQgEQ4K78fFdoNDXQ-jSAqACKHN0.scLMp_NzzbDRBJt5pAiK2H-NUzvUCRMYXP5dgpqB75k&dib_tag=se&keywords=Phulkari+Saree&qid=1730743025&sprefix=phulkari+saree%2Caps%2C235&sr=8-1"><img src="Phulkari Saree.jpg" alt="Phulkari Saree"></a>
+                <h3>Phulkari Saree</h3>
+                <p>"Every stitch of Phulkari blooms with the joy and colors of Punjab."</p>
+                <div class="price"><b>-83% ₹1,699</b><br>
+                    M.R.P.:<strike> ₹10,129.0</strike>
+                </div>
+                <a href="https://www.amazon.in/AKHILAM-Womens-Phulkari-Unstitched-Blue_KSHFA201004_R/dp/B0BXPDKYNG/ref=sr_1_1?crid=PVT3M2GVTT9E&dib=eyJ2IjoiMSJ9.hIACN4BHV1IeSecgOpr72GeAKXNMUN-g_rCPOQ5DR4XFaEvNkDGUBbE6kkMI94qpzSXhId7rXiqkLvpjnkvNbjM9YktFH_q0a5jnLaI8c7L7FulDp8zyKd4dbeUqKF803f3THksm0LhDRYTNwMoBIwvVgGyfuoGTh5ykdbNfu0ILCsEPRmP28U9AUpXfmlDMSd_MfJMocnJ2a5TU6e-v3CfDZ_zC2ICdGm7D5Grm-2dQSpbyxV8WHAHyI1u3XKD0L0jx5Ti2jbre52GTQgEQ4K78fFdoNDXQ-jSAqACKHN0.scLMp_NzzbDRBJt5pAiK2H-NUzvUCRMYXP5dgpqB75k&dib_tag=se&keywords=Phulkari+Saree&qid=1730743025&sprefix=phulkari+saree%2Caps%2C235&sr=8-1"
+                class="btn">BUY NOW</a>
+            </div>
+            <div class="product">
+                <a href="https://www.amazon.in/Reboot-Fashions-Maheshwari-Chiffon-80195-03_Grey/dp/B09JCPLM4F/ref=sr_1_1?crid=EW229AUPYI&dib=eyJ2IjoiMSJ9.jei0o9WvKsME4lULrJvF3C3az4DqlGv3O0EbvPthvbrEQ1fRtFfMsMIgrzfynEzE_K__AtJjtd6m8evxwexFIyYcJ9PTIcCmLtQ0mn_sR6H5iOBlrUimEV5q72mnNEkGtI9sV-CD9-gi91lSRvtjvSEqcHxcQeEYmEO_ueCvt-gkrys2ycecFcPIK-L1hZWVEDKiLkZdAX5Pr7ReKmU8BeJJvipP2X2XEYLR1uT1oWuFRmPlXOwcljnAbkkValJraZTFGoQmCrRJ-1Xy7SMvtndXIPqy5caTBQFFjTQeLXE.ZdI8UB2wYJ9vU5fbGwwhWzbsNfQfZbmbsqCv29KdDwQ&dib_tag=se&keywords=Maheshwari+Saree&qid=1730743176&sprefix=maheshwari+saree%2Caps%2C428&sr=8-1"><img src="Maheshwari Saree.jpg" alt="Maheshwari Saree"></a>
+                <h3>Maheshwari Saree</h3>
+                <p>"Simplicity meets royalty in Maheshwari, a saree that flows like the river it is named after."</p>
+                <div class="price"><b>-50% ₹499</b><br>
+                    M.R.P.:<strike>₹999</strike>
+                </div>
+                <a href="https://www.amazon.in/Reboot-Fashions-Maheshwari-Chiffon-80195-03_Grey/dp/B09JCPLM4F/ref=sr_1_1?crid=EW229AUPYI&dib=eyJ2IjoiMSJ9.jei0o9WvKsME4lULrJvF3C3az4DqlGv3O0EbvPthvbrEQ1fRtFfMsMIgrzfynEzE_K__AtJjtd6m8evxwexFIyYcJ9PTIcCmLtQ0mn_sR6H5iOBlrUimEV5q72mnNEkGtI9sV-CD9-gi91lSRvtjvSEqcHxcQeEYmEO_ueCvt-gkrys2ycecFcPIK-L1hZWVEDKiLkZdAX5Pr7ReKmU8BeJJvipP2X2XEYLR1uT1oWuFRmPlXOwcljnAbkkValJraZTFGoQmCrRJ-1Xy7SMvtndXIPqy5caTBQFFjTQeLXE.ZdI8UB2wYJ9vU5fbGwwhWzbsNfQfZbmbsqCv29KdDwQ&dib_tag=se&keywords=Maheshwari+Saree&qid=1730743176&sprefix=maheshwari+saree%2Caps%2C428&sr=8-1"
+                class="btn">BUY NOW</a>
+            </div>
+            <div class="product">
+                <a href="https://www.amazon.in/Varkala-Silk-Sarees-Paithani-NV241A208-COPR_Violet/dp/B0D9P73228/ref=sr_1_3?dib=eyJ2IjoiMSJ9.AtBK1PbfaA4eLSZbY97v0iqjRgTJroJiCB1so5PNxXY7XFM978LhSJutD4dy1DTAi0HkfSUTp4ETh5x2U04vuedAhDhnJlvj6cIupGv-Jx-QAR1hjZbBXVvrABnCIIsN2p3A0efgJDCnBoVddVJxpJr5GQGtXrRZLGGvLc6AJlvTD5wScBUgHaS9S1OL5Pf5Eb2hfb67Q0E9JShrgDkYTtAAjro5kTfbZ1YefswlZVkvZidyBJWbQ-_5ZliQViuKY-gVIdYEZuwWXiMMFnSDyz0F21bPrnOdyYg6JPLJvSk.S2S2mFmMNbRjVeCYGB04qpXRclzSqNzVuNNKwF7YroY&dib_tag=se&keywords=Nauvari+Saree&nsdOptOutParam=true&qid=1730743452&sr=8-3" target="_blank"><img src="Nauvari Saree.jpg" alt="Nauvari Saree"></a>
+                <h3>Nauvari Saree</h3>
+                <p>"Warrior-like yet elegant, the Nauvari saree embodies the strength of a Marathi woman."</p>
+                <div class="price"><b>-68% ₹4,729</b><br>
+                    M.R.P.:<strike> ₹14,999.0</strike>
+                </div>
+                <a href="https://www.amazon.in/Varkala-Silk-Sarees-Paithani-NV241A208-COPR_Violet/dp/B0D9P73228/ref=sr_1_3?dib=eyJ2IjoiMSJ9.AtBK1PbfaA4eLSZbY97v0iqjRgTJroJiCB1so5PNxXY7XFM978LhSJutD4dy1DTAi0HkfSUTp4ETh5x2U04vuedAhDhnJlvj6cIupGv-Jx-QAR1hjZbBXVvrABnCIIsN2p3A0efgJDCnBoVddVJxpJr5GQGtXrRZLGGvLc6AJlvTD5wScBUgHaS9S1OL5Pf5Eb2hfb67Q0E9JShrgDkYTtAAjro5kTfbZ1YefswlZVkvZidyBJWbQ-_5ZliQViuKY-gVIdYEZuwWXiMMFnSDyz0F21bPrnOdyYg6JPLJvSk.S2S2mFmMNbRjVeCYGB04qpXRclzSqNzVuNNKwF7YroY&dib_tag=se&keywords=Nauvari+Saree&nsdOptOutParam=true&qid=1730743452&sr=8-3"
+                class="btn">BUY NOW</a>
+            </div>
+            <div class="product">
+                <a href="https://www.amazon.in/Paramparik-Textile-Womens-Orange-Jacquard/dp/B0D29G7ZPH/ref=sr_1_3?crid=C93OG9SRK97B&dib=eyJ2IjoiMSJ9.bdCK4F3Zq-uzzQQUZCY8ApfeQYH_dWxxjOH10gJ3t6URJDJm82HzWVdrLilEIvmtlqpjtCpqDwXhLXlnCV1Yhun2-Wt-79m4G07fkShh2QWLlj_sNmOeUvLscxsKzlK7vdwobnKHvfSHwMgN-8Ufvt4Xx6mO27bElfkPNl6fcoaeHCSBwp_W7o08KE3L-MXXaaQu7gb1572wVl2f3mQnDjSP239wSf46h-11EL-KfOPBJ9uM7BGToTNPWTSih4YZ33a8-WFLVhXBMtJPQaBqJMqBwKoUl4NvgXbbLKAMdG0.URywKvTh4tKyudmDclMbGACC6JqnEis2Gu71X_7HTFU&dib_tag=se&keywords=Gadwal+Saree&qid=1730743758&sprefix=gadwal+saree%2Caps%2C235&sr=8-3"><img src="Gadwal Saree.jpg" alt="Gadwal Saree"></a>
+                <h3>Gadwal Saree</h3>
+                <p>"Where elegance meets heritage, a Gadwal saree wraps you in the artistry of tradition and the grace of silk and cotton."</p>
+                <div class="price"><b>-80% ₹599</b><br>
+                    M.R.P.:<strike> ₹2,999.0</strike>
+                </div>
+                <a href="https://www.amazon.in/Paramparik-Textile-Womens-Orange-Jacquard/dp/B0D29G7ZPH/ref=sr_1_3?crid=C93OG9SRK97B&dib=eyJ2IjoiMSJ9.bdCK4F3Zq-uzzQQUZCY8ApfeQYH_dWxxjOH10gJ3t6URJDJm82HzWVdrLilEIvmtlqpjtCpqDwXhLXlnCV1Yhun2-Wt-79m4G07fkShh2QWLlj_sNmOeUvLscxsKzlK7vdwobnKHvfSHwMgN-8Ufvt4Xx6mO27bElfkPNl6fcoaeHCSBwp_W7o08KE3L-MXXaaQu7gb1572wVl2f3mQnDjSP239wSf46h-11EL-KfOPBJ9uM7BGToTNPWTSih4YZ33a8-WFLVhXBMtJPQaBqJMqBwKoUl4NvgXbbLKAMdG0.URywKvTh4tKyudmDclMbGACC6JqnEis2Gu71X_7HTFU&dib_tag=se&keywords=Gadwal+Saree&qid=1730743758&sprefix=gadwal+saree%2Caps%2C235&sr=8-3"
+                class="btn">BUY NOW</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2024 Prime Deals. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+//women western wear
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Western Wear - Prime Deals</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            background-color: #000;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        #Das {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .product-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .product:hover {
+            transform: translateY(-5px);
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product h2 {
+            font-size: 1.2em;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .product p {
+            color: #666;
+            margin: 5px 0;
+        }
+
+        .product button {
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .product button:hover {
+            background-color: #d36e7c;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #003366;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Prime Deals - Women's Western Wear</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="http://127.0.0.1:5500/project.html">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/aboutus.html">About Us</a></li>
+        <li><a href="http://127.0.0.1:5500/Contact%20us.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+<div id="Das">
+    <h2>Western Wear</h2>
+</div>
+
+<div class="product-list">
+    <div class="product">
+        <a href="https://www.amazon.in/Sheetal-Associates-Womens-Floral-Sleeves/dp/B0DCSJT1J3/ref=sr_1_5?crid=5GV4JNAVB6LP&dib=eyJ2IjoiMSJ9.wWl-Yyg9jaPpXdaCGptqL7MIWLCQctbKbnn2pLaCPLOSNi6lHWcHZkQoJ7wIoCq9JQoeLwR8oB_6qmgXU27efv9Gv-kM0sW5R-s0ax6vV-c07b4PlgGLtD6tv-uo8nyJZ4IyLPGar9G1lV6t6ZncctEqA7LgBIjm1ilvq-K7txaZkE9aFpVnzaBf5rUD2q63PQjhYgkDqM8OMOQLFto-DAYacWPAiSOb6277oeU-Qns4x4SuAc4XIuTa9MPJUZNUoFcl6NT7XVw0GnDn932_RHJcd9vZ-7mqTmENWiQgPGI.L-PpFlHj7QfYHKwNgj8UzPWpDzI8jFX12JaTPvXu_aI&dib_tag=se&keywords=casual+dress&qid=1730745224&sprefix=casual+dres%2Caps%2C242&sr=8-5"><img src="Casual Dres.jpg" alt="Casual Dress"></a>
+        <h2>Casual Dress</h2>
+        <p><b>-81% ₹375</b><br>
+            M.R.P.:<strike> ₹1,999.0</strike>
+        </p>
+        <a href="https://www.amazon.in/Sheetal-Associates-Womens-Floral-Sleeves/dp/B0DCSJT1J3/ref=sr_1_5?crid=5GV4JNAVB6LP&dib=eyJ2IjoiMSJ9.wWl-Yyg9jaPpXdaCGptqL7MIWLCQctbKbnn2pLaCPLOSNi6lHWcHZkQoJ7wIoCq9JQoeLwR8oB_6qmgXU27efv9Gv-kM0sW5R-s0ax6vV-c07b4PlgGLtD6tv-uo8nyJZ4IyLPGar9G1lV6t6ZncctEqA7LgBIjm1ilvq-K7txaZkE9aFpVnzaBf5rUD2q63PQjhYgkDqM8OMOQLFto-DAYacWPAiSOb6277oeU-Qns4x4SuAc4XIuTa9MPJUZNUoFcl6NT7XVw0GnDn932_RHJcd9vZ-7mqTmENWiQgPGI.L-PpFlHj7QfYHKwNgj8UzPWpDzI8jFX12JaTPvXu_aI&dib_tag=se&keywords=casual+dress&qid=1730745224&sprefix=casual+dres%2Caps%2C242&sr=8-5">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/ZUVINO-Stylish-Sleeves-Western-Ruffled/dp/B08WX2XDZD/ref=sr_1_1_sspa?crid=3BHVF99T08PN1&dib=eyJ2IjoiMSJ9.3C2LJ-bpDN2f1FwXMbXhsWTK1z_146F6PcskHI2F6oKxWhHG6iqKEYih9PzlNUlpDK9xzDGzUqFYWLhOajVeNQzj_DGv14RpeHAJZ-m_Tys31DXOAMM7UTVAk38ib9yJM1md9Q6AdGxkeKrrNs1xzXN7ZDcjBLgrjP242JaBQjU6f57mtvZ4o6nDQ00WBhxwCEwTSBBys9S-XbW1BLlzgDwsB3AyGnhNfCrcywNEUGUHtoUikEXvYlXp51Yn5eAoNUoNFmlBnJo81iigaL4DmmMgKQJZrk1k1lzOemwKv4g.iUqrQUG5BXP6M_7R9sMxwswWYP_A5yqJr6HQ2HEq24U&dib_tag=se&keywords=Stylish+Top&qid=1730745490&sprefix=stylish+top%2Caps%2C238&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&smid=AFIJ9XJ3CV9JP"><img src="Stylish Top.jpg" alt="Stylish Top"></a>
+        <h2>Stylish Top</h2>
+        <p><b>-69% ₹499</b><br>
+            M.R.P.:<strike> ₹1,599.0</strike>
+        </p>
+        <a href="https://www.amazon.in/ZUVINO-Stylish-Sleeves-Western-Ruffled/dp/B08WX2XDZD/ref=sr_1_1_sspa?crid=3BHVF99T08PN1&dib=eyJ2IjoiMSJ9.3C2LJ-bpDN2f1FwXMbXhsWTK1z_146F6PcskHI2F6oKxWhHG6iqKEYih9PzlNUlpDK9xzDGzUqFYWLhOajVeNQzj_DGv14RpeHAJZ-m_Tys31DXOAMM7UTVAk38ib9yJM1md9Q6AdGxkeKrrNs1xzXN7ZDcjBLgrjP242JaBQjU6f57mtvZ4o6nDQ00WBhxwCEwTSBBys9S-XbW1BLlzgDwsB3AyGnhNfCrcywNEUGUHtoUikEXvYlXp51Yn5eAoNUoNFmlBnJo81iigaL4DmmMgKQJZrk1k1lzOemwKv4g.iUqrQUG5BXP6M_7R9sMxwswWYP_A5yqJr6HQ2HEq24U&dib_tag=se&keywords=Stylish+Top&qid=1730745490&sprefix=stylish+top%2Caps%2C238&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&smid=AFIJ9XJ3CV9JP">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/NIFTY-Womens-Slim-Jeans-Jean_PLN_BLK_Black_40/dp/B01F15NJ5Q/ref=sr_1_9?crid=30A4QPBD8DES&dib=eyJ2IjoiMSJ9.z3mywygzAI8W3oaTwm0wkYio4o--S2Zxa68Hbxr9DAvv0KBEcTZBj4j6Ap5PQoZf9c8t4Fq3lkC9aK-9TgyFR21K9BHSmxOBWilVXGNENQ83VYhbPvF95W66GYn6vWXuewpgchR_o9C2zz9RhEFytXTiRNnMUj9qqWXWlmXPbdEV_MJ3iZMui_sTgNhAq6IG8n3dA6IeJOXplq58UD4joNQODNqGDVBB2G5DUzoVIUoGpI_pgPspcJ9NcTd3z4yuIb345GgyYZv_te1PYmlwueV368mY5SDJWSAdlzAqWC8.Xzw7CMxy9PtRLEDtWstebuWe6C_l1KDDy9VGdAAWXrI&dib_tag=se&keywords=Denim+Jeans+for+women&qid=1730745650&sprefix=denim+jeans+for+women%2Caps%2C234&sr=8-9"><img src="Denim Jeans.jpg" alt="Denim Jeans"></a>
+        <h2>Denim Jeans</h2>
+        <p><b>-62% ₹499</b><br>
+            M.R.P.:<strike> ₹1,299.0</strike>
+        </p>
+        <a href="https://www.amazon.in/NIFTY-Womens-Slim-Jeans-Jean_PLN_BLK_Black_40/dp/B01F15NJ5Q/ref=sr_1_9?crid=30A4QPBD8DES&dib=eyJ2IjoiMSJ9.z3mywygzAI8W3oaTwm0wkYio4o--S2Zxa68Hbxr9DAvv0KBEcTZBj4j6Ap5PQoZf9c8t4Fq3lkC9aK-9TgyFR21K9BHSmxOBWilVXGNENQ83VYhbPvF95W66GYn6vWXuewpgchR_o9C2zz9RhEFytXTiRNnMUj9qqWXWlmXPbdEV_MJ3iZMui_sTgNhAq6IG8n3dA6IeJOXplq58UD4joNQODNqGDVBB2G5DUzoVIUoGpI_pgPspcJ9NcTd3z4yuIb345GgyYZv_te1PYmlwueV368mY5SDJWSAdlzAqWC8.Xzw7CMxy9PtRLEDtWstebuWe6C_l1KDDy9VGdAAWXrI&dib_tag=se&keywords=Denim+Jeans+for+women&qid=1730745650&sprefix=denim+jeans+for+women%2Caps%2C234&sr=8-9">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/NYPA-Ethnic-Printed-Flared-Length/dp/B0D94XLV6B/ref=sr_1_7?crid=QZBSELJ7V67E&dib=eyJ2IjoiMSJ9.xiFNFMwVJvIzHYJupfbwVNOxQ26U8ZZQHfYJU22dLZ3CCuiMui011eh6_ecy0M_2dSiL6912Qjqwq5HJdXB9w-Cd21gJPj6jtdsUzZgASkiK0dP81vapBRYLmUFDwVx71coOkR4aY1uy2rHlN4hgysiROU5DkIszPQQdkzxeXuuqJ0dgIscxv9gjGf2oBpRUhrYgyE7dpzbvs5qjW-FzjElOXuuEx-LiDhe2pRXhhn_IJfCpig4QAdpyU6wa1UxBRVR9a5-ZlrqocSQ3e6c7Fft1K5gh9If2c5xv00lpHOs.-dRphDkQrkXqmU6gEmih1NDcZpyNddXTxHPDc2SCQu8&dib_tag=se&keywords=Flared+Skirt&qid=1730745815&sprefix=flared+skirt%2Caps%2C293&sr=8-7"><img src="Flared Skirt.jpg" alt="Flared Skirt"></a>
+        <h2>Flared Skirt</h2>
+        <p><b>-68% ₹699</b><br>
+            M.R.P.:<strike> ₹2,199.0</strike></p>
+            <a href="https://www.amazon.in/NYPA-Ethnic-Printed-Flared-Length/dp/B0D94XLV6B/ref=sr_1_7?crid=QZBSELJ7V67E&dib=eyJ2IjoiMSJ9.xiFNFMwVJvIzHYJupfbwVNOxQ26U8ZZQHfYJU22dLZ3CCuiMui011eh6_ecy0M_2dSiL6912Qjqwq5HJdXB9w-Cd21gJPj6jtdsUzZgASkiK0dP81vapBRYLmUFDwVx71coOkR4aY1uy2rHlN4hgysiROU5DkIszPQQdkzxeXuuqJ0dgIscxv9gjGf2oBpRUhrYgyE7dpzbvs5qjW-FzjElOXuuEx-LiDhe2pRXhhn_IJfCpig4QAdpyU6wa1UxBRVR9a5-ZlrqocSQ3e6c7Fft1K5gh9If2c5xv00lpHOs.-dRphDkQrkXqmU6gEmih1NDcZpyNddXTxHPDc2SCQu8&dib_tag=se&keywords=Flared+Skirt&qid=1730745815&sprefix=flared+skirt%2Caps%2C293&sr=8-7">
+            <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/KASHIAN-Womens-Standard-Length-Jacket/dp/B0D4Z8C5SR/ref=sr_1_4_sspa?crid=23MKLNZU9348T&dib=eyJ2IjoiMSJ9.Xmlpu4r21s5GtiorePO-Qom8UNNaMnCTF1LTJmEqcmEo4CLHfIlO3iGtK7ZVm6hStS4LgkJXATZuo7wFPAxwny_cPE5EX58IsKmIArX2ZaqvSiz92LInDXTlouREketv0M_25zXQkiJQKRVlGbCXoovoPlLmEbCTTvo10R9iGXX-TrbvvbvO0CKdWW55RRv1Sj_nfneJgLRioc84w_kuyP_5XTDSTXLj194Str0c5Ul1XQcLVLvWfXy4yq4bpFUkMdOUudKYlWIOXr____U40KJQDdefAy00miZTlNt3sLI.ljRtrzXGCEWoX_x08nVMBSLEIu6g4o9ZFV0PKbDmhJA&dib_tag=se&keywords=Denim+Jacket+for+women&qid=1730745943&sprefix=denim+jacket+for+women%2Caps%2C267&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="Denim Jacket.jpg" alt="Denim Jacket"></a>
+        <h2>Denim Jacket</h2>
+        <p><b>-69% ₹399</b><br>
+            M.R.P.:<strike> ₹1,299.0</strike></p>
+            <a href="https://www.amazon.in/KASHIAN-Womens-Standard-Length-Jacket/dp/B0D4Z8C5SR/ref=sr_1_4_sspa?crid=23MKLNZU9348T&dib=eyJ2IjoiMSJ9.Xmlpu4r21s5GtiorePO-Qom8UNNaMnCTF1LTJmEqcmEo4CLHfIlO3iGtK7ZVm6hStS4LgkJXATZuo7wFPAxwny_cPE5EX58IsKmIArX2ZaqvSiz92LInDXTlouREketv0M_25zXQkiJQKRVlGbCXoovoPlLmEbCTTvo10R9iGXX-TrbvvbvO0CKdWW55RRv1Sj_nfneJgLRioc84w_kuyP_5XTDSTXLj194Str0c5Ul1XQcLVLvWfXy4yq4bpFUkMdOUudKYlWIOXr____U40KJQDdefAy00miZTlNt3sLI.ljRtrzXGCEWoX_x08nVMBSLEIu6g4o9ZFV0PKbDmhJA&dib_tag=se&keywords=Denim+Jacket+for+women&qid=1730745943&sprefix=denim+jacket+for+women%2Caps%2C267&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Krishna-Enterprises-Womens-Sleeve-Self-Design/dp/B0DK5GFHXB/ref=sr_1_6?crid=18V05IRN110FJ&dib=eyJ2IjoiMSJ9.cY8X-QsyPVZxNOrU3x2Otbjnm0b7Xj40m-wcsaoHbl8hfBZUHeLTU4dlxBna3cy_OLL9LqqigxzDvPGrhFcz9yNn3WdmmEYoMyHDFx7B0r4UOYc5PMYX3z4TO_vVi2Q8jywYCfeNScmyYOf0YP-IefsFmWvpJaOqcVbgPbSo9hlzOrOWxVwFGiDJ9FEY7IHp4hByGOKuGHAmF9foC5vI-NonISlMzXK71JMf-m2TH-GlXMrSkmvDiRGv5Xw_qWzDYANPr39nOA97kwQceoetHUxP43L8Jq2cLaKNKaLQJPA.IT1cPDj5BDkFpYZNDDeYWTAeKwD8xosXyAqzvgcwguc&dib_tag=se&keywords=Chic+Blouse&qid=1730746070&sprefix=chic+blouse%2Caps%2C244&sr=8-6"><img src="Chic Blouse.jpg" alt="Chic Blouse"></a>
+        <h2>Chic Blouse</h2>
+        <p><b>-75% ₹419</b><br>
+            M.R.P.:<strike> ₹1,699.0</strike>
+        </p>
+        <a href="https://www.amazon.in/Krishna-Enterprises-Womens-Sleeve-Self-Design/dp/B0DK5GFHXB/ref=sr_1_6?crid=18V05IRN110FJ&dib=eyJ2IjoiMSJ9.cY8X-QsyPVZxNOrU3x2Otbjnm0b7Xj40m-wcsaoHbl8hfBZUHeLTU4dlxBna3cy_OLL9LqqigxzDvPGrhFcz9yNn3WdmmEYoMyHDFx7B0r4UOYc5PMYX3z4TO_vVi2Q8jywYCfeNScmyYOf0YP-IefsFmWvpJaOqcVbgPbSo9hlzOrOWxVwFGiDJ9FEY7IHp4hByGOKuGHAmF9foC5vI-NonISlMzXK71JMf-m2TH-GlXMrSkmvDiRGv5Xw_qWzDYANPr39nOA97kwQceoetHUxP43L8Jq2cLaKNKaLQJPA.IT1cPDj5BDkFpYZNDDeYWTAeKwD8xosXyAqzvgcwguc&dib_tag=se&keywords=Chic+Blouse&qid=1730746070&sprefix=chic+blouse%2Caps%2C244&sr=8-6">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Janasya-Womens-Cotton-Floral-JAA24TU00172-M/dp/B0D5HY9B5R/ref=sr_1_3_sspa?crid=5I7BO9DOZS0T&dib=eyJ2IjoiMSJ9.0PCmrGnUPhZOWp0TJbbjCr5cNrH-co-yyCG1Yeo6Q3Qscel4ZwfHGnGQqvFIthbAzbw_4evHj9lMnYpo29wH8gQHZP2pdGb_eWLMgf7wvOQ0c1wdtn_ZH53c3BxjxewOrrvAitPe3dYZML5wPykm7xPEAmaplh18tebCLi_aE0b37Je7suUL1QzcrRAHYGQ_7BL9RUKcppO3mTmTe1wtmqkATjzsHiCB5ip7JaH6GYdx-ffZyGf6Uy9BW9lheTMxGSVZZtkpMNKHd8LH1-P5hpe-E7tz4bIGJ-L0W8veExM.DUHBbqD2Jb_EPRExGOLbsr2IQo9flecUMVorchVLu0Q&dib_tag=se&keywords=Tunic+Top&qid=1730746201&sprefix=tunic+top%2Caps%2C304&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="Tunic Top.jpg" alt="Tunic Top"></a>
+        <h2>Tunic Top</h2>
+        <p><b>-78% ₹549</b><br>
+            M.R.P.:<strike> ₹2,499.0</strike></p>
+            <a href="https://www.amazon.in/Janasya-Womens-Cotton-Floral-JAA24TU00172-M/dp/B0D5HY9B5R/ref=sr_1_3_sspa?crid=5I7BO9DOZS0T&dib=eyJ2IjoiMSJ9.0PCmrGnUPhZOWp0TJbbjCr5cNrH-co-yyCG1Yeo6Q3Qscel4ZwfHGnGQqvFIthbAzbw_4evHj9lMnYpo29wH8gQHZP2pdGb_eWLMgf7wvOQ0c1wdtn_ZH53c3BxjxewOrrvAitPe3dYZML5wPykm7xPEAmaplh18tebCLi_aE0b37Je7suUL1QzcrRAHYGQ_7BL9RUKcppO3mTmTe1wtmqkATjzsHiCB5ip7JaH6GYdx-ffZyGf6Uy9BW9lheTMxGSVZZtkpMNKHd8LH1-P5hpe-E7tz4bIGJ-L0W8veExM.DUHBbqD2Jb_EPRExGOLbsr2IQo9flecUMVorchVLu0Q&dib_tag=se&keywords=Tunic+Top&qid=1730746201&sprefix=tunic+top%2Caps%2C304&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/PIVL-Womens-Acrylic-Sweater-winter_Black_M/dp/B0D87BGQ1X/ref=sr_1_3?crid=2A733VV4SEQJ7&dib=eyJ2IjoiMSJ9.EewtcVQOHGRGelcU3Q89PZFnI62Cpfalvykz2lDkmR1GNdoyPMntZLfJ3RVsRnuYILXA9CvJsPHSoMZsu7opWXyWkJgduh1DQMONZvKIhpAYvrcy7BlW4HElmv_JIhufZzY0W_RNzlIO6we9_h-O-9STLY9PuImHzgoAsvfJ0V9wuK74bjCbrOAd0xjKI0E3Ug0qsiui8fFnST4pkvRSySe04_lsYVjDOYcB9f6fe7h3KyrD90-oXUDse4F7W8Hn4txMrE3IltI_TOLu19dQ_nV9fLVFzc2UwvrksKJwIDg.ZfS2jgV-94UNT2roQQIrjMRkXl2y1uomTh8srhl6vsk&dib_tag=se&keywords=Warm+Sweater+for+women&qid=1730746328&sprefix=warm+sweater+for+women%2Caps%2C230&sr=8-3"><img src="Warm Sweater.jpg" alt="Warm Sweater"></a>
+        <h2>Warm Sweater</h2>
+        <p><b>-67% ₹556</b><br>
+            M.R.P.:<strike>₹1,699.0</strike></p>
+            <a href="https://www.amazon.in/PIVL-Womens-Acrylic-Sweater-winter_Black_M/dp/B0D87BGQ1X/ref=sr_1_3?crid=2A733VV4SEQJ7&dib=eyJ2IjoiMSJ9.EewtcVQOHGRGelcU3Q89PZFnI62Cpfalvykz2lDkmR1GNdoyPMntZLfJ3RVsRnuYILXA9CvJsPHSoMZsu7opWXyWkJgduh1DQMONZvKIhpAYvrcy7BlW4HElmv_JIhufZzY0W_RNzlIO6we9_h-O-9STLY9PuImHzgoAsvfJ0V9wuK74bjCbrOAd0xjKI0E3Ug0qsiui8fFnST4pkvRSySe04_lsYVjDOYcB9f6fe7h3KyrD90-oXUDse4F7W8Hn4txMrE3IltI_TOLu19dQ_nV9fLVFzc2UwvrksKJwIDg.ZfS2jgV-94UNT2roQQIrjMRkXl2y1uomTh8srhl6vsk&dib_tag=se&keywords=Warm+Sweater+for+women&qid=1730746328&sprefix=warm+sweater+for+women%2Caps%2C230&sr=8-3">
+            <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Wear-lusso-Stylish-Cardigan-Sweaters/dp/B0DKF4ZL26/ref=sr_1_3?crid=3ENJFLO7H1WLS&dib=eyJ2IjoiMSJ9._irhVxka_o4BrOmwuOivkcHGNig0JHn-IqSwTbGKz0Qkt2KcgM5hIaH-McbcaqbZjKK2ARDqGCW640x11CRnYsPGSYAOdX84DFmuODUTrTyWE2jQRrYs5Q_iiuopnB57G6SkAl6Y_cYd0CkCTU05eKlvIKrJ_2oRuYK3ZI2wYDkWBGMpe3ITJDcpkQ3ipdTV8ARmpLUmWZp2oVd2PM9UKcuNsvc9HR-9XI2-UAAu1Ru-iyUv_WjPkK42kMhTKRIdmaWf5Op6F5318tkZPTqJdjx_SWKfPgDDcT6gziUlYx0.NwShiW5hWRKLF6P1ecpUJl07HlQoAI5McAGOXpQlN0U&dib_tag=se&keywords=Cozy+Cardigan&qid=1730746452&sprefix=cozy+cardigan%2Caps%2C231&sr=8-3"><img src="Cozy Cardigan.jpg" alt="Cozy Cardigan"></a>
+        <h2>Cozy Cardigan</h2>
+        <p><b>-68% ₹478</b><br>
+            M.R.P.:<strike> ₹1,499.0</strike>
+        </p>
+        <a href="https://www.amazon.in/Wear-lusso-Stylish-Cardigan-Sweaters/dp/B0DKF4ZL26/ref=sr_1_3?crid=3ENJFLO7H1WLS&dib=eyJ2IjoiMSJ9._irhVxka_o4BrOmwuOivkcHGNig0JHn-IqSwTbGKz0Qkt2KcgM5hIaH-McbcaqbZjKK2ARDqGCW640x11CRnYsPGSYAOdX84DFmuODUTrTyWE2jQRrYs5Q_iiuopnB57G6SkAl6Y_cYd0CkCTU05eKlvIKrJ_2oRuYK3ZI2wYDkWBGMpe3ITJDcpkQ3ipdTV8ARmpLUmWZp2oVd2PM9UKcuNsvc9HR-9XI2-UAAu1Ru-iyUv_WjPkK42kMhTKRIdmaWf5Op6F5318tkZPTqJdjx_SWKfPgDDcT6gziUlYx0.NwShiW5hWRKLF6P1ecpUJl07HlQoAI5McAGOXpQlN0U&dib_tag=se&keywords=Cozy+Cardigan&qid=1730746452&sprefix=cozy+cardigan%2Caps%2C231&sr=8-3">
+        <button>BUY NOW</button></a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Prime Deals. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+//women footwear
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Footwear - Prime Deals</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            background-color: #000;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        #Das {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .product-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .product:hover {
+            transform: translateY(-5px);
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product h2 {
+            font-size: 1.2em;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .product p {
+            color: #666;
+            margin: 5px 0;
+        }
+
+        .product button {
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .product button:hover {
+            background-color: #d36e7c;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #003366;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Prime Deals - Women's Footwear</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="http://127.0.0.1:5500/project.html">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/aboutus.html">About Us</a></li>
+        <li><a href="http://127.0.0.1:5500/Contact%20us.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+<div id="Das">
+    <h2>Women's Footwear Collection</h2>
+</div>
+
+<div class="product-list">
+    <div class="product">
+        <a href="https://www.amazon.in/BELLA-Comfortable-Resistant-Lightweight-Breathable/dp/B0D1KDVYZV/ref=sr_1_4_sspa?crid=3CPP0PEWOURRW&dib=eyJ2IjoiMSJ9.x8DOV17eaZ_3BQO_6EYSiOChKQMSjz2C3awLONRrO9qXwkzme0JqHzhL1FU3xpP_3A0g9O54jk5H2Mipj-jsQSG9aM1Z1A33py3_dgcUW4h8fQqBCYJjaJzKlIXrBErEANmERvYIlYo6I8hhJZAD_YXedqQYSdiumZtmnmySAaNQBRVTGfeC4BlJNLdA1PD49m0U64YVf1GCkt2kKQgMfmE4VQz3pw6xUVq91Mo2OlAfN1vrJNx51RK3FILG4YVk4AmNWa5_JdDt8JPccCPtxKW0DzTPEw7WADkxhn8DmaE.-u3R3nUIMGKZkmat_ARFC5SsVg50S7qfakPQl6LYW7Y&dib_tag=se&keywords=Stylish+Sandals+for+women&qid=1730747505&sprefix=stylish+sandals+for+women%2Caps%2C238&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="Stylish Sandals.jpg" alt="Stylish Sandals"></a>
+        <h2>Stylish Sandals</h2>
+        <p><b>-50% ₹849</b><br>
+            M.R.P.:<strike>₹1,699.0</strike></p>
+            <a href="https://www.amazon.in/BELLA-Comfortable-Resistant-Lightweight-Breathable/dp/B0D1KDVYZV/ref=sr_1_4_sspa?crid=3CPP0PEWOURRW&dib=eyJ2IjoiMSJ9.x8DOV17eaZ_3BQO_6EYSiOChKQMSjz2C3awLONRrO9qXwkzme0JqHzhL1FU3xpP_3A0g9O54jk5H2Mipj-jsQSG9aM1Z1A33py3_dgcUW4h8fQqBCYJjaJzKlIXrBErEANmERvYIlYo6I8hhJZAD_YXedqQYSdiumZtmnmySAaNQBRVTGfeC4BlJNLdA1PD49m0U64YVf1GCkt2kKQgMfmE4VQz3pw6xUVq91Mo2OlAfN1vrJNx51RK3FILG4YVk4AmNWa5_JdDt8JPccCPtxKW0DzTPEw7WADkxhn8DmaE.-u3R3nUIMGKZkmat_ARFC5SsVg50S7qfakPQl6LYW7Y&dib_tag=se&keywords=Stylish+Sandals+for+women&qid=1730747505&sprefix=stylish+sandals+for+women%2Caps%2C238&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <button>Buy Now</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Fresh-1947-Feet-Single-FFN-1003/dp/B0BHSWTZQP/ref=sr_1_4_sspa?dib=eyJ2IjoiMSJ9.AeeXFkiSnsR-MeuDklrPn5KUIw1HUQG-IROotpFLdpLM6miPjLtrbSVzdySmOFMiKeg30TY1yIwOjyhiECHQyGpzonHW8IuYHwZxRee3iL14x6VRkG1IJJgeHrBqiMjK-6I-FgLpE_k368GWOZUNkmuMOWQRoPHh-DidBPIgZ4TmtlvHtz7o9SFYkhNqQwE_afMAT2LYYOV1PBwoLNil_iGzTCBYjv3iT5XVOrJTPBHw1bDp_tcqgwHLDKseV8WePaPG5FJ578_vsPRkJhI0C2CV0rN2xmfKPVedfi-ZJgg.0RFnO6_qD2SetYepQjOixQoWu8mLXtjwzYeo_BYiWUU&dib_tag=se&keywords=Comfortable+Flats&qid=1730747657&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="Comfortable Flats.jpg" alt="Comfortable Flats"></a>
+        <h2>Comfortable Flats</h2>
+        <p><b>-43% ₹849</b><br>
+            M.R.P.:<strike> ₹1,499.0</strike>
+            </p>
+            <a href="https://www.amazon.in/Fresh-1947-Feet-Single-FFN-1003/dp/B0BHSWTZQP/ref=sr_1_4_sspa?dib=eyJ2IjoiMSJ9.AeeXFkiSnsR-MeuDklrPn5KUIw1HUQG-IROotpFLdpLM6miPjLtrbSVzdySmOFMiKeg30TY1yIwOjyhiECHQyGpzonHW8IuYHwZxRee3iL14x6VRkG1IJJgeHrBqiMjK-6I-FgLpE_k368GWOZUNkmuMOWQRoPHh-DidBPIgZ4TmtlvHtz7o9SFYkhNqQwE_afMAT2LYYOV1PBwoLNil_iGzTCBYjv3iT5XVOrJTPBHw1bDp_tcqgwHLDKseV8WePaPG5FJ578_vsPRkJhI0C2CV0rN2xmfKPVedfi-ZJgg.0RFnO6_qD2SetYepQjOixQoWu8mLXtjwzYeo_BYiWUU&dib_tag=se&keywords=Comfortable+Flats&qid=1730747657&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <button>Buy Now</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Elegant-feet-Fashionable-Occasions-Comfortable/dp/B0D79QG7YN/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.TCKF_m16Aq192KP432gIsPAvX0g8hXkDvj-Ih9OlaucfVULrLbV7iIGT7eKkQnIC3rB4IjwyZAT7utumWuN6E7QuU8lpy5XHAAzktjPJxhAAxIf4u8ZJbQQXXElU88MMNdr1VSH3HFQCqoQxS9xpjETJBnOpCmT60SUZV-KHEEWY8zu1zG-wYRZJUAZ-tKY7CAWUQC2Pr4ivlNzzXz7yQZESkAc1q4-AKeMprV6GqcB1ifiNUwyA-h_rKgB4WbrJVWGy5ibBu9IGk8nNMyGbrOkF0fsE4LOUcrNlfyNEn5E.Q69m3Ll3-bkLLmZrstdfCCALI71HZBjl-tATGzWviY8&dib_tag=se&keywords=Elegant+Heels&qid=1730747829&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="Elegant Heels.jpg" alt="Elegant Heels"></a>
+        <h2>Elegant Heels</h2>
+        <p><b>-57% ₹1,299</b><br>
+            M.R.P.:<strike> ₹2,999.0</strike></p>
+            <a href="https://www.amazon.in/Elegant-feet-Fashionable-Occasions-Comfortable/dp/B0D79QG7YN/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.TCKF_m16Aq192KP432gIsPAvX0g8hXkDvj-Ih9OlaucfVULrLbV7iIGT7eKkQnIC3rB4IjwyZAT7utumWuN6E7QuU8lpy5XHAAzktjPJxhAAxIf4u8ZJbQQXXElU88MMNdr1VSH3HFQCqoQxS9xpjETJBnOpCmT60SUZV-KHEEWY8zu1zG-wYRZJUAZ-tKY7CAWUQC2Pr4ivlNzzXz7yQZESkAc1q4-AKeMprV6GqcB1ifiNUwyA-h_rKgB4WbrJVWGy5ibBu9IGk8nNMyGbrOkF0fsE4LOUcrNlfyNEn5E.Q69m3Ll3-bkLLmZrstdfCCALI71HZBjl-tATGzWviY8&dib_tag=se&keywords=Elegant+Heels&qid=1730747829&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <button>Buy Now</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Snasta-womens-boots-Black-color/dp/B0BK47SBWQ/ref=sr_1_2?crid=YIRNKP50IOX2&dib=eyJ2IjoiMSJ9.meb19pKgdtkeImzz7mLQP72zOKWA8ppGCSvypm0rer46jdwKrWHarW76Rkwa8n-My28Fe3NQlhqxvQflkWcZztzQAvbJVxt0Kp1arg-SlbPklTZlfzeRxUqqBUbeh04q_V2DdGKFYur4jUousJuaBTBdeh71TK2_qPQDDrPb2PT2PEsYZZ1pbgffI4C48o7HdaL24yIy5YzsYnPLX5Rsc1-3etRdNWAAnmVuZNBp5CIJJmMyo2hs6pTE92evLclsSttzvu_Si6G4PSvgLCn0w-ofH6g99Ak4UbnVvBcxhVY.rsxhhKCWL7rWREpmFp-Hl03Ri5uP7gVZ-6wTM4VYceE&dib_tag=se&keywords=Chic+Boots+for+women&qid=1730747960&sprefix=chic+boots+for+women%2Caps%2C329&sr=8-2"><img src="Chic Boots.jpg" alt="Chic Boots"></a>
+        <h2>Chic Boots</h2>
+        <p><b>-33% ₹999</b><br>
+            M.R.P.:<strike> ₹1,499.0</strike></p>
+            <a href="https://www.amazon.in/Snasta-womens-boots-Black-color/dp/B0BK47SBWQ/ref=sr_1_2?crid=YIRNKP50IOX2&dib=eyJ2IjoiMSJ9.meb19pKgdtkeImzz7mLQP72zOKWA8ppGCSvypm0rer46jdwKrWHarW76Rkwa8n-My28Fe3NQlhqxvQflkWcZztzQAvbJVxt0Kp1arg-SlbPklTZlfzeRxUqqBUbeh04q_V2DdGKFYur4jUousJuaBTBdeh71TK2_qPQDDrPb2PT2PEsYZZ1pbgffI4C48o7HdaL24yIy5YzsYnPLX5Rsc1-3etRdNWAAnmVuZNBp5CIJJmMyo2hs6pTE92evLclsSttzvu_Si6G4PSvgLCn0w-ofH6g99Ak4UbnVvBcxhVY.rsxhhKCWL7rWREpmFp-Hl03Ri5uP7gVZ-6wTM4VYceE&dib_tag=se&keywords=Chic+Boots+for+women&qid=1730747960&sprefix=chic+boots+for+women%2Caps%2C329&sr=8-2">
+            <button>Buy Now</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/YOHO-Radiance-Stylish-Comfortable-Sneakers/dp/B0DCPPHSG2/ref=sr_1_1_sspa?crid=27U9RJG2I8TGK&dib=eyJ2IjoiMSJ9.YYCrKKgHNkFpZL-9PkrPocIYV45f-Fg12Uvb6XeD4pk2Q0RcPeIcPuSSZ3FB7XgtxR04FBBfgBhUcvBKo6p0Q0HmPrQIX41e7GDV1Pf6Dt0gTrQ2FsQ_HSB7sGlYoQYBMQ9rJzeXI7nxC1RwuAuev8_bMR4Fqa4CouVk_G9XWt3qQBERbYf6tUa0d6B7yRGWNrVpH4agIGRg8BOHXH-aXgT3dkoHpdqyQ50pLcWM-aGmCXMoV_p9Xtd05-Wp1NphkB4-H6GGLRZwizxoyjnOvtaAYc30r_34fKN756HCav4.JRd15E-zusdSIfMqqDB4vlXWV4dXqaR2HhdpZu-5-HU&dib_tag=se&keywords=Casual+Sneakersfor+women&qid=1730748114&sprefix=casual+sneakersfor+women%2Caps%2C266&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="Casual Sneakers.jpg" alt="Casual Sneakers"></a>
+        <h2>Casual Sneakers</h2>
+        <p><b>-48% ₹1,507</b><br>
+            M.R.P.:<strike> ₹2,899.0</strike>
+        </p>
+        <a href="https://www.amazon.in/YOHO-Radiance-Stylish-Comfortable-Sneakers/dp/B0DCPPHSG2/ref=sr_1_1_sspa?crid=27U9RJG2I8TGK&dib=eyJ2IjoiMSJ9.YYCrKKgHNkFpZL-9PkrPocIYV45f-Fg12Uvb6XeD4pk2Q0RcPeIcPuSSZ3FB7XgtxR04FBBfgBhUcvBKo6p0Q0HmPrQIX41e7GDV1Pf6Dt0gTrQ2FsQ_HSB7sGlYoQYBMQ9rJzeXI7nxC1RwuAuev8_bMR4Fqa4CouVk_G9XWt3qQBERbYf6tUa0d6B7yRGWNrVpH4agIGRg8BOHXH-aXgT3dkoHpdqyQ50pLcWM-aGmCXMoV_p9Xtd05-Wp1NphkB4-H6GGLRZwizxoyjnOvtaAYc30r_34fKN756HCav4.JRd15E-zusdSIfMqqDB4vlXWV4dXqaR2HhdpZu-5-HU&dib_tag=se&keywords=Casual+Sneakersfor+women&qid=1730748114&sprefix=casual+sneakersfor+women%2Caps%2C266&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+        <button>Buy Now</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/FabSeasons-Slippers-chappals-Women-Girls/dp/B0DCW9HGFV/ref=sr_1_1_sspa?crid=1WVBNX23EN718&dib=eyJ2IjoiMSJ9.xZ56GSMrNItTuL9p78403MJYbu0Doum-AyYG-OqWZmN2TXuRGOzOQvWXb4zb9RpvV9stiE09A7BsRQ9ikFUMTOZA3PYJyVzsnRZZBOHB7QfNaBqiL7RYLV2T5jI5bQeanx3Iul8PWZ8QdDvUmZO7hZFRBwO-nZIuBdD_j_EH8DavJB0peJtMy-EeSkASXppfMGLCKg0jZ9GbedJ4P8TqnaL5AuVPWKIkIwv4iUnHikDaL6ZEti2tw7kPTOuE_Dq5sQ0Sw1P5sYQDNnbPvvhnyW7mpNU_rVWJCkDDPZzyxd8.r3PLsGi-pZ9GsrEG6bUgm2nu7l21Bz5QIblrcQbFrog&dib_tag=se&keywords=Cozy+Slippers+for+women&qid=1730748244&sprefix=cozy+slippers+for+women%2Caps%2C259&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="Cozy Slippers.jpg" alt="Cozy Slippers"></a>
+        <h2>Cozy Slippers</h2>
+        <p><b>-57% ₹649</b><br>
+            M.R.P.:<strike>₹1,499.0</strike>
+        </p>
+        <a href="https://www.amazon.in/FabSeasons-Slippers-chappals-Women-Girls/dp/B0DCW9HGFV/ref=sr_1_1_sspa?crid=1WVBNX23EN718&dib=eyJ2IjoiMSJ9.xZ56GSMrNItTuL9p78403MJYbu0Doum-AyYG-OqWZmN2TXuRGOzOQvWXb4zb9RpvV9stiE09A7BsRQ9ikFUMTOZA3PYJyVzsnRZZBOHB7QfNaBqiL7RYLV2T5jI5bQeanx3Iul8PWZ8QdDvUmZO7hZFRBwO-nZIuBdD_j_EH8DavJB0peJtMy-EeSkASXppfMGLCKg0jZ9GbedJ4P8TqnaL5AuVPWKIkIwv4iUnHikDaL6ZEti2tw7kPTOuE_Dq5sQ0Sw1P5sYQDNnbPvvhnyW7mpNU_rVWJCkDDPZzyxd8.r3PLsGi-pZ9GsrEG6bUgm2nu7l21Bz5QIblrcQbFrog&dib_tag=se&keywords=Cozy+Slippers+for+women&qid=1730748244&sprefix=cozy+slippers+for+women%2Caps%2C259&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+        <button>Buy Now</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/BELLA-Comfortable-Resistant-Lightweight-Breathable/dp/B0D1KFVJMR/ref=sr_1_2_sspa?crid=1OQJUFGFNPOXT&dib=eyJ2IjoiMSJ9.fVvcbRw3fz9BRckWBPT0GmuTaw3F9-KF45A6jMCfPK9kVEcrdw-0shO2_424ZdzZp_Dk6UxRlXZ6eT4KL1BgnAW55VyN9c6DHsqZsyn-xj8GAm_yX2Ng9omyk1DltOo-lxyIJNG-oXBitTxaz2lwG4GWXisGu82XAYe-SlSWqRcofTk8JBoPzCSAHgVHQ1o6uZCjKgdSr8Twv6Vudyd4QR51RRQwITAaZrAhBkwBA1RVuElh1b2V0RmJBunYj46TaeAVdNOw8BjRpWQ92JsnlZAMkpkAapLvEOQveeJl09U.KnaLD4v8jMYIIobunQ5F1Qjf2w_TuNF1po3S9eE-XD8&dib_tag=se&keywords=Wedge+Sandals+for+women&qid=1730748409&sprefix=wedge+sandals+for+women%2Caps%2C252&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="Wedge Sandals.jpg" alt="Wedge Sandals"></a>
+        <h2>Wedge Sandals</h2>
+        <p><b>-47% ₹849</b><br>
+            M.R.P.:<strike> ₹1,599.0</strike>
+        </p>
+        <a href="https://www.amazon.in/BELLA-Comfortable-Resistant-Lightweight-Breathable/dp/B0D1KFVJMR/ref=sr_1_2_sspa?crid=1OQJUFGFNPOXT&dib=eyJ2IjoiMSJ9.fVvcbRw3fz9BRckWBPT0GmuTaw3F9-KF45A6jMCfPK9kVEcrdw-0shO2_424ZdzZp_Dk6UxRlXZ6eT4KL1BgnAW55VyN9c6DHsqZsyn-xj8GAm_yX2Ng9omyk1DltOo-lxyIJNG-oXBitTxaz2lwG4GWXisGu82XAYe-SlSWqRcofTk8JBoPzCSAHgVHQ1o6uZCjKgdSr8Twv6Vudyd4QR51RRQwITAaZrAhBkwBA1RVuElh1b2V0RmJBunYj46TaeAVdNOw8BjRpWQ92JsnlZAMkpkAapLvEOQveeJl09U.KnaLD4v8jMYIIobunQ5F1Qjf2w_TuNF1po3S9eE-XD8&dib_tag=se&keywords=Wedge+Sandals+for+women&qid=1730748409&sprefix=wedge+sandals+for+women%2Caps%2C252&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+        <button>Buy Now</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/YOHO-Comfortable-Moccasins-Cushioned-Flexible/dp/B0CB6B1Z6X/ref=sr_1_3_sspa?crid=2L82CLV66AHQB&dib=eyJ2IjoiMSJ9.yVLxhBUGhkNdGeexV-8t9MLpmSoTsGuNKV25A4fgSXQjXuaNdwJkp31K-ics8eOSLemJRBx8iS9_jfSXzAvz4lWTgP2Cm-sd1uyfOfJwdOnAKWl2TMNHZH_70fa1cKNqAJ3iE56RHQIkJ-UsCs23I4aUh3Cdg8-1Yxi86oOFfAvh9FQzc-3Vzt4XkiqCbX9AXGIPbM3rpFL-WAD1w8qCIqwVzbWq5e0XDAGeR4DRkq4U55MvBiaT3yj8Xv13LEsbSNPVyL7mJMF2epMNa4W_vBu0RCILb9gtD3jb9U0IeR4.U7tXoOmvldW1atmAWbRZfhy1Z2qWv3DgOLsfwgSo5M4&dib_tag=se&keywords=Stylish+Loafers+for+women&qid=1730748520&sprefix=stylish+loafers+for+women%2Caps%2C364&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="Stylish Loafers.jpg" alt="Stylish Loafers"></a>
+        <h2>Stylish Loafers</h2>
+        <p><b>-42% ₹1,499</b><br>
+            M.R.P.:<strike> ₹2,598.0</strike></p>
+        <a href="https://www.amazon.in/YOHO-Comfortable-Moccasins-Cushioned-Flexible/dp/B0CB6B1Z6X/ref=sr_1_3_sspa?crid=2L82CLV66AHQB&dib=eyJ2IjoiMSJ9.yVLxhBUGhkNdGeexV-8t9MLpmSoTsGuNKV25A4fgSXQjXuaNdwJkp31K-ics8eOSLemJRBx8iS9_jfSXzAvz4lWTgP2Cm-sd1uyfOfJwdOnAKWl2TMNHZH_70fa1cKNqAJ3iE56RHQIkJ-UsCs23I4aUh3Cdg8-1Yxi86oOFfAvh9FQzc-3Vzt4XkiqCbX9AXGIPbM3rpFL-WAD1w8qCIqwVzbWq5e0XDAGeR4DRkq4U55MvBiaT3yj8Xv13LEsbSNPVyL7mJMF2epMNa4W_vBu0RCILb9gtD3jb9U0IeR4.U7tXoOmvldW1atmAWbRZfhy1Z2qWv3DgOLsfwgSo5M4&dib_tag=se&keywords=Stylish+Loafers+for+women&qid=1730748520&sprefix=stylish+loafers+for+women%2Caps%2C364&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><button>Buy Now</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/UNIKICKS-Espadrilles-Walking-Shoes-Design/dp/B0DF2TQGCV/ref=sr_1_3?crid=3ULLTKLX81HP&dib=eyJ2IjoiMSJ9.9thFdSHtUFeDlZqtXRUCzV-TvEh0J1Jf7dy28lZGMy_EsL-wTTqqLdYeKTtkc0kaWZgXkNlr2SUBCdBZaoAPtwEZFwNX4GeBHbq-wLebH3m4rM5lg0iY3nMGB0vDDHjMztEGu2etGYrIv0qIxO1cS1-MbmDvmhqw2UPVAOAXEjpxbf6z8SlW4u7fibxTqY4yz0Le7PQLSBhbio8mkfZf0rVBLvD09O3OumCUrHzVPEVC7q_bxaHwkZ7sxVvv5uwZzI4I_Iq19rQlyt9ZlmdQybyh1fHVJuASOscfC4dFpb4.eIA9BJJ1V4jC9XRI7fK1xZiaI0EKv6xIkp4RBqYI1yM&dib_tag=se&keywords=Trendy+Espadrilles+for+women&qid=1730748648&sprefix=trendy+espadrilles+for+women%2Caps%2C330&sr=8-3"><img src="Trendy Espadrilles.jpg" alt="Trendy Espadrilles"></a>
+        <h2>Trendy Espadrilles</h2>
+        <p><b>-60% ₹999</b><br>
+            M.R.P.:<strike> ₹2,499.0</strike></p>
+            <a href="https://www.amazon.in/UNIKICKS-Espadrilles-Walking-Shoes-Design/dp/B0DF2TQGCV/ref=sr_1_3?crid=3ULLTKLX81HP&dib=eyJ2IjoiMSJ9.9thFdSHtUFeDlZqtXRUCzV-TvEh0J1Jf7dy28lZGMy_EsL-wTTqqLdYeKTtkc0kaWZgXkNlr2SUBCdBZaoAPtwEZFwNX4GeBHbq-wLebH3m4rM5lg0iY3nMGB0vDDHjMztEGu2etGYrIv0qIxO1cS1-MbmDvmhqw2UPVAOAXEjpxbf6z8SlW4u7fibxTqY4yz0Le7PQLSBhbio8mkfZf0rVBLvD09O3OumCUrHzVPEVC7q_bxaHwkZ7sxVvv5uwZzI4I_Iq19rQlyt9ZlmdQybyh1fHVJuASOscfC4dFpb4.eIA9BJJ1V4jC9XRI7fK1xZiaI0EKv6xIkp4RBqYI1yM&dib_tag=se&keywords=Trendy+Espadrilles+for+women&qid=1730748648&sprefix=trendy+espadrilles+for+women%2Caps%2C330&sr=8-3">
+            <button>Buy Now</button></a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Prime Deals. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html> 
+
+// kids top
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Top Wear - FunStyles</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e3f2fd;
+        }
+
+        header {
+            background-color: #2196f3;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            background-color: #0d47a1;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        #hero {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around; 
+            padding: 20px;
+        }
+
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            width: calc(33.333% - 20px); 
+            box-sizing: border-box; 
+        }
+
+        .product:hover {
+            transform: translateY(-5px);
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product h2 {
+            font-size: 1.2em;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .product p {
+            color: #666;
+            margin: 5px 0;
+        }
+
+        .product button {
+            background-color: #ff4081;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .product button:hover {
+            background-color: #d81b60;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2196f3;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .product {
+                width: calc(50% - 20px);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .product {
+                width: calc(100% - 20px); 
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Prime Deals - Kids Top Wear</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="http://127.0.0.1:5500/project.html">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/aboutus.html">About Us</a></li>
+        <li><a href="http://127.0.0.1:5500/Contact%20us.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+<div id="hero">
+    <h2>Stylish Tops for Your Little Ones</h2>
+</div>
+
+<div class="product-list">
+    <div class="product">
+        <a href="https://www.amazon.in/PATPAT-Toddler-Sleeve-Cartoon-Graphic/dp/B0D7WBJ65N/ref=sr_1_4_sspa?crid=1E2NAB5B2TWHJ&dib=eyJ2IjoiMSJ9.Q2xJsAWyKC8qzu3PZwylmus56YiLGeuTNmvAYGhA_NkNtfAAY4EnadFFP5591LByTCuXObLUdmjl1q-G6xQDQcTWzhQOs7pAg6mz_ycANQn3ECbmGCPI51Va0pYU6NttxzejN-JQO1wQvfzqxjTnRzQE8lGpHTZpxcTcaMoYEpZZma_3a8GuwZxPJev3OZC9tLG4zqr2wDIlhfcpDRHdYmn1yysOPeB72q1TFJajwnF640uaRhElewnVFODiyLwHqJ8ZsmgZvq24bDkl5Q1XEC1gJb1l45prO6joA3c7VBk.53VnSvMJ56Q7U1WyjJq5-m5IWhpodZMhzmD35OeSiwI&dib_tag=se&keywords=Graphic+T-Shirt+for+kids&qid=1730753200&sprefix=graphic+t-shirt+for+kids%2Caps%2C300&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="Graphic T-Shirt.jpg" alt="Graphic T-Shirt"></a>
+        <h2>Graphic T-Shirt</h2>
+        <p><b>-33% ₹799</b><br>
+            M.R.P.:<strike> ₹1,199.0</strike>
+        </p>
+        <a href="https://www.amazon.in/PATPAT-Toddler-Sleeve-Cartoon-Graphic/dp/B0D7WBJ65N/ref=sr_1_4_sspa?crid=1E2NAB5B2TWHJ&dib=eyJ2IjoiMSJ9.Q2xJsAWyKC8qzu3PZwylmus56YiLGeuTNmvAYGhA_NkNtfAAY4EnadFFP5591LByTCuXObLUdmjl1q-G6xQDQcTWzhQOs7pAg6mz_ycANQn3ECbmGCPI51Va0pYU6NttxzejN-JQO1wQvfzqxjTnRzQE8lGpHTZpxcTcaMoYEpZZma_3a8GuwZxPJev3OZC9tLG4zqr2wDIlhfcpDRHdYmn1yysOPeB72q1TFJajwnF640uaRhElewnVFODiyLwHqJ8ZsmgZvq24bDkl5Q1XEC1gJb1l45prO6joA3c7VBk.53VnSvMJ56Q7U1WyjJq5-m5IWhpodZMhzmD35OeSiwI&dib_tag=se&keywords=Graphic+T-Shirt+for+kids&qid=1730753200&sprefix=graphic+t-shirt+for+kids%2Caps%2C300&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Allen-Solly-Junior-Sweatshirt-ABSS31901808_Navy_14/dp/B07RRWZMCW/ref=sr_1_3_sspa?crid=30IE67JX8VBMA&dib=eyJ2IjoiMSJ9.jbBjuREEHqVuqXH5Z3cNEukhfY5zWME2GxruJvS89WA4MUOdDAb6XuPn9GXtvlGpsJfT8HCA7cF26BQTZ48-8Gnk5BY1JHel_0Cvz5MKU7Rxa7wTubY3KJMK5S-T_h-LLN-om2p2pKkNXb1op43WQBnzmMjc5Mfnp1rY2-lt17z82XKrHJ8V4_CzkvoFz_p3mh_zb8huVep3-QXuKOq5DbnIsO7MOA9HtF3G3mqWx52ert1Pw3-QgdJUknqPhUM3N_4ozygMBCxXVWluuo3FtdlsJo7cPHfUuWBzYZsd-Cw.DoUocEsOuosLM7xnWSVprzW9MJbYLTAcTST5MQUuv1s&dib_tag=se&keywords=Cute+Hoodie+for+kids&qid=1730753376&sprefix=cute+hoodie+for+kids%2Caps%2C460&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="Cute Hoodie.jpg" alt="Cute Hoodie"></a>
+        <h2>Cute Hoodie</h2>
+        <p><b>-47% ₹959</b><br>
+            M.R.P.:<strike> ₹1,799.0</strike>
+        </p>
+        <a href="https://www.amazon.in/Allen-Solly-Junior-Sweatshirt-ABSS31901808_Navy_14/dp/B07RRWZMCW/ref=sr_1_3_sspa?crid=30IE67JX8VBMA&dib=eyJ2IjoiMSJ9.jbBjuREEHqVuqXH5Z3cNEukhfY5zWME2GxruJvS89WA4MUOdDAb6XuPn9GXtvlGpsJfT8HCA7cF26BQTZ48-8Gnk5BY1JHel_0Cvz5MKU7Rxa7wTubY3KJMK5S-T_h-LLN-om2p2pKkNXb1op43WQBnzmMjc5Mfnp1rY2-lt17z82XKrHJ8V4_CzkvoFz_p3mh_zb8huVep3-QXuKOq5DbnIsO7MOA9HtF3G3mqWx52ert1Pw3-QgdJUknqPhUM3N_4ozygMBCxXVWluuo3FtdlsJo7cPHfUuWBzYZsd-Cw.DoUocEsOuosLM7xnWSVprzW9MJbYLTAcTST5MQUuv1s&dib_tag=se&keywords=Cute+Hoodie+for+kids&qid=1730753376&sprefix=cute+hoodie+for+kids%2Caps%2C460&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/UNITED-COLORS-BENETTON-Regular-Striped/dp/B0CXY4M4JP/ref=sr_1_1_sspa?crid=1FLQMI7ZH05RT&dib=eyJ2IjoiMSJ9.Qw9WIIndIvbAzs_Q2ULEo6pPQR6xXgSBD3VYTBEUJu2OQpMYoGUmLxS1paJGg2CzIFJQALWjoS-f5yqFIyL6she6wcwg2ISF2vHlD0Ah7Nwe8GFqnvKlV-3TaS20Bj41HIFVLaL3Ap4e72fUAMp_JOlf8NqeaUSrOwSk5WN4jv0Bkl-qUXDLQE6UmsVv8o74C5hz2P0ffOUUqM6g5T9ufENfdDnW1ONu2DoSq188fIsv0FoaFyAbhjLRcP_E4QHTjAebvoaQ-jQyiTmsJ-VLlACI3V7snLT8o9xNu7xt3GM._7rJPRBWAYwaEVNS-4d8PsSTDzapYHiuiG1BIwoAKNo&dib_tag=se&keywords=Polo+Shirtfor+kids&qid=1730753556&sprefix=polo+shirt+for+kids%2Caps%2C313&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="Polo Shirt.jpg" alt="Polo Shirt"></a>
+        <h2>Polo Shirt</h2>
+        <p><b>-40% ₹899</b><br>
+            M.R.P.:<strike> ₹1,499.0</strike>
+        </p>
+        <a href="https://www.amazon.in/UNITED-COLORS-BENETTON-Regular-Striped/dp/B0CXY4M4JP/ref=sr_1_1_sspa?crid=1FLQMI7ZH05RT&dib=eyJ2IjoiMSJ9.Qw9WIIndIvbAzs_Q2ULEo6pPQR6xXgSBD3VYTBEUJu2OQpMYoGUmLxS1paJGg2CzIFJQALWjoS-f5yqFIyL6she6wcwg2ISF2vHlD0Ah7Nwe8GFqnvKlV-3TaS20Bj41HIFVLaL3Ap4e72fUAMp_JOlf8NqeaUSrOwSk5WN4jv0Bkl-qUXDLQE6UmsVv8o74C5hz2P0ffOUUqM6g5T9ufENfdDnW1ONu2DoSq188fIsv0FoaFyAbhjLRcP_E4QHTjAebvoaQ-jQyiTmsJ-VLlACI3V7snLT8o9xNu7xt3GM._7rJPRBWAYwaEVNS-4d8PsSTDzapYHiuiG1BIwoAKNo&dib_tag=se&keywords=Polo+Shirtfor+kids&qid=1730753556&sprefix=polo+shirt+for+kids%2Caps%2C313&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Kwitchy-Cotton-Sleeveless-Tshirts-Multicolour/dp/B0C4KXR61Z/ref=sr_1_2_sspa?crid=30DUVDIYEB7U0&dib=eyJ2IjoiMSJ9.ArhHivtsmEqQ3h0ByKKNsN845kHnyEwLzMCVUC1bcbYKTP6UhLwaoZbfiZ4kyFfMwREAOiRkSP-y_mejFiXXBJDxGkFPQgXv6djgOhINmjk7eNKgnzMKP7o9DYVmFZPJTshczD7ee3krlLCnG1qjpLE_fheoxatR_WB-SGYa9RwJs9GzCLxVfvrPz8TkTJniwAlYoTGdVIIiDWBM9eqnZ3T-SpmwaqTV72Uwl00NaEdTf73E64hCoId6G9tKRhLb764UPRCuVEeqvd7Yy1wfn4-6lBOWrpVcuqnqgzgPhVU.8NtvsWhVJ4R0Q_m-3zkWoQ2CDbMjDagAZLzebZcjJXg&dib_tag=se&keywords=Tank+Top+for+kids&qid=1730753812&sprefix=tank+top+for+kids%2Caps%2C433&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&smid=AY2VABXH6FWPP"><img src="Tank Top.jpg" alt="Tank Top"></a>
+        <h2>Tank Top</h2>
+        <p><b>-56% ₹799</b><br>
+            M.R.P.:<strike> ₹1,799.0</strike>
+        </p>
+        <a href="https://www.amazon.in/Kwitchy-Cotton-Sleeveless-Tshirts-Multicolour/dp/B0C4KXR61Z/ref=sr_1_2_sspa?crid=30DUVDIYEB7U0&dib=eyJ2IjoiMSJ9.ArhHivtsmEqQ3h0ByKKNsN845kHnyEwLzMCVUC1bcbYKTP6UhLwaoZbfiZ4kyFfMwREAOiRkSP-y_mejFiXXBJDxGkFPQgXv6djgOhINmjk7eNKgnzMKP7o9DYVmFZPJTshczD7ee3krlLCnG1qjpLE_fheoxatR_WB-SGYa9RwJs9GzCLxVfvrPz8TkTJniwAlYoTGdVIIiDWBM9eqnZ3T-SpmwaqTV72Uwl00NaEdTf73E64hCoId6G9tKRhLb764UPRCuVEeqvd7Yy1wfn4-6lBOWrpVcuqnqgzgPhVU.8NtvsWhVJ4R0Q_m-3zkWoQ2CDbMjDagAZLzebZcjJXg&dib_tag=se&keywords=Tank+Top+for+kids&qid=1730753812&sprefix=tank+top+for+kids%2Caps%2C433&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&smid=AY2VABXH6FWPP">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/TeeWee-Premium-Sweatshirt-Sweatshirts-Girls_Yellow_6-7/dp/B0DFPMJ981/ref=sr_1_6?crid=30OY2ZMK88FMT&dib=eyJ2IjoiMSJ9.jidTpmhoojSE0-e1-Drh304Ws2IEM2AfaxodUU90xzNn-4iUBk8M_Xv1u1JHdFOdJR0JoenMj0jnVH-yPGk-2zIVYXMigXyJgktvpu5ZN5f09O-VTu3ndfxSuxicxjOanSWnTkVP73SSmpXhibxpHbcDvgwoy29LiYG70ZVuYdws8WUgmR0kzs13oHE52t74Vh0wXFNkZC0cUEcod3fIBSx0BMa8o1sjnmXNFph-oqmt_hv2t7Mla43TDzHP4xlSxFZnpRGVhBs8wCEIMah8F1WvF31nP3SWcYhwisTs4rU.4eIH9OtsKwuqL1ZcsWrGAweqiHUix49icpv5sp_SSY8&dib_tag=se&keywords=Winter+Sweater+for+kids&qid=1730753979&sprefix=winter+sweater+for+kids%2Caps%2C427&sr=8-6"><img src="Winter Sweater.jpg" alt="Winter Sweater"></a>
+        <h2>Winter Sweater</h2>
+        <p><b>-30% ₹349</b><br>
+            M.R.P.:<strike> ₹499.0</strike>
+        </p>
+        <a href="https://www.amazon.in/TeeWee-Premium-Sweatshirt-Sweatshirts-Girls_Yellow_6-7/dp/B0DFPMJ981/ref=sr_1_6?crid=30OY2ZMK88FMT&dib=eyJ2IjoiMSJ9.jidTpmhoojSE0-e1-Drh304Ws2IEM2AfaxodUU90xzNn-4iUBk8M_Xv1u1JHdFOdJR0JoenMj0jnVH-yPGk-2zIVYXMigXyJgktvpu5ZN5f09O-VTu3ndfxSuxicxjOanSWnTkVP73SSmpXhibxpHbcDvgwoy29LiYG70ZVuYdws8WUgmR0kzs13oHE52t74Vh0wXFNkZC0cUEcod3fIBSx0BMa8o1sjnmXNFph-oqmt_hv2t7Mla43TDzHP4xlSxFZnpRGVhBs8wCEIMah8F1WvF31nP3SWcYhwisTs4rU.4eIH9OtsKwuqL1ZcsWrGAweqiHUix49icpv5sp_SSY8&dib_tag=se&keywords=Winter+Sweater+for+kids&qid=1730753979&sprefix=winter+sweater+for+kids%2Caps%2C427&sr=8-6">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Young-Birds-Sleeve-Flannel-Shirt/dp/B0D7ZWLSX5/ref=sr_1_4?crid=37BQ8X2I0MBIZ&dib=eyJ2IjoiMSJ9.k6K_uzoQAoTSIhE6XxhCl6cSqpZjWgo40kUfS7xBWwMK9xwlnQab7ccXp5PvRqjS8YUY7HRR2rRdiYDhEfAt3IZfVi-gvE9A5MvW_7Js7KgACJxSzitzWThSPev4LoszN7qQZj68uH8fiTjYHjLMuuUHwipqKvpDbLM2OrQMv2iwHRJ2noF58zn7NGrWO0Ivwl1uaEl8wDOlJVIpFv1K_034snpCTsS3bF0-a8wUdVTNzKwACDbCyRKiMUG7DI4-tyRMQSTnnaJaN1MD1EcREM1IIOoDSCBJIDX-oVdMXhw.tzvLifvq-B9Hb1cKB5u1yIvWYKRbg5Avh9Q1VhhSFf0&dib_tag=se&keywords=Flannel+Shirt+for+kids&qid=1730754103&sprefix=flannel+shirt+for+kids%2Caps%2C464&sr=8-4"><img src="Flannel Shirt.jpg" alt="Flannel Shirt"></a>
+        <h2>Flannel Shirt</h2>
+        <p><b>-14% ₹599</b><br>
+            M.R.P.:<strike> ₹699.0</strike></p>
+            <a href="https://www.amazon.in/Young-Birds-Sleeve-Flannel-Shirt/dp/B0D7ZWLSX5/ref=sr_1_4?crid=37BQ8X2I0MBIZ&dib=eyJ2IjoiMSJ9.k6K_uzoQAoTSIhE6XxhCl6cSqpZjWgo40kUfS7xBWwMK9xwlnQab7ccXp5PvRqjS8YUY7HRR2rRdiYDhEfAt3IZfVi-gvE9A5MvW_7Js7KgACJxSzitzWThSPev4LoszN7qQZj68uH8fiTjYHjLMuuUHwipqKvpDbLM2OrQMv2iwHRJ2noF58zn7NGrWO0Ivwl1uaEl8wDOlJVIpFv1K_034snpCTsS3bF0-a8wUdVTNzKwACDbCyRKiMUG7DI4-tyRMQSTnnaJaN1MD1EcREM1IIOoDSCBJIDX-oVdMXhw.tzvLifvq-B9Hb1cKB5u1yIvWYKRbg5Avh9Q1VhhSFf0&dib_tag=se&keywords=Flannel+Shirt+for+kids&qid=1730754103&sprefix=flannel+shirt+for+kids%2Caps%2C464&sr=8-4">
+            <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Kuchipoo-Regular-T-Shirts-KUC-TSHRT-424-Multi-Colored/dp/B0CY9QQ7K2/ref=sr_1_1_sspa?crid=3MR8SVWO4J5PG&dib=eyJ2IjoiMSJ9.CLCveOoR5jBc99WZn6evsdqKr24rZiLwuSHrCK36wWNyIHIRMM-6doz_BmjUHMt2W7tSK-lg0jSTCi96XeNbAMsJ53FLN0nsvg25OkijGp3C_Od574eURv27jRRT_ev5C7W4Rs92tKw_8uASBHDMEfMLvYgwmQLhNXGIDj_grHNkctudFCOHJ8o4o3F295isdHSfipUeo-pB0sRaDBcp2nYYfA8Dlc-XW6dV86RU9vhr8nQR-OC4E7S5gLPRC4ZHjtkoMXEVNvaGxm4LVFjv7atsiAmn66A_G5h6WRi2G0Q.zWuPUly5IRA5HaVhzoxeFTga1yCn4-inm2zN2v94PAI&dib_tag=se&keywords=Long+Sleeve+T-Shirt+for+kids&qid=1730754276&sprefix=long+sleeve+t-shirt+for+kids%2Caps%2C347&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="Long Sleeve T-Shirt.jpg" alt="Long Sleeve T-Shirt"></a>
+        <h2>Long Sleeve T-Shirt</h2>
+        <p><b>-69% ₹580</b><br>
+            M.R.P.:<strike> ₹1,899.0</strike></p>
+            <a href="https://www.amazon.in/Kuchipoo-Regular-T-Shirts-KUC-TSHRT-424-Multi-Colored/dp/B0CY9QQ7K2/ref=sr_1_1_sspa?crid=3MR8SVWO4J5PG&dib=eyJ2IjoiMSJ9.CLCveOoR5jBc99WZn6evsdqKr24rZiLwuSHrCK36wWNyIHIRMM-6doz_BmjUHMt2W7tSK-lg0jSTCi96XeNbAMsJ53FLN0nsvg25OkijGp3C_Od574eURv27jRRT_ev5C7W4Rs92tKw_8uASBHDMEfMLvYgwmQLhNXGIDj_grHNkctudFCOHJ8o4o3F295isdHSfipUeo-pB0sRaDBcp2nYYfA8Dlc-XW6dV86RU9vhr8nQR-OC4E7S5gLPRC4ZHjtkoMXEVNvaGxm4LVFjv7atsiAmn66A_G5h6WRi2G0Q.zWuPUly5IRA5HaVhzoxeFTga1yCn4-inm2zN2v94PAI&dib_tag=se&keywords=Long+Sleeve+T-Shirt+for+kids&qid=1730754276&sprefix=long+sleeve+t-shirt+for+kids%2Caps%2C347&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/UCARE-Sleeve-Sleeveless-Thermal-Girls/dp/B07Z6BHY33/ref=sr_1_4_sspa?crid=OEK25XO25VNU&dib=eyJ2IjoiMSJ9.CDfKlzRk9qiad-ffQ4b6JUZ_6rwGeeKiko7SYMjevf6HbxRt2UdzZRM-dWnPGlfAFUsnhzJ9xtL3FyafKH69skibUgxgAAHvzfgC2mJKyajkvZF_K_8ECUZbp_X6IFJYno3v6l_nmqy1NZrvtswZPePN8rdKt-II7xbn0z432sctLMd3xCr1XwlcS9xHqqB8bS6xmtNEepaO0v_h8Jqzp6e00nV0Xpr2FxnqXmTXSbuALoAzBQRhfkSVZztjSTMNdY4p6WM6i9shjugyx-QsWNwTbdX8bM4MjuIDVBCfL_A.cSSdO_jhbtpe6rVc-Ac_q-8i8VTeIGvFW3iTiyO5OLE&dib_tag=se&keywords=Sleeveless+Top+for+kids&qid=1730754438&sprefix=sleeveless+top+for+kids%2Caps%2C314&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="Sleeveless Top.jpg" alt="Sleeveless Top"></a>
+        <h2>Sleeveless Top</h2>
+        <p><b>-33% ₹699 ₹233.00 per count(₹233 / count)</b><br>
+            M.R.P.:<strike> ₹1,049.0</strike>
+        </p>
+        <a href="https://www.amazon.in/UCARE-Sleeve-Sleeveless-Thermal-Girls/dp/B07Z6BHY33/ref=sr_1_4_sspa?crid=OEK25XO25VNU&dib=eyJ2IjoiMSJ9.CDfKlzRk9qiad-ffQ4b6JUZ_6rwGeeKiko7SYMjevf6HbxRt2UdzZRM-dWnPGlfAFUsnhzJ9xtL3FyafKH69skibUgxgAAHvzfgC2mJKyajkvZF_K_8ECUZbp_X6IFJYno3v6l_nmqy1NZrvtswZPePN8rdKt-II7xbn0z432sctLMd3xCr1XwlcS9xHqqB8bS6xmtNEepaO0v_h8Jqzp6e00nV0Xpr2FxnqXmTXSbuALoAzBQRhfkSVZztjSTMNdY4p6WM6i9shjugyx-QsWNwTbdX8bM4MjuIDVBCfL_A.cSSdO_jhbtpe6rVc-Ac_q-8i8VTeIGvFW3iTiyO5OLE&dib_tag=se&keywords=Sleeveless+Top+for+kids&qid=1730754438&sprefix=sleeveless+top+for+kids%2Caps%2C314&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/NSS-JNS-Light-Sleeves-Boys-SHR-002-11-12Y-LBLU/dp/B0CWRTLRD1/ref=sr_1_3?crid=30CEF22DBHSCE&dib=eyJ2IjoiMSJ9.ZKIf1OSZGFpqfgPvAWshy_g1z9fzzGdDWOiQjX6CcD1jvNU7mzzJOGrFxaOpL93TnHkuRpkPSZfwlkPXuzEgZBMHtKgL8yQHyK1XZfwsZhSlVmJeMPsfYJ2HBeDzKjqmfiXEfc3YWdrcWvgICUcQtuJ-VNLs_4KuyxkhqYK3PX8vH0GHOH5uFF2fHUv_Cvvh5ufU1Kbu_McXCwZ5xUw6OSXdj-0FZlAMSqY39YPjTF8XGY-CUq2Mo6ip1W1x1jEkiWklJ9HydUQ5HtuMFsTgAD2V4t4k02YT8BWBRBEF3D0.Adw0M7maDZ2Xnp4FYzLN0YW1fAjLrF0U3yIxHpXPu-w&dib_tag=se&keywords=Denim+Shirt+for+kids&qid=1730754600&sprefix=denim+shirt+for+kids%2Caps%2C356&sr=8-3"><img src="Denim Shirt.jpg" alt="Denim Shirt"></a>
+        <h2>Denim Shirt</h2>
+        <p><b>-56% ₹699</b><br>
+            M.R.P.:<strike> ₹1,599.0</strike></p>
+            <a href="https://www.amazon.in/NSS-JNS-Light-Sleeves-Boys-SHR-002-11-12Y-LBLU/dp/B0CWRTLRD1/ref=sr_1_3?crid=30CEF22DBHSCE&dib=eyJ2IjoiMSJ9.ZKIf1OSZGFpqfgPvAWshy_g1z9fzzGdDWOiQjX6CcD1jvNU7mzzJOGrFxaOpL93TnHkuRpkPSZfwlkPXuzEgZBMHtKgL8yQHyK1XZfwsZhSlVmJeMPsfYJ2HBeDzKjqmfiXEfc3YWdrcWvgICUcQtuJ-VNLs_4KuyxkhqYK3PX8vH0GHOH5uFF2fHUv_Cvvh5ufU1Kbu_McXCwZ5xUw6OSXdj-0FZlAMSqY39YPjTF8XGY-CUq2Mo6ip1W1x1jEkiWklJ9HydUQ5HtuMFsTgAD2V4t4k02YT8BWBRBEF3D0.Adw0M7maDZ2Xnp4FYzLN0YW1fAjLrF0U3yIxHpXPu-w&dib_tag=se&keywords=Denim+Shirt+for+kids&qid=1730754600&sprefix=denim+shirt+for+kids%2Caps%2C356&sr=8-3">
+            <button>BUY NOW</button></a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Prime Deals. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+//kids bottom
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Bottom Wear - FunStyles</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e3f2fd;
+        }
+
+        header {
+            background-color: #2196f3;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            background-color: #0d47a1;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        #hero {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around; 
+            padding: 20px;
+        }
+
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            width: calc(33.333% - 20px); 
+            box-sizing: border-box; 
+        }
+
+        .product:hover {
+            transform: translateY(-5px);
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product h2 {
+            font-size: 1.2em;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .product p {
+            color: #666;
+            margin: 5px 0;
+        }
+
+        .product button {
+            background-color: #ff4081;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .product button:hover {
+            background-color: #d81b60;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2196f3;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .product {
+                width: calc(50% - 20px); 
+            }
+        }
+
+        @media (max-width: 480px) {
+            .product {
+                width: calc(100% - 20px); 
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Prime Deals - Kids Bottom Wear</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="http://127.0.0.1:5500/project.html">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/aboutus.html">About Us</a></li>
+        <li><a href="http://127.0.0.1:5500/Contact%20us.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+<div id="hero">
+    <h2>Stylish Bottoms for Your Little Ones</h2>
+</div>
+
+<div class="product-list">
+    <div class="product">
+        <a href="https://www.amazon.in/WOLF-KING-Navy-Blue-Denim/dp/B0CR7CM5V8/ref=sr_1_4?crid=W1ABASQ314K7&dib=eyJ2IjoiMSJ9.5ALNa_LeRDYY9ks574x9seMACZIuBmo8AbPdUu6a0ABU_rhQAbeiKM-QGxDJyopdpnGJNTg7cWUn3Zn22bfoiaMpVHyhUBZ8QamCqXr3ujGRhPCGLITAErTAxGEiNljIs5yAMAyb6H4J9nBfcEw8CsSR6HY_scqzxcznj75097NK-AtNKvQpOYeQchEwHopfzYwmnnNWa9f7OGmQskriZUPyx9QsQ5qZzCtqY5du20A1XE9Wk4kl2t0OjohztMo6sCwu8Xk0yrkoL8PppZB7rDmK2ZxVVRB5ahq00kRLz3k.MdKYR__u5aF2XRSKRiD4CjaM7iE_7BIyE4qshyBE0D8&dib_tag=se&keywords=Denim+Shorts+for+kids&qid=1730755323&sprefix=denim+shorts+for+kids%2Caps%2C292&sr=8-4"><img src="Denim Shorts.jpg" alt="Denim Shorts"></a>
+        <h2>Denim Shorts</h2>
+        <p><b>-58% ₹380 ₹253.33 per g(₹253.33 /100 g)</b><br>
+            M.R.P.:<strike>₹899.0</strike>
+        </p>
+        <a href="https://www.amazon.in/WOLF-KING-Navy-Blue-Denim/dp/B0CR7CM5V8/ref=sr_1_4?crid=W1ABASQ314K7&dib=eyJ2IjoiMSJ9.5ALNa_LeRDYY9ks574x9seMACZIuBmo8AbPdUu6a0ABU_rhQAbeiKM-QGxDJyopdpnGJNTg7cWUn3Zn22bfoiaMpVHyhUBZ8QamCqXr3ujGRhPCGLITAErTAxGEiNljIs5yAMAyb6H4J9nBfcEw8CsSR6HY_scqzxcznj75097NK-AtNKvQpOYeQchEwHopfzYwmnnNWa9f7OGmQskriZUPyx9QsQ5qZzCtqY5du20A1XE9Wk4kl2t0OjohztMo6sCwu8Xk0yrkoL8PppZB7rDmK2ZxVVRB5ahq00kRLz3k.MdKYR__u5aF2XRSKRiD4CjaM7iE_7BIyE4qshyBE0D8&dib_tag=se&keywords=Denim+Shorts+for+kids&qid=1730755323&sprefix=denim+shorts+for+kids%2Caps%2C292&sr=8-4">
+<button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/GRECIILOOKS-Track-Pant-Men-GL-TP-1021-M-BLACK/dp/B0D1CNB8VR/ref=sr_1_19?crid=1BS4DHD580EJC&dib=eyJ2IjoiMSJ9.IkANZmRER29RFwSgjVyJQlchB76n7s-ayus3nL29UgZtA1qRvF-JFFqcsuk4PVUN6dEhVPpT_YJwiUum5aOBZ2_MDSDCa34onhe3klfmI1Ljtv489hbfJFin2cU579AvVAv4HfiO35u2lTaHOJRqX5LZkKrKAAD2xHZqU3wMhPQkF5OVEDA2Zrmdyi8sMu8C-ViKZnOTcJnGrB4m5kWHoXMuvcfr3tgiBafbQqpM-Osr95CpLdtVSBP7VtY1ajFz3_7giG8DZM43tGr8aEvzpxco03fjJjP_tuB_dZY9clk.ErvChUJ-kDF1bVJuoygbLzkXdB6zSi6GShffPPHREYc&dib_tag=se&keywords=Track+Pants&qid=1731171420&sprefix=%2Caps%2C1668&sr=8-19"><img src="Track Pants.jpg" alt="Track Pants"></a>
+        <h2>Track Pants</h2>
+        <p><b>-67% ₹627</b><br>
+            M.R.P.:<strike> ₹1,899.0</strike></p>
+            <a href="https://www.amazon.in/GRECIILOOKS-Track-Pant-Men-GL-TP-1021-M-BLACK/dp/B0D1CNB8VR/ref=sr_1_19?crid=1BS4DHD580EJC&dib=eyJ2IjoiMSJ9.IkANZmRER29RFwSgjVyJQlchB76n7s-ayus3nL29UgZtA1qRvF-JFFqcsuk4PVUN6dEhVPpT_YJwiUum5aOBZ2_MDSDCa34onhe3klfmI1Ljtv489hbfJFin2cU579AvVAv4HfiO35u2lTaHOJRqX5LZkKrKAAD2xHZqU3wMhPQkF5OVEDA2Zrmdyi8sMu8C-ViKZnOTcJnGrB4m5kWHoXMuvcfr3tgiBafbQqpM-Osr95CpLdtVSBP7VtY1ajFz3_7giG8DZM43tGr8aEvzpxco03fjJjP_tuB_dZY9clk.ErvChUJ-kDF1bVJuoygbLzkXdB6zSi6GShffPPHREYc&dib_tag=se&keywords=Track+Pants&qid=1731171420&sprefix=%2Caps%2C1668&sr=8-19">
+            <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/FirstSight-Boys-Olive-Cargo-Pants/dp/B0D2Y6MKXL/ref=sr_1_2_sspa?crid=WHZB114FBRP3&dib=eyJ2IjoiMSJ9.VNHKer-gau-k59AOP8gPhr2peKEuqpPAWyCj-VRWSMo_FFvmCoG54BQZNjGDRwcEls19OepwNt_pl4b-FiAtU7bJHnRf4KH89G1rfza2qgSMYHWtIBKCwKwIhqx8k0FG15lPY-rBQVXc0jYfUkMFaPRoQo4oD3Ji16KqxNKADXiPRT21ijcuVBzawTyaHTTNEFdNgee__aYJUjzbUatWDKvmdo8MCb-Jm-mkmACZyE4UWfQGAppnvkVjLnsni36dAO2DR3Gc7qBAz1E5wIr44FcYQJqJ6vW9xLU7qgl5Ccs.AlGTLlxTRaFl7wnMvCpAYKbj61f2173uyTSviMga4Po&dib_tag=se&keywords=Cargo+Pants+for+kids&qid=1730755718&sprefix=cargo+pants+for+kids%2Caps%2C352&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="Cargo Panths.jpg" alt="Cargo Pants"></a>
+        <h2>Cargo Pants</h2>
+        <p><b>-59% ₹699</b><br>
+            M.R.P.:<strike>₹1,699.0</strike>
+        </p>
+        <a href="https://www.amazon.in/FirstSight-Boys-Olive-Cargo-Pants/dp/B0D2Y6MKXL/ref=sr_1_2_sspa?crid=WHZB114FBRP3&dib=eyJ2IjoiMSJ9.VNHKer-gau-k59AOP8gPhr2peKEuqpPAWyCj-VRWSMo_FFvmCoG54BQZNjGDRwcEls19OepwNt_pl4b-FiAtU7bJHnRf4KH89G1rfza2qgSMYHWtIBKCwKwIhqx8k0FG15lPY-rBQVXc0jYfUkMFaPRoQo4oD3Ji16KqxNKADXiPRT21ijcuVBzawTyaHTTNEFdNgee__aYJUjzbUatWDKvmdo8MCb-Jm-mkmACZyE4UWfQGAppnvkVjLnsni36dAO2DR3Gc7qBAz1E5wIr44FcYQJqJ6vW9xLU7qgl5Ccs.AlGTLlxTRaFl7wnMvCpAYKbj61f2173uyTSviMga4Po&dib_tag=se&keywords=Cargo+Pants+for+kids&qid=1730755718&sprefix=cargo+pants+for+kids%2Caps%2C352&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Max-Girls-Regular-Leggings-M21CLGAMZ4AMULTI_Multi_5/dp/B09BNW91DY/ref=sr_1_8?crid=3LWM60U08W4Q6&dib=eyJ2IjoiMSJ9.D9olUGKzaeSgsoD7lpFqJJ9-q3Depwh8QxH9cdCXmdliykleJbg6FWgx0h_UNSsd-nE8lWv5XnOcX3e90sNgJJICvqvNzNl6bnt88HduNk8NbYLbqv4plMHErQxlddO7eepKMX5njtCP101MAWh_KH7buEiCJLQJCre-AlblT2-l6V4vq_RBSblZIQO9IXGHDsotnaM57lC4EZiTmEfZ1VOsBqHR2AUNI0euUlnC7BYPs26SdPhD90G1_3o9N-x5f67W4zwnrpvvMukpvS550cnp8YIynWP2PPqYoX_0qb8.-oQAzRgGxzB9v4L6PvrTF8STZIapL8TPZ1ZNspPDOWM&dib_tag=se&keywords=Leggings+for+kids&qid=1730781695&sprefix=leggings+for+kids%2Caps%2C292&sr=8-8"><img src="Leggings.jpg" alt="Leggings"></a>
+        <h2>Leggings</h2>
+        <p><b>-17% ₹499</b><br>
+            M.R.P.:<strike> ₹599.0</strike>
+        </p>
+        <a href="https://www.amazon.in/Max-Girls-Regular-Leggings-M21CLGAMZ4AMULTI_Multi_5/dp/B09BNW91DY/ref=sr_1_8?crid=3LWM60U08W4Q6&dib=eyJ2IjoiMSJ9.D9olUGKzaeSgsoD7lpFqJJ9-q3Depwh8QxH9cdCXmdliykleJbg6FWgx0h_UNSsd-nE8lWv5XnOcX3e90sNgJJICvqvNzNl6bnt88HduNk8NbYLbqv4plMHErQxlddO7eepKMX5njtCP101MAWh_KH7buEiCJLQJCre-AlblT2-l6V4vq_RBSblZIQO9IXGHDsotnaM57lC4EZiTmEfZ1VOsBqHR2AUNI0euUlnC7BYPs26SdPhD90G1_3o9N-x5f67W4zwnrpvvMukpvS550cnp8YIynWP2PPqYoX_0qb8.-oQAzRgGxzB9v4L6PvrTF8STZIapL8TPZ1ZNspPDOWM&dib_tag=se&keywords=Leggings+for+kids&qid=1730781695&sprefix=leggings+for+kids%2Caps%2C292&sr=8-8">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/HELLCAT-Printed-T-shirt-Trackpant-Clothing/dp/B0DK5SR6BL/ref=sr_1_5?crid=1I4AXTHDOQ5YG&dib=eyJ2IjoiMSJ9.bQntLZsBwcwENpQz3tAKpMrvm481A6kUL2J7OiCJ4iG5uHed2b6sLqGlz8WmIa0bbijvf6MQhwT086ZKw8TsXhixfZgbfgeiDa-Dt7-6TIdgos7Iw4ZMxC5Alpn7SgHZRfKeUCaG9pvAFwyRL-CRTe075hK3UxxRy3DngR7dwxLkVTAZkn1Eye9MHRbIJk08v1acvSU0lVu91vYnwAK-2q4wKq6AwNhXGVEi3wlqI6AmR9_mb2ot0o1-ENe6U3NXY1eKjH0V_nZ-vRicM5YIdN6DIxa9YTNFAJFpj8kmUjA.0ccFEaJVkSejZWeIR9GSgHW3KmgCQXH4DEUNWHLKd3k&dib_tag=se&keywords=Joggersfor+kids&qid=1730781862&sprefix=joggersfor+kids%2Caps%2C331&sr=8-5"><img src="Joggers1.jpg" alt="Joggers"></a>
+        <h2>Joggers</h2>
+        <p><b>-86% ₹569 ₹284.50 per count(₹284.50 / count)</b><br>
+            M.R.P.: <strike>₹3,998.0</strike>
+        </p>
+        <a href="https://www.amazon.in/HELLCAT-Printed-T-shirt-Trackpant-Clothing/dp/B0DK5SR6BL/ref=sr_1_5?crid=1I4AXTHDOQ5YG&dib=eyJ2IjoiMSJ9.bQntLZsBwcwENpQz3tAKpMrvm481A6kUL2J7OiCJ4iG5uHed2b6sLqGlz8WmIa0bbijvf6MQhwT086ZKw8TsXhixfZgbfgeiDa-Dt7-6TIdgos7Iw4ZMxC5Alpn7SgHZRfKeUCaG9pvAFwyRL-CRTe075hK3UxxRy3DngR7dwxLkVTAZkn1Eye9MHRbIJk08v1acvSU0lVu91vYnwAK-2q4wKq6AwNhXGVEi3wlqI6AmR9_mb2ot0o1-ENe6U3NXY1eKjH0V_nZ-vRicM5YIdN6DIxa9YTNFAJFpj8kmUjA.0ccFEaJVkSejZWeIR9GSgHW3KmgCQXH4DEUNWHLKd3k&dib_tag=se&keywords=Joggersfor+kids&qid=1730781862&sprefix=joggersfor+kids%2Caps%2C331&sr=8-5">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Wonderchild-Pajamas-Leggings-Sweatpants-Trousers/dp/B0CLVGXLZ9/ref=sr_1_6?crid=15ZRBIG6S1EB8&dib=eyJ2IjoiMSJ9.sgLxA7W7bsDeqx7R1n26L-fuRW58ziTjQ8bvArD9mzvm-gr_YxqKHTUZLbGNltdABXDDBIIoAHEmf70WbF-e9UPll7kaolFdsf1wTclQwwle990DgfLzEIrQChNpFFc8TSDMyGuhJ372uZJ2l7HyFY4pgXJcH_Y12XnD3seffi8VeUN6UVuJoShHVYzDtcpdMk-KPiCrlUR0JIHHnDdVGk8mk8gPoLo32jsiqp36foHYZ9Up6D9FYl3FAGZ7z8DgTtZati1TzcxBg9NdN-R3e04j1_5IbfrI2ar-tlcpVoY.l_fN9GLFOqEWPlDoTndW6EeddNjoidhDDCDBgpmFnZA&dib_tag=se&keywords=Sweatpants+for+kids&qid=1730782004&sprefix=sweatpants+for+kids%2Caps%2C429&sr=8-6"><img src="Sweatpants1.jpg" alt="Sweatpants"></a>
+        <h2>Sweatpants</h2>
+        <p><b>-11% ₹395</b><br>
+            M.R.P.:<strike> ₹445.0</strike></p>
+            <a href="https://www.amazon.in/Wonderchild-Pajamas-Leggings-Sweatpants-Trousers/dp/B0CLVGXLZ9/ref=sr_1_6?crid=15ZRBIG6S1EB8&dib=eyJ2IjoiMSJ9.sgLxA7W7bsDeqx7R1n26L-fuRW58ziTjQ8bvArD9mzvm-gr_YxqKHTUZLbGNltdABXDDBIIoAHEmf70WbF-e9UPll7kaolFdsf1wTclQwwle990DgfLzEIrQChNpFFc8TSDMyGuhJ372uZJ2l7HyFY4pgXJcH_Y12XnD3seffi8VeUN6UVuJoShHVYzDtcpdMk-KPiCrlUR0JIHHnDdVGk8mk8gPoLo32jsiqp36foHYZ9Up6D9FYl3FAGZ7z8DgTtZati1TzcxBg9NdN-R3e04j1_5IbfrI2ar-tlcpVoY.l_fN9GLFOqEWPlDoTndW6EeddNjoidhDDCDBgpmFnZA&dib_tag=se&keywords=Sweatpants+for+kids&qid=1730782004&sprefix=sweatpants+for+kids%2Caps%2C429&sr=8-6">
+            <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/ReemJheem-Birthday-Princess-Mollty_R_J_224_13-Kidswear/dp/B0B6DR8X9Y/ref=sr_1_6?crid=E6QNCNS436G7&dib=eyJ2IjoiMSJ9.NiQwR1J-iorsdwSHH9nkqitPbWb36lM--2uiRWEClC0kv-lgWg2NuDk7YklFEnIF049GHrzyRSDEsa7D6bQPvPmAvx78-x1GHXtfqJenXdn2vX6Gk8ZEztiCr8wK2XKYCf3VYcfldJbIr-3Hl3htgiXVUNdBKWOXCsRB0YiNxifv9F6RA9nToV43fO40wo37X5IBA4tftH4UkWkkUQ_uu_h4TFcRWoSsKygQKp4LYj5msYnH9KQdsRZ1ksvMH9g-tf71Xcbley2ks1CCazusBW9J8tqosAyBNW1MGFGeChQ.GfwF5yruUf9KDJ5NGBodDDeN2UqqdDf2yx4WoAFbh60&dib_tag=se&keywords=Skirt+for+kids&qid=1730782143&sprefix=skirt+for+kids%2Caps%2C337&sr=8-6"><img src="Skirt.jpg" alt="Skirt"></a>
+        <h2>Skirt</h2>
+        <p><b>-63% ₹299 ₹1.20 per count(₹1.20 / count)</b><br>
+            M.R.P.:<strike> ₹799.0</strike>
+        </p>
+        <a href="https://www.amazon.in/ReemJheem-Birthday-Princess-Mollty_R_J_224_13-Kidswear/dp/B0B6DR8X9Y/ref=sr_1_6?crid=E6QNCNS436G7&dib=eyJ2IjoiMSJ9.NiQwR1J-iorsdwSHH9nkqitPbWb36lM--2uiRWEClC0kv-lgWg2NuDk7YklFEnIF049GHrzyRSDEsa7D6bQPvPmAvx78-x1GHXtfqJenXdn2vX6Gk8ZEztiCr8wK2XKYCf3VYcfldJbIr-3Hl3htgiXVUNdBKWOXCsRB0YiNxifv9F6RA9nToV43fO40wo37X5IBA4tftH4UkWkkUQ_uu_h4TFcRWoSsKygQKp4LYj5msYnH9KQdsRZ1ksvMH9g-tf71Xcbley2ks1CCazusBW9J8tqosAyBNW1MGFGeChQ.GfwF5yruUf9KDJ5NGBodDDeN2UqqdDf2yx4WoAFbh60&dib_tag=se&keywords=Skirt+for+kids&qid=1730782143&sprefix=skirt+for+kids%2Caps%2C337&sr=8-6">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/YELLOWDELIGHT-Girls-Bloomer-13-14y-3pcs-Green/dp/B0CKN13D3Q/ref=sr_1_11?crid=1UTB0APN3N920&dib=eyJ2IjoiMSJ9.j7zcBohvAnMrI2_EG34pu5EWQZKqAQRj0BEZpMDXRcq6X0DWG1wYCisH8qZvS9hb_UHS7GaaH4ygf1Zbp5kIVSPIHYq1CbKbJ3VhQ5_blcJGZfL84FzkZ6F_3LpehghRDg-CqGD9F05DeU2PY50x-AIy1g2r9aysETMSjPFrj8suvkBXxDmFxBQkuUZQPhJItoBrs7rGcpXjoWwCpNszrUnT9sTq5-mv-I2p1Wd4De9nYLhimVWviDjlmplHM4WdOYJqb-694H4y_nnt19fF8Pusv8X7O2W55Ex5SAlv5Ag.GVuhmvNS_FAsZVdlQj8brhuhlnBdTM319JHSjDUVRhc&dib_tag=se&keywords=Bloomers+for+kids&qid=1730782262&sprefix=bloomers+for+kids%2Caps%2C348&sr=8-11"><img src="Bloomers.jpg" alt="Bloomers"></a>
+        <h2>Bloomers</h2>
+        <p><b>-52% ₹289</b><br>
+            M.R.P.:<strike> ₹599.0</strike>
+        </p>
+        <a href="https://www.amazon.in/YELLOWDELIGHT-Girls-Bloomer-13-14y-3pcs-Green/dp/B0CKN13D3Q/ref=sr_1_11?crid=1UTB0APN3N920&dib=eyJ2IjoiMSJ9.j7zcBohvAnMrI2_EG34pu5EWQZKqAQRj0BEZpMDXRcq6X0DWG1wYCisH8qZvS9hb_UHS7GaaH4ygf1Zbp5kIVSPIHYq1CbKbJ3VhQ5_blcJGZfL84FzkZ6F_3LpehghRDg-CqGD9F05DeU2PY50x-AIy1g2r9aysETMSjPFrj8suvkBXxDmFxBQkuUZQPhJItoBrs7rGcpXjoWwCpNszrUnT9sTq5-mv-I2p1Wd4De9nYLhimVWviDjlmplHM4WdOYJqb-694H4y_nnt19fF8Pusv8X7O2W55Ex5SAlv5Ag.GVuhmvNS_FAsZVdlQj8brhuhlnBdTM319JHSjDUVRhc&dib_tag=se&keywords=Bloomers+for+kids&qid=1730782262&sprefix=bloomers+for+kids%2Caps%2C348&sr=8-11">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/BABY-GO-Sleeves-Dungaree-Overall/dp/B08MTXGH5P/ref=sr_1_2?crid=1YW8GTLC42MSS&dib=eyJ2IjoiMSJ9.poQTmDrqPXIFDhFWOudlOwDzrwmDql5nbyvjxMqrVrqqsrkHAD4XTCDxa_L0AG-xjiVWa5Wk8ZuHmxyN2ZbtQx0-AqmGoJAtwbVJXVZqKZ0Sg-fp8-m5C9Ih0JhKj4RSCPdOa9U7yngSuR9mYwht_1fko4Ro9Rm9FhOvvg7zwT-HrrA-BxmQNDEg_3eYGrycUNMSwVoWxw_DnitYr_9zKF_M5DY-YezIB5FYqgMBB5umNjh40b-4ME7rqXH0ldJ4BdBWz7APaJKHoKFHPL_eYaBsP_0HhLLut_49Ou6TuYY.ME0Z8VxwleH2MBtdbSuK3XAfbunyhmFzdYQS3XH-j9U&dib_tag=se&keywords=Overalls+for+kids&qid=1730782407&sprefix=overalls+for+kids%2Caps%2C421&sr=8-2"><img src="Overalls.jpg" alt="Overalls"></a>
+        <h2>Overalls</h2>
+        <p><b>-77% ₹386</b><br>
+            M.R.P.:<strike> ₹1,699.0</strike></p>
+            <a href="https://www.amazon.in/BABY-GO-Sleeves-Dungaree-Overall/dp/B08MTXGH5P/ref=sr_1_2?crid=1YW8GTLC42MSS&dib=eyJ2IjoiMSJ9.poQTmDrqPXIFDhFWOudlOwDzrwmDql5nbyvjxMqrVrqqsrkHAD4XTCDxa_L0AG-xjiVWa5Wk8ZuHmxyN2ZbtQx0-AqmGoJAtwbVJXVZqKZ0Sg-fp8-m5C9Ih0JhKj4RSCPdOa9U7yngSuR9mYwht_1fko4Ro9Rm9FhOvvg7zwT-HrrA-BxmQNDEg_3eYGrycUNMSwVoWxw_DnitYr_9zKF_M5DY-YezIB5FYqgMBB5umNjh40b-4ME7rqXH0ldJ4BdBWz7APaJKHoKFHPL_eYaBsP_0HhLLut_49Ou6TuYY.ME0Z8VxwleH2MBtdbSuK3XAfbunyhmFzdYQS3XH-j9U&dib_tag=se&keywords=Overalls+for+kids&qid=1730782407&sprefix=overalls+for+kids%2Caps%2C421&sr=8-2">
+            <button>BUY NOW</button></a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Prime Deals. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+//kids foot wear
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Footwear - FunStyles</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e3f2fd;
+        }
+
+        header {
+            background-color: #2196f3;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            background-color: #0d47a1;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        #hero {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .product-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            gap: 20px; 
+            padding: 20px;
+            justify-items: center;
+        }
+
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            width: 100%; 
+            max-width: 220px; 
+        }
+
+        .product:hover {
+            transform: translateY(-5px);
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product h2 {
+            font-size: 1.2em;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .product p {
+            color: #666;
+            margin: 5px 0;
+        }
+
+        .product button {
+            background-color: #ff4081;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .product button:hover {
+            background-color: #d81b60;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2196f3;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        
+        @media (max-width: 768px) {
+            .product-list {
+                grid-template-columns: repeat(2, 1fr); 
+            }
+        }
+
+        @media (max-width: 480px) {
+            .product-list {
+                grid-template-columns: 1fr; 
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Prime Deals - Kids Footwear</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="http://127.0.0.1:5500/project.html">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/aboutus.html">About Us</a></li>
+        <li><a href="http://127.0.0.1:5500/Contact%20us.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+<div id="hero">
+    <h2>Stylish Footwear for Your Little Ones</h2>
+</div>
+
+<div class="product-list">
+    <div class="product">
+        <a href="https://www.amazon.in/Aerokick-Sneaker-Lightweight-Comfortable-White-Black/dp/B0D1N3WPPV/ref=sr_1_4_sspa?crid=EMAZFJLVBUSN&dib=eyJ2IjoiMSJ9.xGXouAI_2c9ThmxFbnPPzstQS3zo1x2GfhKwr3BO3kXUEt79aByqEgNdNqCOTtJsOq6KTYN1ZkEX5gKJtOeuWK9x29PoYMNpu2zPXbbphmkL__llOUUNisdMwpn9EOZwx0A9O6JH_enrqomjCzHwDofeYQPPB9A1a24ThE5JJa_5B_B0i0xY5rWCULCMyLEENixXDtlWmFau9e6Y6L2KDQwigEckm7di4hE7Cla5z37_F4BBgUipx059Gr_FItsE6LCNwMmfemWPpte_E1IlX6jp59eB_cgG53UNX-cV4d4.keG5Ze3O2wskClquuCBZxO5lGWQLE1IEwLYihVRwHnw&dib_tag=se&keywords=Kids+Sneakers+for+kids&qid=1730782767&sprefix=kids+sneakers+for+kids%2Caps%2C305&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="Kids Sneakers.jpg" alt="Kids Sneakers"></a>
+        <h2>Kids Sneakers</h2>
+        <p><b>-50% ₹499</b><br>
+            M.R.P.:<strike> ₹999.0</strike>
+        </p>
+        <a href="https://www.amazon.in/Aerokick-Sneaker-Lightweight-Comfortable-White-Black/dp/B0D1N3WPPV/ref=sr_1_4_sspa?crid=EMAZFJLVBUSN&dib=eyJ2IjoiMSJ9.xGXouAI_2c9ThmxFbnPPzstQS3zo1x2GfhKwr3BO3kXUEt79aByqEgNdNqCOTtJsOq6KTYN1ZkEX5gKJtOeuWK9x29PoYMNpu2zPXbbphmkL__llOUUNisdMwpn9EOZwx0A9O6JH_enrqomjCzHwDofeYQPPB9A1a24ThE5JJa_5B_B0i0xY5rWCULCMyLEENixXDtlWmFau9e6Y6L2KDQwigEckm7di4hE7Cla5z37_F4BBgUipx059Gr_FItsE6LCNwMmfemWPpte_E1IlX6jp59eB_cgG53UNX-cV4d4.keG5Ze3O2wskClquuCBZxO5lGWQLE1IEwLYihVRwHnw&dib_tag=se&keywords=Kids+Sneakers+for+kids&qid=1730782767&sprefix=kids+sneakers+for+kids%2Caps%2C305&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Sandals-Material-Comfortable-greater-Footwear/dp/B0DCBF5S1Y/ref=sr_1_4_sspa?crid=M6JTOF0SO2OP&dib=eyJ2IjoiMSJ9.9GuZIB-4ez7KFPq4KTTOC5gvnoPTV1f2ESPtQdrkhR2jSp1oS3Fb5ImISTw5rjsauaNfgdziO5l4D7CnA_Fx35UKHSfp0ekGDb6mxLEbElFjtzfOr51XxiSo5JsAZwP-lvom0ce1WThO1r6HO_pXPwK6ipPEa5r1Zyb1J8UhhWTtvQNErz7NJQhJ66Eg9G6QEJEPnSN7tezwL7nUTyImrQayHgUUztoj3SYXVpNRs0MgSyTHCh5Zvfsmb-l33j9_uUR6hSqVDqzBaRseb17VF0GTfQQQ1r1K5QnnX3ErUgg.DBF3uCg-TJ4E7ksA-IuJlvPTz7fs9ozph744CBKKvLQ&dib_tag=se&keywords=Comfort+Sandals+for+kids&qid=1730782914&sprefix=comfort+sandals+for+kids%2Caps%2C291&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="Comfort Sandals1.jpg" alt="Comfort Sandals"></a>
+        <h2>Comfort Sandals</h2>
+        <p><b>-65% ₹349</b><br>
+            M.R.P.:<strike> ₹999.0</strike>
+        </p>
+        <a href="https://www.amazon.in/Sandals-Material-Comfortable-greater-Footwear/dp/B0DCBF5S1Y/ref=sr_1_4_sspa?crid=M6JTOF0SO2OP&dib=eyJ2IjoiMSJ9.9GuZIB-4ez7KFPq4KTTOC5gvnoPTV1f2ESPtQdrkhR2jSp1oS3Fb5ImISTw5rjsauaNfgdziO5l4D7CnA_Fx35UKHSfp0ekGDb6mxLEbElFjtzfOr51XxiSo5JsAZwP-lvom0ce1WThO1r6HO_pXPwK6ipPEa5r1Zyb1J8UhhWTtvQNErz7NJQhJ66Eg9G6QEJEPnSN7tezwL7nUTyImrQayHgUUztoj3SYXVpNRs0MgSyTHCh5Zvfsmb-l33j9_uUR6hSqVDqzBaRseb17VF0GTfQQQ1r1K5QnnX3ErUgg.DBF3uCg-TJ4E7ksA-IuJlvPTz7fs9ozph744CBKKvLQ&dib_tag=se&keywords=Comfort+Sandals+for+kids&qid=1730782914&sprefix=comfort+sandals+for+kids%2Caps%2C291&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Hopscotch-Girls-Solid-Boots-Brown/dp/B09PBT386X/ref=sr_1_4?crid=1JZJ9YH9RROI0&dib=eyJ2IjoiMSJ9.dSTvuHCnjqY61fZTLWAFE1tdj3PyuyuMS_0538wz2jHgBDsE4RS5o9gGeeYNUwWTEIIKxCOXc29Ezgta6JgrwmCSN3h3fFAofwdSXUXWRPkU5SqV0ga8wf9ZWG-OG5MYbaK1anhgS-C5MzI0PaT2dLNqmlVmHG00BxvYO-BBEGt7WgTG_sJRbPAJN56qkbtVe3TpUqMyTFZwZGmIWpzyZaqrXtMb5rlVxX55coouC3-FFs1i5XA5OEHErxlbo0CNEVB93660iN965VTQGLZ5Qk85ZAdlQcCUtQ_4vCT5aCU.8OTrSEMS57WT4DxPZXfKXuU7g-89OVZ9FrHiznR0Jvc&dib_tag=se&keywords=Winter+Boots+for+kids&qid=1730783063&sprefix=winter+boots+for+kids%2Caps%2C397&sr=8-4"><img src="Winter Boots.jpg" alt="Winter Boots"></a>
+        <h2>Winter Boots</h2>
+        <p><b>-43% ₹861</b><br>
+            M.R.P.: <strike>₹1,499.0</strike>
+        </p>
+        <a href="https://www.amazon.in/Hopscotch-Girls-Solid-Boots-Brown/dp/B09PBT386X/ref=sr_1_4?crid=1JZJ9YH9RROI0&dib=eyJ2IjoiMSJ9.dSTvuHCnjqY61fZTLWAFE1tdj3PyuyuMS_0538wz2jHgBDsE4RS5o9gGeeYNUwWTEIIKxCOXc29Ezgta6JgrwmCSN3h3fFAofwdSXUXWRPkU5SqV0ga8wf9ZWG-OG5MYbaK1anhgS-C5MzI0PaT2dLNqmlVmHG00BxvYO-BBEGt7WgTG_sJRbPAJN56qkbtVe3TpUqMyTFZwZGmIWpzyZaqrXtMb5rlVxX55coouC3-FFs1i5XA5OEHErxlbo0CNEVB93660iN965VTQGLZ5Qk85ZAdlQcCUtQ_4vCT5aCU.8OTrSEMS57WT4DxPZXfKXuU7g-89OVZ9FrHiznR0Jvc&dib_tag=se&keywords=Winter+Boots+for+kids&qid=1730783063&sprefix=winter+boots+for+kids%2Caps%2C397&sr=8-4">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/BERSACHE-Sneaker-Loafers-Comfort-Sneakers/dp/B0DHXV32TF/ref=sr_1_6?dib=eyJ2IjoiMSJ9.MtoXncPKKGxcwL1B3Z-vvxurv6oJzmDUpN49OeD9IcSB_e0Fk3D1BAL4caOUKZipGQhNXtnyb_F9hqsomu1S1AdwktuQ0tHQ4VztnnPeMNLc_JfKZyvQVhBqniMShL7hk5_WbHuYofMg5J_ZBE7cog0TGjySRqzT9eVGIyy6gCeSwxwKUX27dwLP7EpD0eghN4T1JKtrP-DJwXaZ9vQ30WJItBIfgfSaiRAEITkX6oqXpegq5D-hdNjgzcrA53FG0FVwKhtYlhjJcpuqaE7wbtw2vQsFjRmOOQFe3IxB2f0.FA5Cu6lHqnTjjYLIreGnrcfvYSGqycKU3Y6BplVsJE8&dib_tag=se&keywords=Casual+Loafers+for+kids&qid=1730783177&sr=8-6"><img src="Casual Loafers.jpg" alt="Casual Loafers"></a>
+        <h2>Casual Loafers</h2>
+        <p><b>-90% ₹389</b><br>
+            M.R.P.:<strike> ₹3,999.0</strike>
+        </p>
+        <a href="https://www.amazon.in/BERSACHE-Sneaker-Loafers-Comfort-Sneakers/dp/B0DHXV32TF/ref=sr_1_6?dib=eyJ2IjoiMSJ9.MtoXncPKKGxcwL1B3Z-vvxurv6oJzmDUpN49OeD9IcSB_e0Fk3D1BAL4caOUKZipGQhNXtnyb_F9hqsomu1S1AdwktuQ0tHQ4VztnnPeMNLc_JfKZyvQVhBqniMShL7hk5_WbHuYofMg5J_ZBE7cog0TGjySRqzT9eVGIyy6gCeSwxwKUX27dwLP7EpD0eghN4T1JKtrP-DJwXaZ9vQ30WJItBIfgfSaiRAEITkX6oqXpegq5D-hdNjgzcrA53FG0FVwKhtYlhjJcpuqaE7wbtw2vQsFjRmOOQFe3IxB2f0.FA5Cu6lHqnTjjYLIreGnrcfvYSGqycKU3Y6BplVsJE8&dib_tag=se&keywords=Casual+Loafers+for+kids&qid=1730783177&sr=8-6">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/DOCTOR-EXTRA-SOFT-Unisex-Child-Comfortable/dp/B0BNQKYP6L/ref=sr_1_1_sspa?crid=29V9YSJCWK7IS&dib=eyJ2IjoiMSJ9.xDKmLkdZtd8uzdLnkMw5rkVteUKv-KXlaRQ9_du2mXJO7mfTLJ21DoxqKaeCUHan0UsuMq1745l51I_rE6DHxsxOC92_oMpg6DzA94ATU8y0F4fRmVx0fkAWZsLj2izNRBQKxw-6GLFwuUTraoVMjiGbYK8rBXNyj0ST7pD9q4-QD2PuXF8FP-eeEE3c9sUuBPI9BzvWEgTdRnBeiXXaNLcjfNE0wdfPS0OhKUApBKXtvvu5wAZ0Wf_5LuS95AX0Z6R4VjDDCzOa842BBsTBJMiAyZDk7pVZfzRY38bnPiA.djk_k1GG3YqJ-A0Hub05Ns4WMCi3UGh5vXCMjJEPDGY&dib_tag=se&keywords=Flip+Flops+for+kids&qid=1730783322&sprefix=flip+flops+for+kids%2Caps%2C491&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="Flip Flops.jpg" alt="Flip Flops"></a>
+        <h2>Flip Flops</h2>
+        <p><b>-50% ₹397</b><br>
+            M.R.P.:<strike> ₹799.0</strike>
+            </p>
+            <a href="https://www.amazon.in/DOCTOR-EXTRA-SOFT-Unisex-Child-Comfortable/dp/B0BNQKYP6L/ref=sr_1_1_sspa?crid=29V9YSJCWK7IS&dib=eyJ2IjoiMSJ9.xDKmLkdZtd8uzdLnkMw5rkVteUKv-KXlaRQ9_du2mXJO7mfTLJ21DoxqKaeCUHan0UsuMq1745l51I_rE6DHxsxOC92_oMpg6DzA94ATU8y0F4fRmVx0fkAWZsLj2izNRBQKxw-6GLFwuUTraoVMjiGbYK8rBXNyj0ST7pD9q4-QD2PuXF8FP-eeEE3c9sUuBPI9BzvWEgTdRnBeiXXaNLcjfNE0wdfPS0OhKUApBKXtvvu5wAZ0Wf_5LuS95AX0Z6R4VjDDCzOa842BBsTBJMiAyZDk7pVZfzRY38bnPiA.djk_k1GG3YqJ-A0Hub05Ns4WMCi3UGh5vXCMjJEPDGY&dib_tag=se&keywords=Flip+Flops+for+kids&qid=1730783322&sprefix=flip+flops+for+kids%2Caps%2C491&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/KazarMax-SKUDO-Girls-Unisex-School/dp/B085LJWBNG/ref=sr_1_4_sspa?crid=3D5E38ODK6BFB&dib=eyJ2IjoiMSJ9.EzQgFfTo5QBkg-RWHm0i1LhLubLsIJ-z8aF2ebfhjflZg4yBZP4qPQlUNX6CKdLsuHEmoXwx79-F5CekhlFLhw7uC_g9f18jW9OmhOTFY3bORQOMW9L91NQRm9qQdvDQ7jqpW8ANXnuoYubA8YymF56ANq1VX2rqlf6q7qHYJM36oNgVsNFv-Yz8X0cpQWKSbXHGJ0whBA8hZxehXKWHPtrX6pyrkg1Kx8mktGYntNDPrVRO3BMp-j9cuQ4WvNdRrJ8ilUXH1ZV7ECJKArx_2dd8DxQgfp0UNr5mU-MkzTU.LD_-zJw2Ptsmk6hvVVxSsON2BP0YQDxqy9wGrlneMT0&dib_tag=se&keywords=Formal+Shoes+for+kids&qid=1730783461&sprefix=formal+shoes+for+kids%2Caps%2C419&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="Formal Shoes.jpg" alt="Formal Shoes"></a>
+        <h2>Formal Shoes</h2>
+        <p><b>-53% ₹949</b><br>
+            M.R.P.:<strike> ₹1,999.0</strike></p>
+            <a href="https://www.amazon.in/KazarMax-SKUDO-Girls-Unisex-School/dp/B085LJWBNG/ref=sr_1_4_sspa?crid=3D5E38ODK6BFB&dib=eyJ2IjoiMSJ9.EzQgFfTo5QBkg-RWHm0i1LhLubLsIJ-z8aF2ebfhjflZg4yBZP4qPQlUNX6CKdLsuHEmoXwx79-F5CekhlFLhw7uC_g9f18jW9OmhOTFY3bORQOMW9L91NQRm9qQdvDQ7jqpW8ANXnuoYubA8YymF56ANq1VX2rqlf6q7qHYJM36oNgVsNFv-Yz8X0cpQWKSbXHGJ0whBA8hZxehXKWHPtrX6pyrkg1Kx8mktGYntNDPrVRO3BMp-j9cuQ4WvNdRrJ8ilUXH1ZV7ECJKArx_2dd8DxQgfp0UNr5mU-MkzTU.LD_-zJw2Ptsmk6hvVVxSsON2BP0YQDxqy9wGrlneMT0&dib_tag=se&keywords=Formal+Shoes+for+kids&qid=1730783461&sprefix=formal+shoes+for+kids%2Caps%2C419&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/ASIAN-VAYU-04-Running-Walking-Lightweight/dp/B0CFV3XY5Q/ref=sr_1_3_sspa?crid=39U64HQPD93J&dib=eyJ2IjoiMSJ9.Jz40r3peFyucw4Zt_C3QwHbCJP1TR5SZg4hk_xmd3wZnJB8W_xd9npKcT-AqKIm3XWbwFz5_kv7ULJD-4pa07GoV0IHC0OzymdoFCRR-lK2G3jvCO7iiW7_uL0osE7ohlubP3NRb_qcQ-eZiysmx0qwBgDb7HZQileZ1TTo7nNfuJuq76bRrWkVKaVvqIWbOAfu-osfHBq5cy4nTvMsN_4MK2rixGs2i_7szRA5LOTGkzviBYT86M1s0pTBqCgJKVhet_xC48fsTo2zX4DZFavkiiCEG4oRn2d7svVERJwc.yQnC8XyKDBCs0sJhR4p844_viGiTBA3ugwt42DO1ByI&dib_tag=se&keywords=running+shoes+for+kids&qid=1730783602&sprefix=forunning+shoes+for+kids%2Caps%2C321&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="Running Shoes1.jpg" alt="Running Shoes"></a>
+        <h2>Running Shoes</h2>
+        <p><b>-40% ₹627</b><br>
+            M.R.P.:<strike> ₹1,049.0</strike></p>
+            <a href="https://www.amazon.in/ASIAN-VAYU-04-Running-Walking-Lightweight/dp/B0CFV3XY5Q/ref=sr_1_3_sspa?crid=39U64HQPD93J&dib=eyJ2IjoiMSJ9.Jz40r3peFyucw4Zt_C3QwHbCJP1TR5SZg4hk_xmd3wZnJB8W_xd9npKcT-AqKIm3XWbwFz5_kv7ULJD-4pa07GoV0IHC0OzymdoFCRR-lK2G3jvCO7iiW7_uL0osE7ohlubP3NRb_qcQ-eZiysmx0qwBgDb7HZQileZ1TTo7nNfuJuq76bRrWkVKaVvqIWbOAfu-osfHBq5cy4nTvMsN_4MK2rixGs2i_7szRA5LOTGkzviBYT86M1s0pTBqCgJKVhet_xC48fsTo2zX4DZFavkiiCEG4oRn2d7svVERJwc.yQnC8XyKDBCs0sJhR4p844_viGiTBA3ugwt42DO1ByI&dib_tag=se&keywords=running+shoes+for+kids&qid=1730783602&sprefix=forunning+shoes+for+kids%2Caps%2C321&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+            <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Frosty-Ballies-Fashionably-Stylish-Everyday/dp/B0DGGD1YB5/ref=sr_1_2_sspa?crid=32Y5FKQY5IMTK&dib=eyJ2IjoiMSJ9.nEEGeWyFkmJYf2XFx9n2AJx5iLAVocHC3m3I8Xu-jaw1Jmc6jKN6HoY4A-zApp-IS_pEp6QVXYvkmwXMMSwKX9rKxOBsDRleUs-RzKzavDkm6F644p2sZPuooGCKnuVwM2qxwacVswnAA6wH1slxjGa452QGF_8X4ciGdddTCFGPxnlQOoF1aFGiHq3nnByC9p7iMPvBLVVVDbdQfXvsdcq9aGX2z52cfDrDGFRQPwbN5IsjUxWoy2RiNpMs9hRAyYdsqapcAtuR8K2_E9dV2ROwY0Jiz2C7i5dwlzPIZlg.KiGzknhpUVYOh3R799UqFaLKpTout5le148k6uGkHqo&dib_tag=se&keywords=Ballet+Flats+for+kids&qid=1730783752&sprefix=for+kids%2Caps%2C323&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="Ballet Flats.jpg" alt="Ballet Flats"></a>
+        <h2>Ballet Flats</h2>
+        <p><b>-27% ₹949</b><br>
+            M.R.P.:<strike> ₹1,299.0</strike>
+        </p>
+        <a href="https://www.amazon.in/Frosty-Ballies-Fashionably-Stylish-Everyday/dp/B0DGGD1YB5/ref=sr_1_2_sspa?crid=32Y5FKQY5IMTK&dib=eyJ2IjoiMSJ9.nEEGeWyFkmJYf2XFx9n2AJx5iLAVocHC3m3I8Xu-jaw1Jmc6jKN6HoY4A-zApp-IS_pEp6QVXYvkmwXMMSwKX9rKxOBsDRleUs-RzKzavDkm6F644p2sZPuooGCKnuVwM2qxwacVswnAA6wH1slxjGa452QGF_8X4ciGdddTCFGPxnlQOoF1aFGiHq3nnByC9p7iMPvBLVVVDbdQfXvsdcq9aGX2z52cfDrDGFRQPwbN5IsjUxWoy2RiNpMs9hRAyYdsqapcAtuR8K2_E9dV2ROwY0Jiz2C7i5dwlzPIZlg.KiGzknhpUVYOh3R799UqFaLKpTout5le148k6uGkHqo&dib_tag=se&keywords=Ballet+Flats+for+kids&qid=1730783752&sprefix=for+kids%2Caps%2C323&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+        <button>BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <a href="https://www.amazon.in/Liberty-LPMXT-820-S-Blue-Casual-Sandal/dp/B0BVWCVRKV/ref=sr_1_4?crid=2KQ02EGYM8CGK&dib=eyJ2IjoiMSJ9.aUdZb7vbk-DFqVjJX-TimtnNJp9IHyddtDmVC9ooOPs3lEvfcW3czxGXTgXCdbS58IO6qdJOndxwMxmLbXJKjFmXvznGhLiUJxy9CK8pdNc2E_2eVheh8o_KgEZ8miEMGpV8V2TarITpZFm842w1hIHEKYlEX5YEUVe8yLe65qpQuPXN2K7URQTKDOa348iHC5wcUx5r346em776E90qeXUxCNzUY0x9-v7uwyIoXF620jSlAH2IZlxSGU2HCvDbADukbt1WhIpd2D4RYdZGVWrniYQw3o4kduLjzVL4kGM.Hdl4s_Fb5cUJ-y9h3bMlepGSz-ShUx8QBQroGEzTmns&dib_tag=se&keywords=Waterproof+Shoes+for+kids&qid=1730783865&sprefix=waterproof+shoes+for+kids%2Caps%2C415&sr=8-4"><img src="Waterproof Shoes.jpg" alt="Waterproof Shoes"></a>
+        <h2>Waterproof Shoes</h2>
+        <p><b>-50% ₹449</b><br>
+            M.R.P.:<strike> ₹899.0</strike>
+        </p>
+        <a href="https://www.amazon.in/Liberty-LPMXT-820-S-Blue-Casual-Sandal/dp/B0BVWCVRKV/ref=sr_1_4?crid=2KQ02EGYM8CGK&dib=eyJ2IjoiMSJ9.aUdZb7vbk-DFqVjJX-TimtnNJp9IHyddtDmVC9ooOPs3lEvfcW3czxGXTgXCdbS58IO6qdJOndxwMxmLbXJKjFmXvznGhLiUJxy9CK8pdNc2E_2eVheh8o_KgEZ8miEMGpV8V2TarITpZFm842w1hIHEKYlEX5YEUVe8yLe65qpQuPXN2K7URQTKDOa348iHC5wcUx5r346em776E90qeXUxCNzUY0x9-v7uwyIoXF620jSlAH2IZlxSGU2HCvDbADukbt1WhIpd2D4RYdZGVWrniYQw3o4kduLjzVL4kGM.Hdl4s_Fb5cUJ-y9h3bMlepGSz-ShUx8QBQroGEzTmns&dib_tag=se&keywords=Waterproof+Shoes+for+kids&qid=1730783865&sprefix=waterproof+shoes+for+kids%2Caps%2C415&sr=8-4">
+        <button>BUY NOW</button></a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Prime Deals. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
+
+
+
