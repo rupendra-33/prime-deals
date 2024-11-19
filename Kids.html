@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIME DEALS - Men's Collection</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat; 
+            background-color: #f0f0f0; 
+            position: relative; 
+        }
+
+        
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.1); 
+            z-index: 1; 
+        }
+
+        header {
+            background-color: rgb(236, 200, 20); 
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative; 
+            z-index: 2; 
+        }
+
+        #header-content img {
+            margin-bottom: 15px;
+        }
+
+        nav {
+            background-color: #000; 
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .back-button {
+            background-color: rgba(0, 51, 102, 0.8); 
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-bottom: 20px; 
+            transition: background-color 0.3s;
+        }
+
+        .back-button:hover {
+            background-color: #005599; 
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            position: relative; 
+            z-index: 2; 
+        }
+
+        .category {
+            background-color: rgba(0, 0, 0, 0.3); 
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px;
+            text-align: center;
+            width: 90%;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .category:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            animation: pulse 0.5s;
+        }
+
+        .category h1 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #003366; 
+        }
+
+        .category a {
+            text-decoration: none;
+            color: #ff6f61;
+            font-weight: bold;
+        }
+
+        .category a:hover {
+            text-decoration: underline;
+            color: #d36e7c; 
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: rgba(0, 51, 102, 0.8);
+            color: white;
+            width: 100%;
+            margin-top: 10px;
+            z-index: 2; 
+        }
+        main{
+            margin-top: 10px;
+            background-image: url(kids-shopping-smiling-little-girl-bags-gifts-happy-child-holds-lot-sale-holidays-concept-105009088.webp);
+        }
+
+    
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    
+    </style>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</head>
+<body>
+    <div class="overlay"></div> 
+    <header>
+        <div id="header-content">
+            <img src="logo1.jpg" alt="Prime Deals Logo" height="160">
+            <h1><i>Prime Deals</i></h1>
+        </div>
+        
+    </header>
+    
+    <main>
+        <button onclick="goBack()" class="back-button">Go Back</button>
+        
+        <section class="category" id="Top">
+            <h1><a href="Top2.html">Top</a></h1>
+        </section>
+        <section class="category" id="Bottom">
+            <h1><a href="Bottom2.html">Bottom</a></h1>
+        </section>
+        <section class="category" id="Footwear">
+            <h1><a href="Footwear.html">Footwear</a></h1>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Prime Deals. All rights reserved.</p>
+    </footer>
+</body>
+</html>

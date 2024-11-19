@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Shopping Website</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #35424a;
+}
+
+.product-section {
+    margin: 40px 0;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1 0 30%;
+    max-width: calc(33.33% - 20px);
+    box-sizing: border-box;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+.product:hover img {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.product h3 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.product p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.product .price {
+    font-size: 1.1em;
+    color: #e67e22;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #e67e22;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #d35400;
+}
+
+
+@media (max-width: 768px) {
+    .product {
+        flex: 1 0 100%; 
+        max-width: 100%; 
+    }
+}
+
+     </style>
+</head>
+<body>
+
+<header>
+    <h1>Prime Deals</h1>
+</header>
+
+<div class="container">
+    <div class="product-section">
+        <h2>Sarees</h2>
+        <div class="products">
+            <div class="product">
+                <a href="https://www.amazon.in/SGF11-Womens-Kanjivaram-Lichi-Blouse/dp/B0BM8ZHK7D/ref=sr_1_16?dib=eyJ2IjoiMSJ9.qrSXb60Xwr1UeGeAz8I8FgUl4N2yf-BQylu_RI_5eCOz3vcbtauCsUM8N-YFZ5BO6aQ-_qGh97o5i6Svdfamhhgfotuj4_KY0YdyBSy15LBiIV1tm4idbuwaFVYb5WoYmIetL8t4krmbmR0nVXFtz-P_h5E8go4hls901TKUbNHSKmizeIMShyD0A36QUcYOrNqVaFKmnl-sPy2Pjx7SdOZn9Qh8C4x637bLsoxKHZMydRzpBip-my6-pgueJchBqqgqCbjrjxcLbMbsgQei2SgbiPT4jCvxagExYvTdusI.0GYqrYO_zY0BfdJR7QT6EXkxNTj8xkG-Vvf1vX9clBc&dib_tag=se&keywords=Silk+Saree&qid=1730741855&sr=8-16"><img src="Silk Saree.jpg" alt="Silk Saree"></a>
+                <h3>Silk Saree</h3>
+                <p>"A silk saree drapes you in timeless luxury, shimmering with the grace of tradition and the elegance of art."</p>
+                <div class="price"><b>-87% ₹799</b><br>
+                    M.R.P.:<strike> ₹5,999.0</strike>
+                    </div>
+                <a href="https://www.amazon.in/SGF11-Womens-Kanjivaram-Lichi-Blouse/dp/B0BM8ZHK7D/ref=sr_1_16?dib=eyJ2IjoiMSJ9.qrSXb60Xwr1UeGeAz8I8FgUl4N2yf-BQylu_RI_5eCOz3vcbtauCsUM8N-YFZ5BO6aQ-_qGh97o5i6Svdfamhhgfotuj4_KY0YdyBSy15LBiIV1tm4idbuwaFVYb5WoYmIetL8t4krmbmR0nVXFtz-P_h5E8go4hls901TKUbNHSKmizeIMShyD0A36QUcYOrNqVaFKmnl-sPy2Pjx7SdOZn9Qh8C4x637bLsoxKHZMydRzpBip-my6-pgueJchBqqgqCbjrjxcLbMbsgQei2SgbiPT4jCvxagExYvTdusI.0GYqrYO_zY0BfdJR7QT6EXkxNTj8xkG-Vvf1vX9clBc&dib_tag=se&keywords=Silk+Saree&qid=1730741855&sr=8-16"
+                class="btn">BUY NOW</a>
+            </div>
+            <div class="product">
+                <a href="https://www.amazon.in/Crafts-Moda-Cotton-Paisley-Fabric/dp/B0D9YR8Z5Q/ref=sr_1_2?crid=10U2ROEK6UY8Z&dib=eyJ2IjoiMSJ9.C9DMONX2c_1m484enp_2v4xIoomJ1mvzwFbjeQp7viqizOeXmSFlKwYHEzfwqq6S4WlFmPLlQqFWPBtQoWXDyIufM4uFRUMZxKCs6HheP8vShvo1whOv2ykFHJltI7ajBMa6f8FZbCyuv1sIPePIqrO6cK-iJtI1FXZCIMojssLYYVoRqOm3HE4tm5lpBOnAplvYL14_c8uhKDC7GOwIC8yeJAVOW5FTIioHvDMq-hCoFfSuspdkd5IhR4s2uK-iAGfRfSzY0RpKuSt69v8xLhkAGzuhVUCYu47UpzuyU9Q.A5hntuRsWWxY9jxxW8dH1T_nV6HvqAjrjchg4eIn1Oc&dib_tag=se&keywords=Cotton+Saree&qid=1730742556&sprefix=cotton+saree%2Caps%2C250&sr=8-2"><img src="Cotton Saree.jpg" alt="Cotton Saree"></a>
+                <h3>Cotton Saree</h3>
+                <p>"Graceful and grounded, a cotton saree breathes simplicity and elegance into every thread."</p>
+                <div class="price"><b>-57% ₹854</b><br>
+                    M.R.P.:<strike> ₹1,999.0</strike>
+                </div>
+                <a href="https://www.amazon.in/Crafts-Moda-Cotton-Paisley-Fabric/dp/B0D9YR8Z5Q/ref=sr_1_2?crid=10U2ROEK6UY8Z&dib=eyJ2IjoiMSJ9.C9DMONX2c_1m484enp_2v4xIoomJ1mvzwFbjeQp7viqizOeXmSFlKwYHEzfwqq6S4WlFmPLlQqFWPBtQoWXDyIufM4uFRUMZxKCs6HheP8vShvo1whOv2ykFHJltI7ajBMa6f8FZbCyuv1sIPePIqrO6cK-iJtI1FXZCIMojssLYYVoRqOm3HE4tm5lpBOnAplvYL14_c8uhKDC7GOwIC8yeJAVOW5FTIioHvDMq-hCoFfSuspdkd5IhR4s2uK-iAGfRfSzY0RpKuSt69v8xLhkAGzuhVUCYu47UpzuyU9Q.A5hntuRsWWxY9jxxW8dH1T_nV6HvqAjrjchg4eIn1Oc&dib_tag=se&keywords=Cotton+Saree&qid=1730742556&sprefix=cotton+saree%2Caps%2C250&sr=8-2"
+                class="btn">BUY NOW</a>
+            </div>
+            <div class="product">
+                <a href="https://www.amazon.in/Enterprise-Womens-Banarasi-Kanjivaram-Wedding/dp/B0D8GYHB4M/ref=sr_1_3?crid=3NVQQ32TZ180&dib=eyJ2IjoiMSJ9.DUxekA-st3nJIXCC3bHsskEP9syWPATnC_8wZBJbDN4v4ZWsU7fuiyUwgYQ9G2OeFvu98fdYLR6o3dzrSpLnjbeM2-yUvTKXCmuILh82muFKBPS_HrfBJtVaYnI9mN1Ez5bc6Izqpkv-B2b6NwhQboqaoGkHpZhvxlYIQbU3uqb6_e031oG8cAEyoUeaR8A3aGYWy8_44xb6E49SAQOizqqgPkUDSEB0O7sllCqKnm3q1ld8gM15vwDBmVRwRHeUdtw-k0lA98hSG_3WuLZOU9UhUgeC48L-xpEU2zsjEJg.3m4pazBx2K5kQ3u8PdRbromUn-yGGd4qeX3WUnzpWmE&dib_tag=se&keywords=Banarasi+Saree&qid=1730742691&sprefix=banarasi+saree%2Caps%2C377&sr=8-3"><img src="Banarasi Saree.jpg" alt="Banarasi Saree"></a>
+                <h3>Banarasi Saree</h3>
+                <p>"Elegance woven with golden dreams, the Banarasi is a heritage carried through the generations."</p>
+                <div class="price"><b>-53% ₹474</b><br>
+                    M.R.P.:<strike> ₹999.0</strike>
+                </div>
+                <a href="https://www.amazon.in/Enterprise-Womens-Banarasi-Kanjivaram-Wedding/dp/B0D8GYHB4M/ref=sr_1_3?crid=3NVQQ32TZ180&dib=eyJ2IjoiMSJ9.DUxekA-st3nJIXCC3bHsskEP9syWPATnC_8wZBJbDN4v4ZWsU7fuiyUwgYQ9G2OeFvu98fdYLR6o3dzrSpLnjbeM2-yUvTKXCmuILh82muFKBPS_HrfBJtVaYnI9mN1Ez5bc6Izqpkv-B2b6NwhQboqaoGkHpZhvxlYIQbU3uqb6_e031oG8cAEyoUeaR8A3aGYWy8_44xb6E49SAQOizqqgPkUDSEB0O7sllCqKnm3q1ld8gM15vwDBmVRwRHeUdtw-k0lA98hSG_3WuLZOU9UhUgeC48L-xpEU2zsjEJg.3m4pazBx2K5kQ3u8PdRbromUn-yGGd4qeX3WUnzpWmE&dib_tag=se&keywords=Banarasi+Saree&qid=1730742691&sprefix=banarasi+saree%2Caps%2C377&sr=8-3"
+                class="btn">BUY NOW</a>
+            </div>
+            <div class="product">
+                <a href="https://www.amazon.in/SGF11-Womens-Kanjivaram-Woven-Blouse/dp/B0B6FHTHQC/ref=sr_1_2?crid=1A7MQ9DPNKLYO&dib=eyJ2IjoiMSJ9.r1xNcqBDnXeK50EKEMOw1v3dfBQ5hywciwiidk7HUv9Wrp3ExL8_bNHYe4-L0vaf4m6uSGuOFdnS_fhE9D8-oIdxkLUclXj62FiMcqq160P5xe-wMFqMMYFaC8FtZWXHlgPaTQpnThH2qclWvQSVzYsDS_xYXvbo5OOX7vmlllCMioRg3fQyd6nigtmW3ZZcrtEThNpdg_4oaWlyE-5VpAX4punHCglJa3TT560I1Wq9bmDEFFM9pxFJ8V296Z3MeBaW6b9XlLU-uYM_hDzVrmWAfySl_xdbs7ELHe3Sh-E.bOKyQmh1gW5c7p9HM-zIacDbeZqKgK-XSAjlGgDFADw&dib_tag=se&keywords=Kanjeevaram+Saree&qid=1730742861&sprefix=kanjeevaram+saree%2Caps%2C425&sr=8-2"><img src="Kanjeevaram Saree.jpg" alt="Kanjeevaram Saree"></a>
+                <h3>Kanjeevaram Saree</h3>
+                <p>"A saree that echoes the grandeur of Tamil Nadu, Kanjeevaram is silk woven with the magic of tradition."</p>
+                <div class="price"><b>-73% ₹1,599</b><br>
+                    M.R.P.:<strike> ₹5,999.0</strike>
+                </div>
+                <a href="https://www.amazon.in/SGF11-Womens-Kanjivaram-Woven-Blouse/dp/B0B6FHTHQC/ref=sr_1_2?crid=1A7MQ9DPNKLYO&dib=eyJ2IjoiMSJ9.r1xNcqBDnXeK50EKEMOw1v3dfBQ5hywciwiidk7HUv9Wrp3ExL8_bNHYe4-L0vaf4m6uSGuOFdnS_fhE9D8-oIdxkLUclXj62FiMcqq160P5xe-wMFqMMYFaC8FtZWXHlgPaTQpnThH2qclWvQSVzYsDS_xYXvbo5OOX7vmlllCMioRg3fQyd6nigtmW3ZZcrtEThNpdg_4oaWlyE-5VpAX4punHCglJa3TT560I1Wq9bmDEFFM9pxFJ8V296Z3MeBaW6b9XlLU-uYM_hDzVrmWAfySl_xdbs7ELHe3Sh-E.bOKyQmh1gW5c7p9HM-zIacDbeZqKgK-XSAjlGgDFADw&dib_tag=se&keywords=Kanjeevaram+Saree&qid=1730742861&sprefix=kanjeevaram+saree%2Caps%2C425&sr=8-2"
+                class="btn">BUY NOW</a>
+            </div>
+            <div class="product">
+                <a href="https://www.amazon.in/Designer-Yellow-Bandhani-Print-Saree/dp/B0DGXZVJYV/ref=sr_1_3?crid=2ZEHKR9MRXJ9M&dib=eyJ2IjoiMSJ9.uzzI3o_ZqEBqeljju-ie3xv8-7S-eaJ7AaL1c1EmRKepNjQqst7NYZeE-FalIariGektnYqMhk7KUwXeykUFlfDwRGOJeNkcstvHTCjxmvrKXj8Be83Ii8JWBFqq-6Yk30k43YuszoPPlk4VsQl_8wSo9sA5T3CJBfugMsSjmkdSreHPOET-enOXl1xwNRR2XlvU4Hh1nbX41KC1H59deZKaBff88vRYibEjMuRrgOkIIy_oZfXUr-FyuflI4uJVzlcSn907C3hTfmclpvLqqwxU0nINIWsP0ZFOIsWT3mU.h2PUyOmRomgG5zly3ikPzmhThpFpUAnTeiDOXQNSOjI&dib_tag=se&keywords=Bandhani+Saree&qid=1730742352&sprefix=bandhani+saree%2Caps%2C270&sr=8-3"><img src="Bandhani Saree.jpg" alt="Bandhani Saree"></a>
+                <h3>Bandhani Saree</h3>
+                <p>"Colorful like the spirit of Rajasthan, each Bandhani knot tells a tale of joy."</p>
+                <div class="price"><b>-50% ₹800</b><br>
+                    M.R.P.:<strike> ₹1,600.0</strike>
+                    </div>
+                    <a href="https://www.amazon.in/Designer-Yellow-Bandhani-Print-Saree/dp/B0DGXZVJYV/ref=sr_1_3?crid=2ZEHKR9MRXJ9M&dib=eyJ2IjoiMSJ9.uzzI3o_ZqEBqeljju-ie3xv8-7S-eaJ7AaL1c1EmRKepNjQqst7NYZeE-FalIariGektnYqMhk7KUwXeykUFlfDwRGOJeNkcstvHTCjxmvrKXj8Be83Ii8JWBFqq-6Yk30k43YuszoPPlk4VsQl_8wSo9sA5T3CJBfugMsSjmkdSreHPOET-enOXl1xwNRR2XlvU4Hh1nbX41KC1H59deZKaBff88vRYibEjMuRrgOkIIy_oZfXUr-FyuflI4uJVzlcSn907C3hTfmclpvLqqwxU0nINIWsP0ZFOIsWT3mU.h2PUyOmRomgG5zly3ikPzmhThpFpUAnTeiDOXQNSOjI&dib_tag=se&keywords=Bandhani+Saree&qid=1730742352&sprefix=bandhani+saree%2Caps%2C270&sr=8-3"
+                    class="btn">BUY NOW</a>
+            </div>
+            <div class="product">
+                <a href="https://www.amazon.in/AKHILAM-Womens-Phulkari-Unstitched-Blue_KSHFA201004_R/dp/B0BXPDKYNG/ref=sr_1_1?crid=PVT3M2GVTT9E&dib=eyJ2IjoiMSJ9.hIACN4BHV1IeSecgOpr72GeAKXNMUN-g_rCPOQ5DR4XFaEvNkDGUBbE6kkMI94qpzSXhId7rXiqkLvpjnkvNbjM9YktFH_q0a5jnLaI8c7L7FulDp8zyKd4dbeUqKF803f3THksm0LhDRYTNwMoBIwvVgGyfuoGTh5ykdbNfu0ILCsEPRmP28U9AUpXfmlDMSd_MfJMocnJ2a5TU6e-v3CfDZ_zC2ICdGm7D5Grm-2dQSpbyxV8WHAHyI1u3XKD0L0jx5Ti2jbre52GTQgEQ4K78fFdoNDXQ-jSAqACKHN0.scLMp_NzzbDRBJt5pAiK2H-NUzvUCRMYXP5dgpqB75k&dib_tag=se&keywords=Phulkari+Saree&qid=1730743025&sprefix=phulkari+saree%2Caps%2C235&sr=8-1"><img src="Phulkari Saree.jpg" alt="Phulkari Saree"></a>
+                <h3>Phulkari Saree</h3>
+                <p>"Every stitch of Phulkari blooms with the joy and colors of Punjab."</p>
+                <div class="price"><b>-83% ₹1,699</b><br>
+                    M.R.P.:<strike> ₹10,129.0</strike>
+                </div>
+                <a href="https://www.amazon.in/AKHILAM-Womens-Phulkari-Unstitched-Blue_KSHFA201004_R/dp/B0BXPDKYNG/ref=sr_1_1?crid=PVT3M2GVTT9E&dib=eyJ2IjoiMSJ9.hIACN4BHV1IeSecgOpr72GeAKXNMUN-g_rCPOQ5DR4XFaEvNkDGUBbE6kkMI94qpzSXhId7rXiqkLvpjnkvNbjM9YktFH_q0a5jnLaI8c7L7FulDp8zyKd4dbeUqKF803f3THksm0LhDRYTNwMoBIwvVgGyfuoGTh5ykdbNfu0ILCsEPRmP28U9AUpXfmlDMSd_MfJMocnJ2a5TU6e-v3CfDZ_zC2ICdGm7D5Grm-2dQSpbyxV8WHAHyI1u3XKD0L0jx5Ti2jbre52GTQgEQ4K78fFdoNDXQ-jSAqACKHN0.scLMp_NzzbDRBJt5pAiK2H-NUzvUCRMYXP5dgpqB75k&dib_tag=se&keywords=Phulkari+Saree&qid=1730743025&sprefix=phulkari+saree%2Caps%2C235&sr=8-1"
+                class="btn">BUY NOW</a>
+            </div>
+            <div class="product">
+                <a href="https://www.amazon.in/Reboot-Fashions-Maheshwari-Chiffon-80195-03_Grey/dp/B09JCPLM4F/ref=sr_1_1?crid=EW229AUPYI&dib=eyJ2IjoiMSJ9.jei0o9WvKsME4lULrJvF3C3az4DqlGv3O0EbvPthvbrEQ1fRtFfMsMIgrzfynEzE_K__AtJjtd6m8evxwexFIyYcJ9PTIcCmLtQ0mn_sR6H5iOBlrUimEV5q72mnNEkGtI9sV-CD9-gi91lSRvtjvSEqcHxcQeEYmEO_ueCvt-gkrys2ycecFcPIK-L1hZWVEDKiLkZdAX5Pr7ReKmU8BeJJvipP2X2XEYLR1uT1oWuFRmPlXOwcljnAbkkValJraZTFGoQmCrRJ-1Xy7SMvtndXIPqy5caTBQFFjTQeLXE.ZdI8UB2wYJ9vU5fbGwwhWzbsNfQfZbmbsqCv29KdDwQ&dib_tag=se&keywords=Maheshwari+Saree&qid=1730743176&sprefix=maheshwari+saree%2Caps%2C428&sr=8-1"><img src="Maheshwari Saree.jpg" alt="Maheshwari Saree"></a>
+                <h3>Maheshwari Saree</h3>
+                <p>"Simplicity meets royalty in Maheshwari, a saree that flows like the river it is named after."</p>
+                <div class="price"><b>-50% ₹499</b><br>
+                    M.R.P.:<strike>₹999</strike>
+                </div>
+                <a href="https://www.amazon.in/Reboot-Fashions-Maheshwari-Chiffon-80195-03_Grey/dp/B09JCPLM4F/ref=sr_1_1?crid=EW229AUPYI&dib=eyJ2IjoiMSJ9.jei0o9WvKsME4lULrJvF3C3az4DqlGv3O0EbvPthvbrEQ1fRtFfMsMIgrzfynEzE_K__AtJjtd6m8evxwexFIyYcJ9PTIcCmLtQ0mn_sR6H5iOBlrUimEV5q72mnNEkGtI9sV-CD9-gi91lSRvtjvSEqcHxcQeEYmEO_ueCvt-gkrys2ycecFcPIK-L1hZWVEDKiLkZdAX5Pr7ReKmU8BeJJvipP2X2XEYLR1uT1oWuFRmPlXOwcljnAbkkValJraZTFGoQmCrRJ-1Xy7SMvtndXIPqy5caTBQFFjTQeLXE.ZdI8UB2wYJ9vU5fbGwwhWzbsNfQfZbmbsqCv29KdDwQ&dib_tag=se&keywords=Maheshwari+Saree&qid=1730743176&sprefix=maheshwari+saree%2Caps%2C428&sr=8-1"
+                class="btn">BUY NOW</a>
+            </div>
+            <div class="product">
+                <a href="https://www.amazon.in/Varkala-Silk-Sarees-Paithani-NV241A208-COPR_Violet/dp/B0D9P73228/ref=sr_1_3?dib=eyJ2IjoiMSJ9.AtBK1PbfaA4eLSZbY97v0iqjRgTJroJiCB1so5PNxXY7XFM978LhSJutD4dy1DTAi0HkfSUTp4ETh5x2U04vuedAhDhnJlvj6cIupGv-Jx-QAR1hjZbBXVvrABnCIIsN2p3A0efgJDCnBoVddVJxpJr5GQGtXrRZLGGvLc6AJlvTD5wScBUgHaS9S1OL5Pf5Eb2hfb67Q0E9JShrgDkYTtAAjro5kTfbZ1YefswlZVkvZidyBJWbQ-_5ZliQViuKY-gVIdYEZuwWXiMMFnSDyz0F21bPrnOdyYg6JPLJvSk.S2S2mFmMNbRjVeCYGB04qpXRclzSqNzVuNNKwF7YroY&dib_tag=se&keywords=Nauvari+Saree&nsdOptOutParam=true&qid=1730743452&sr=8-3" target="_blank"><img src="Nauvari Saree.jpg" alt="Nauvari Saree"></a>
+                <h3>Nauvari Saree</h3>
+                <p>"Warrior-like yet elegant, the Nauvari saree embodies the strength of a Marathi woman."</p>
+                <div class="price"><b>-68% ₹4,729</b><br>
+                    M.R.P.:<strike> ₹14,999.0</strike>
+                </div>
+                <a href="https://www.amazon.in/Varkala-Silk-Sarees-Paithani-NV241A208-COPR_Violet/dp/B0D9P73228/ref=sr_1_3?dib=eyJ2IjoiMSJ9.AtBK1PbfaA4eLSZbY97v0iqjRgTJroJiCB1so5PNxXY7XFM978LhSJutD4dy1DTAi0HkfSUTp4ETh5x2U04vuedAhDhnJlvj6cIupGv-Jx-QAR1hjZbBXVvrABnCIIsN2p3A0efgJDCnBoVddVJxpJr5GQGtXrRZLGGvLc6AJlvTD5wScBUgHaS9S1OL5Pf5Eb2hfb67Q0E9JShrgDkYTtAAjro5kTfbZ1YefswlZVkvZidyBJWbQ-_5ZliQViuKY-gVIdYEZuwWXiMMFnSDyz0F21bPrnOdyYg6JPLJvSk.S2S2mFmMNbRjVeCYGB04qpXRclzSqNzVuNNKwF7YroY&dib_tag=se&keywords=Nauvari+Saree&nsdOptOutParam=true&qid=1730743452&sr=8-3"
+                class="btn">BUY NOW</a>
+            </div>
+            <div class="product">
+                <a href="https://www.amazon.in/Paramparik-Textile-Womens-Orange-Jacquard/dp/B0D29G7ZPH/ref=sr_1_3?crid=C93OG9SRK97B&dib=eyJ2IjoiMSJ9.bdCK4F3Zq-uzzQQUZCY8ApfeQYH_dWxxjOH10gJ3t6URJDJm82HzWVdrLilEIvmtlqpjtCpqDwXhLXlnCV1Yhun2-Wt-79m4G07fkShh2QWLlj_sNmOeUvLscxsKzlK7vdwobnKHvfSHwMgN-8Ufvt4Xx6mO27bElfkPNl6fcoaeHCSBwp_W7o08KE3L-MXXaaQu7gb1572wVl2f3mQnDjSP239wSf46h-11EL-KfOPBJ9uM7BGToTNPWTSih4YZ33a8-WFLVhXBMtJPQaBqJMqBwKoUl4NvgXbbLKAMdG0.URywKvTh4tKyudmDclMbGACC6JqnEis2Gu71X_7HTFU&dib_tag=se&keywords=Gadwal+Saree&qid=1730743758&sprefix=gadwal+saree%2Caps%2C235&sr=8-3"><img src="Gadwal Saree.jpg" alt="Gadwal Saree"></a>
+                <h3>Gadwal Saree</h3>
+                <p>"Where elegance meets heritage, a Gadwal saree wraps you in the artistry of tradition and the grace of silk and cotton."</p>
+                <div class="price"><b>-80% ₹599</b><br>
+                    M.R.P.:<strike> ₹2,999.0</strike>
+                </div>
+                <a href="https://www.amazon.in/Paramparik-Textile-Womens-Orange-Jacquard/dp/B0D29G7ZPH/ref=sr_1_3?crid=C93OG9SRK97B&dib=eyJ2IjoiMSJ9.bdCK4F3Zq-uzzQQUZCY8ApfeQYH_dWxxjOH10gJ3t6URJDJm82HzWVdrLilEIvmtlqpjtCpqDwXhLXlnCV1Yhun2-Wt-79m4G07fkShh2QWLlj_sNmOeUvLscxsKzlK7vdwobnKHvfSHwMgN-8Ufvt4Xx6mO27bElfkPNl6fcoaeHCSBwp_W7o08KE3L-MXXaaQu7gb1572wVl2f3mQnDjSP239wSf46h-11EL-KfOPBJ9uM7BGToTNPWTSih4YZ33a8-WFLVhXBMtJPQaBqJMqBwKoUl4NvgXbbLKAMdG0.URywKvTh4tKyudmDclMbGACC6JqnEis2Gu71X_7HTFU&dib_tag=se&keywords=Gadwal+Saree&qid=1730743758&sprefix=gadwal+saree%2Caps%2C235&sr=8-3"
+                class="btn">BUY NOW</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2024 Prime Deals. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

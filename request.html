@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buy and Request Sports Equipment</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: black;
+        margin: 0;
+        padding: 0;
+    }
+    #container {
+        width: 80%;
+        margin: auto;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 50px;
+        width: 1100px;
+        height: 750px;
+        border-radius: 10px;
+    }
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    label {
+        margin-top: 10px;
+    }
+    input, select {
+        width: 80%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    button {
+        width: 50%;
+        padding: 10px;
+        margin-top: 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #45a049;
+    }
+    #results {
+        margin-top: 30px;
+    }
+    .result-item {
+        background-color: #fafafa;
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    .result-item h3 {
+        margin: 0;
+        color: #333;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+</style>
+</head>
+<body>
+<div id="container">
+    <h1>Buy and Request Sports Equipment</h1>
+    <form id="buyRequestForm">
+        <label for="itemName">Item Name:</label>
+        <input type="text" id="itemName" name="itemName" required>
+        
+        <label for="itemSize">Size:</label>
+        <select id="itemSize" name="itemSize" required>
+            <option value="Small">Small</option>
+            <option value="Medium">Medium</option>
+            <option value="Large">Large</option>
+            <option value="Extra Large">Extra Large</option>
+        </select>
+        
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" required min="1">
+        
+        <label for="requestType">Request Type:</label>
+        <select id="requestType" name="requestType" required>
+            <option value="Buy">Buy</option>
+            <option value="Request">Request</option>
+        </select>
+        
+        <button type="submit">Submit</button>
+        <button><a href="index.html">Back to Home</button></a>
+    </form>
+
+    <div id="results"></div>
+</div>
+
+<script>
+    document.getElementById('buyRequestForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        
+        const itemName = document.getElementById('itemName').value;
+        const itemSize = document.getElementById('itemSize').value;
+        const quantity = document.getElementById('quantity').value;
+        const requestType = document.getElementById('requestType').value;
+        
+        const resultDiv = document.createElement('div');
+        resultDiv.className = 'result-item';
+        
+        const resultContent = `
+            <h3>${requestType} - ${itemName}</h3>
+            <p>Size: ${itemSize}</p>
+            <p>Quantity: ${quantity}</p>
+        `;
+        
+        resultDiv.innerHTML = resultContent;
+        document.getElementById('results').appendChild(resultDiv);
+        
+        document.getElementById('buyRequestForm').reset();
+    });
+</script>
+</body>
+</html>

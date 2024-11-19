@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIME DEALS</title>
+    <style>
+        body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f3f3;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#header-content img {
+    margin-bottom: 15px;
+}
+
+nav {
+    background-color: #000; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.back-button {
+    background-color: #ff6f61; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px; 
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #d36e7c; 
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.category {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    width: 90%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.category h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #d36e7c; 
+}
+
+.category a {
+    text-decoration: none;
+    color: #ff6f61; 
+    font-weight: bold;
+}
+
+.category a:hover {
+    text-decoration: underline;
+    color: #d36e7c;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #d36e7c;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 10px;
+}
+main{
+    margin-top:10px;
+    background-image: url(womens\ background\ 2.png);
+}
+
+    </style>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div id="header-content">
+            <img src="logo1.jpg" alt="Prime Deals Logo" height="160">
+            <h1><i>Prime Deals</i></h1>
+        </div>
+    </header>
+    
+    <main>
+        <button onclick="goBack()" class="back-button">Go Back</button>
+        
+        <section class="category" id="Top">
+            <h1><a href="saree.html">Sarees</a></h1>
+        </section>
+        <section class="category" id="Bottom">
+            <h1><a href="Westetrn wear.html">Western Wear</a></h1>
+        </section>
+        <section class="category" id="Footwear">
+            <h1><a href="Foot Wear1.html">Foot Wear</a></h1>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Prime Deals. All rights reserved.</p>
+    </footer>
+</body>
+</html>
